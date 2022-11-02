@@ -1,13 +1,27 @@
 #!/usr/bin/env bash
+. .github/scripts/helpers
 
 FILE="abuseipdb-s100.ipv4"
+TEMPFILE=$(mktemp)
 
+# 1. Download
 curl -G https://api.abuseipdb.com/api/v2/blacklist \
+  -L \
+  --fail \
   --no-progress-meter \
   -d confidenceMinimum=100 \
   -d limit=9999999 \
   -H "Key: $ABUSEIPDB_TOKEN" \
-  -H "Accept: text/plain" | \
+  -H "Accept: text/plain" \
+  -o $TEMPFILE
+
+# 2. Extract data
+cat $TEMPFILE | \
   grep -v ":" | \
   iprange --print-single-ips | \
-  sponge $FILE
+  sponge $TEMPFILE
+
+# 3. Validate data
+if [[ "`wc -l < $TEMPFILE`" -gt "1000" ]]; then
+  mv $TEMPFILE $GIT_ROOT/$FILE
+fi
