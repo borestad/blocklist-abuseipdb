@@ -1,0 +1,100 @@
+name: CI
+
+on:
+  workflow_dispatch:
+    inputs:
+      debug_enabled:
+        type: boolean
+        description: Enable debugging
+        required: false
+        default: false
+
+  push:
+    branches: ['main']
+  pull_request:
+
+  schedule: # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
+    - cron: '0 */5 * * *'
+
+jobs:
+
+# Job  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  build:
+    name: job ❯ build & run
+    runs-on: ubuntu-22.04
+    steps:
+      # ─────────────────────────────────────────────────────
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # ─────────────────────────────────────────────────────
+
+      - name: Setup env variables
+        run: |
+          echo ACTIONS_CACHE_DIR=$RUNNER_WORKSPACE/.actions-cache                 >> $GITHUB_ENV
+          echo ACTIONS_CACHE_BIN_DIR=$RUNNER_WORKSPACE/.actions-cache/bin         >> $GITHUB_ENV
+          echo CACHE_PREFIX=$(date +'%U')                                         >> $GITHUB_ENV
+          echo CONTEXT_DIR=$RUNNER_WORKSPACE/.context                             >> $GITHUB_ENV
+          echo RUNNER_TEMPDIR=$RUNNER_TEMP/`date +%s%N`                           >> $GITHUB_ENV
+
+          echo $HOME/.local/bin                                                   >> $GITHUB_PATH
+          echo $RUNNER_WORKSPACE/.actions-cache/bin                               >> $GITHUB_PATH
+
+          # Secrets
+          echo ABUSEIPDB_TOKEN="${{ secrets.ABUSEIPDB_TOKEN }}"                    >> $GITHUB_ENV
+
+      # ─────────────────────────────────────────────────────
+      - name: Systeminformation
+        run: |
+          mkdir -p $CONTEXT_DIR &> /dev/null
+          . .github/scripts/helpers;
+          show-system-information
+          hr; dump-env
+
+      # - name: Context Information
+      #   id: github_context_step
+      #   if: github.ref == 'refs/heads/main'
+      #   run: |
+      #     mkdir -p $CONTEXT_DIR &> /dev/null
+      #     . .github/scripts/helpers;
+      #     echo '${{ toJSON(github) }}'    >> $CONTEXT_DIR/github.json
+      #     echo '${{ toJSON(job) }}'       >> $CONTEXT_DIR/job.json
+      #     echo '${{ toJSON(steps) }}'     >> $CONTEXT_DIR/steps.json
+      #     echo '${{ toJSON(runner) }}'    >> $CONTEXT_DIR/runner.json
+      #     echo '${{ toJSON(strategy) }}'  >> $CONTEXT_DIR/strategy.json
+      #     echo '${{ toJSON(matrix) }}'    >> $CONTEXT_DIR/matrix.json
+      #     hr; .github/scripts/pstats .github/scripts/helpers 'dump-context'; hr
+
+      # ─────────────────────────────────────────────────────
+      # - uses: actions/cache@v3
+      #   name: Run actions/cache@v3
+      #   with:
+      #     path: ${{ env.ACTIONS_CACHE_DIR }}
+      #     key:  ${{ runner.os }}-v1-cache-${{ env.CACHE_PREFIX }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-v1-cache-${{ env.CACHE_PREFIX }}-
+
+      # ─────────────────────────────────────────────────────
+      - name: Setup / Install
+        run:  .github/scripts/setup
+
+      # ─────────────────────────────────────────────────────
+      - name: ⌛️ Cron - fetch data
+        if: ${{ github.event_name == 'schedule' }}
+        run:  .github/scripts/pstats ./cron
+
+      - name: 🚀 Aggregate
+        run:  .github/scripts/pstats ./aggregate
+
+      # ─────────────────────────────────────────────────────
+      # Only commit if we're in main branch
+      - name: Commit to repository
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add . --verbose
+          stats=$(git diff --cached --shortstat | sed -E 's/ (insertions|deletions)//g')
+          git commit -m "⚡️ CI: $stats [skip ci]" -a || true
+          git push

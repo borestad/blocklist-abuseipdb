@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+FILE="abuseipdb-s100.ipv4"
+
+curl -G https://api.abuseipdb.com/api/v2/blacklist \
+  --no-progress-meter \
+  -d confidenceMinimum=100 \
+  -d limit=9999999 \
+  -H "Key: $ABUSEIPDB_TOKEN" \
+  -H "Accept: text/plain" | \
+  grep -v ":" | \
+  iprange --print-single-ips | \
+  sponge $FILE

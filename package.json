@@ -1,0 +1,8 @@
+{
+  "author": "Johan Borestad <johan@borestad.com> (http://borestad.com/)",
+  "externalBinaries": [
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/iprange",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/sponge"
+  ],
+  "apt": []
+}

@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+FILE="abuseipdb-s100.ipv4"
+
+aggregate() {
+  local DAYS=$1
+  local OUTPUT=$2
+
+  TEMPFILE=$(mktemp)
+
+  for commit in $(git log --format=format:%H --since="$DAYS days ago" $FILE); do
+    git show $commit:$FILE >> $TEMPFILE
+  done
+
+  cat $FILE $TEMPFILE | iprange --print-single-ips >| $OUTPUT
+  echo "$OUTPUT (`wc -l < $OUTPUT` ip)"
+}
+
+aggregate 1 "abuseipdb-s100-1d.ipv4" &
+aggregate 3 "abuseipdb-s100-3d.ipv4" &
+aggregate 7 "abuseipdb-s100-7d.ipv4" &
+aggregate 30 "abuseipdb-s100-30d.ipv4" &
+aggregate 9999 "abuseipdb-s100-all.ipv4" &
+
+wait

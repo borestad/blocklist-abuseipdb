@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+#set -euo pipefail
+
+. $(dirname $0)/helpers
+
+# =============================================================================
+# SETUP
+# =============================================================================
+✨ "Setup"
+initstart=$(time-now)
+
+✓ "Create directories"
+mkdir -p ~/.local/bin $ACTIONS_CACHE_DIR $ACTIONS_CACHE_BIN_DIR $RUNNER_TEMPDIR
+
+✓ "Add ramdisk (experimental)"
+sudo mkdir /mnt/ramdisk && sudo mount -t tmpfs -o rw,size=2G tmpfs /mnt/ramdisk
+
+✓ "Optimize apt-get install"
+sudo cp -p /bin/true /usr/bin/mandb 2>/dev/null || true
+sudo mv -f /var/cache/man /tmp/ 2>/dev/null || true
+
+timestamp
+
+# =============================================================================
+# Download binaries
+# =============================================================================
+TEMPDIR=$(mkt)
+cd $TEMPDIR
+
+✨ "Installing binaries into "$TEMPDIR""
+cat $GIT_ROOT/package.json | jq .externalBinaries | jq -r .[] | xargs -P100 -I '{}' \
+  sh -c "$GIT_ROOT/.github/scripts/download '{}'"
+
+timestamp
+show-cache-folders
+
+✨ "apt-fast install"
+apts=$(cat $GIT_ROOT/package.json | jq .apt | jq -r .[] | xargs)
+(( ${#apts} > 0 )) && sudo apt-fast -qq install --no-install-suggests --no-install-recommends -y $apts
+
+timestamp
+
+
+# =============================================================================
+# Post install - show statistics
+# =============================================================================
+
+if [ -f "$RUNNER_TEMPDIR/download.txt" ]; then
+  ✨ "Installed versions:"
+  sed -i -e 's/^/✓ /' $RUNNER_TEMPDIR/download.txt
+  cat $RUNNER_TEMPDIR/download.txt | sort
+  timestamp
+fi
+
+show-cache-folders
+show-cache-structure
+
+hr
+timestamp
