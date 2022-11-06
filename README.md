@@ -4,9 +4,11 @@
 
 Lists with worst IPv4 offenders, provided by [AbuseIPDB](https://www.abuseipdb.com/)
 
-Updated every 5 hours
-
 <!-- FOOTER-PLACEHOLDER -->
+
+Updated every 5 hours<br>
+Last update: `2022-11-06 - 18:12:39`
+
 ```
 abuseipdb-s100.ipv4 (9987 ip)
 abuseipdb-s100-1d.ipv4 (25017 ip)

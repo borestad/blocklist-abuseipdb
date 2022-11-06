@@ -37,13 +37,13 @@ update-stats() {
 
 
 
-# aggregate $(( 24 + 1 ))       "abuseipdb-s100-1d.ipv4" &
-# aggregate $(( 24 * 2 + 1 ))   "abuseipdb-s100-2d.ipv4" &
-# aggregate $(( 24 * 3 + 1 ))   "abuseipdb-s100-3d.ipv4" &
-# aggregate $(( 24 * 7 + 1 ))   "abuseipdb-s100-7d.ipv4" &
-# aggregate $(( 24 * 30 + 1 ))  "abuseipdb-s100-30d.ipv4" &
-# aggregate $(( 24 * 9999 ))    "abuseipdb-s100-all.ipv4" &
+aggregate $(( 24 + 1 ))       "abuseipdb-s100-1d.ipv4" &
+aggregate $(( 24 * 2 + 1 ))   "abuseipdb-s100-2d.ipv4" &
+aggregate $(( 24 * 3 + 1 ))   "abuseipdb-s100-3d.ipv4" &
+aggregate $(( 24 * 7 + 1 ))   "abuseipdb-s100-7d.ipv4" &
+aggregate $(( 24 * 30 + 1 ))  "abuseipdb-s100-30d.ipv4" &
+aggregate $(( 24 * 9999 ))    "abuseipdb-s100-all.ipv4" &
 
-# wait
+wait
 
 update-stats
