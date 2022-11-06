@@ -24,8 +24,10 @@ aggregate() {
 }
 
 update-stats() {
+  echo "✨ Update footer"
   # Delete everything below placeholder
-  sed -in '/FOOTER-PLACEHOLDER/q' README.md
+  sed -i '/FOOTER-PLACEHOLDER/q' README.md
+
   update=$(date -u '+%Y-%m-%d - %H:%M:%S')
   echo "Updated every 5 hours<br>" >> README.md
   echo "Last update: \`$update\`" >> README.md
