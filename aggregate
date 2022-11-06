@@ -1,18 +1,27 @@
 #!/usr/bin/env bash
 
-FILE="abuseipdb-s100.ipv4"
+LATEST="abuseipdb-s100.ipv4"
 
 aggregate() {
   local DAYS=$1
   local OUTPUT=$2
 
   TEMPFILE=$(mktemp)
+  echo $TEMPFILE
+  cat $LATEST >> $TEMPFILE
 
-  for commit in $(git log --format=format:%H --since="$DAYS days ago" $FILE); do
-    git show $commit:$FILE >> $TEMPFILE
+  for commit in $(git log --format=format:%H --since="$DAYS days ago" $LATEST); do
+    let "i++"
+    git show $commit:$LATEST >> $TEMPFILE
+
+    # Optimize in chunks to ensure the tempfile doesn't become HUGE
+    if [[ "$i%100" -eq "0" ]]; then
+      iprange --print-single-ips $TEMPFILE >| "$TEMPFILE-tmp"
+      mv "$TEMPFILE-tmp" $TEMPFILE
+    fi
   done
 
-  cat $FILE $TEMPFILE | iprange --print-single-ips >| $OUTPUT
+  iprange --print-single-ips $TEMPFILE >| $OUTPUT
   echo "$OUTPUT (`wc -l < $OUTPUT` ip)"
 }
 
