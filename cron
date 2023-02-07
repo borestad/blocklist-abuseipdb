@@ -1,9 +1,15 @@
 #!/usr/bin/env bash
 . .github/scripts/helpers
 
+mkt () {
+	cd $(mktemp -d)
+	pwd
+}
+
+TEMPDIR=$(mkt)
+TEMPFILE=$(mktemp)
+
 FILE="abuseipdb-s100.ipv4"
-TEMPFILE1=$(mktemp)
-TEMPFILE2=$(mktemp)
 
 # 1.1 Download from AbuseIPDB
 curl -G https://api.abuseipdb.com/api/v2/blacklist \
@@ -14,7 +20,7 @@ curl -G https://api.abuseipdb.com/api/v2/blacklist \
   -d limit=9999999 \
   -H "Key: $ABUSEIPDB_TOKEN" \
   -H "Accept: text/plain" \
-  -o $TEMPFILE1
+  -o $TEMPDIR/1.ip
 
 # 1.2 Download from other sources
 curl -G bit.ly/3ANJ6wE \
@@ -22,16 +28,23 @@ curl -G bit.ly/3ANJ6wE \
   --fail \
   --no-progress-meter \
   -H "Accept: text/plain" \
-  -o $TEMPFILE2
+  -o $TEMPDIR/2.ip
+
+curl -G https://abuseipdb.tmiland.com/abuseipdb.txt \
+  -L \
+  --fail \
+  --no-progress-meter \
+  -H "Accept: text/plain" \
+  -o $TEMPDIR/3.ip
 
 
 # 2. Extract data
-cat $TEMPFILE1 $TEMPFILE2 | \
+cat $TEMPDIR/*.ip | \
   grep -v ":" | \
   iprange --print-single-ips | \
-  sponge $TEMPFILE1
+  sponge $TEMPFILE
 
 # 3. Validate data
-if [[ "`wc -l < $TEMPFILE1`" -gt "1000" ]]; then
-  mv $TEMPFILE1 $GIT_ROOT/$FILE
+if [[ "`wc -l < $TEMPFILE`" -gt "1000" ]]; then
+  mv $TEMPFILE $GIT_ROOT/$FILE
 fi
