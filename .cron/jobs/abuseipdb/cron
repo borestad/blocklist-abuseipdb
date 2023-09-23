@@ -1,0 +1,101 @@
+#!/usr/bin/env bash
+
+set -e
+set -o xtrace
+
+# Setup
+cd "$(dirname $0)"
+
+GIT_ROOT=$(git rev-parse --show-toplevel)
+DB_PATH=$GIT_ROOT/db
+mkdir -p $DB_PATH
+TEMPFILE=$(mktemp)
+
+# Debug
+echo "Public IP:"
+echo $(timeout 2s curl --no-progress-meter ipv4.icanhazip.com)
+echo
+
+
+# echo '✔ Download abuseipdb...'
+# bkt --ttl=5h -- curl https://api.abuseipdb.com/api/v2/blacklist \
+#   --get \
+#   --max-time 10 \
+#   --user-agent "" \
+#   --no-progress-meter \
+#   -d confidenceMinimum=100 \
+#   -d limit=9999999 \
+#   -H "Key: $ABUSEIPDB_TOKEN" \
+#   -H "Accept: text/plain" \
+#   --fail-with-body \
+#   -w "\n" \
+#   -o $TEMPFILE
+
+# Separate url to really avoid breaking the 5 free run limit.
+echo '✔ Download from cronsource'
+curl --max-time 10 -G -sL -w "\n\n" --fail-with-body "$CRONSRC" -o $TEMPFILE.1
+
+echo '✔ Download & decorate with extra sources ...'
+curl https://abuseipdb.tmiland.com/abuseipdb.txt \
+  --max-time 10 -G -sL -w "\n\n" --fail > $TEMPFILE.2
+
+curl https://raw.githubusercontent.com/LittleJake/ip-blacklist/main/abuseipdb_blacklist_ip_score_100.txt \
+  --max-time 10 -G -sL -w "\n\n" --fail > $TEMPFILE.3
+
+
+echo '✔ Squash all sources'
+cat $TEMPFILE.* >> $TEMPFILE
+
+echo '✔ Validate: Clean comments'
+cat $TEMPFILE | shfmt -mn | sponge $TEMPFILE
+
+echo '✔ Validate: Extract ipv6 data'
+  grep ':' $TEMPFILE | sort | tac | cidr-merger | sponge $TEMPFILE.ipv6
+
+
+echo '✔ Validate: Extract ipv4 data'
+  grep -v ":" $TEMPFILE | \
+  iprange --print-single-ips \
+  > $TEMPFILE.ipv4
+
+
+# 3. Validate data
+LINES=`wc -l < $TEMPFILE.ipv4`
+if [[ "$LINES" -gt "1000" ]]; then
+  echo "✔ Validate: File contains: $LINES lines"
+  mv $TEMPFILE.ipv4 $DB_PATH/abuseipdb-s100-latest.ipv4
+  mv $TEMPFILE.ipv6 $DB_PATH/abuseipdb-s100-latest.ipv6
+else
+  echo "❌ Validation failed"
+  echo
+  echo "-----------------------------------------------------"
+  cat $TEMPFILE
+  echo "-----------------------------------------------------"
+  cat $TEMPFILE.ipv4
+  echo "-----------------------------------------------------"
+  exit 1
+fi
+
+
+echo
+echo '✔ Aggregate: Create folders'
+DATE=$(date +%F)
+DATE_DIR=$DB_PATH/$DATE
+mkdir -pv $DATE_DIR && cd $DATE_DIR
+
+
+echo '✔ Aggregate: Copy latest to correct date folder'
+cp $DB_PATH/abuseipdb-s100-latest.ipv4 "$DATE_DIR/tmp-$(date +%H-%m-%S).ipv4"
+cp $DB_PATH/abuseipdb-s100-latest.ipv6 "$DATE_DIR/tmp-$(date +%H-%m-%S).ipv6"
+
+echo '✔ Aggregate: Squash ipv4 data'
+iprange --print-single-ips *.ipv4 | sponge $(date +%Y-%m-%d).ipv4
+
+echo '✔ Aggregate: Squash ipv6 data'
+cat *.ipv6 | grep ':' | sort | uniq | sort | sponge $(date +%Y-%m-%d).ipv6
+
+echo
+echo '✔ Cleanup: Remove temp files'
+rm -f tmp*.ipv4
+rm -f tmp*.ipv6
+

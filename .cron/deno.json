@@ -1,0 +1,19 @@
+{
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "imports": {
+    "dax/": "https://deno.land/x/dax@0.34.0/",
+    "deno/": "https://cdn.jsdelivr.net/gh/blend/promise-utils/src/",
+    "deps.ts": "./lib/deps.ts",
+    "fmt/": "https://deno.land/std@0.201.0/fmt/",
+    "lib.ts": "./lib/lib.ts",
+    "promise-utils/": "https://cdn.jsdelivr.net/gh/blend/promise-utils/src/",
+    "std/": "https://deno.land/std@0.201.0/"
+  },
+  "lock": "./config/deno.lock",
+  "tasks": {
+    "update:lockfile": "fd .ts . -tf --threads=1 -X deno cache --import-map=deno.json --unstable --lock=deno.lock --lock-write"
+  }
+}

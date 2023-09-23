@@ -1,0 +1,26 @@
+{
+  "extends": "@tsconfig/deno/tsconfig.json",
+  "include": [
+    "../**/*.ts",
+    "../.*/**/*.ts"
+  ],
+  "files": [
+    "./bin/cron"
+  ],
+  "exclude": [
+    "deno.json"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "rootDir": ".",
+    "target": "ESNext",
+    "outDir": "./dist",
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "checkJs": true,
+    "moduleResolution": "nodenext",
+    "strict": true
+  }
+}
