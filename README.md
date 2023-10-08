@@ -7,7 +7,7 @@ Lists with worst IPv4 offenders, provided by
 [AbuseIPDB](https://www.abuseipdb.com/)
 
 <!-- ABUSEIPDB-STATS-PLACEHOLDER -->
-Last check: `2023-10-08 - 19:20:40` (UTC)
+Last check: `2023-10-08 - 19:31:32` (UTC)
 ```
 abuseipdb-s100-1d.ipv4 (32140 ip)
 abuseipdb-s100-2d.ipv4 (36463 ip)
