@@ -1,0 +1,125 @@
+{
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.8.0",
+  "author": "Johan Borestad <johan@borestad.com> (http://borestad.com/)",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "postinstall": "rm -f pnpm-lock.yaml &> /dev/null"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.29.4",
+    "@tsconfig/deno": "^1.0.9",
+    "@types/node": "^18.17.14",
+    "eslint": "^8.48.0",
+    "eslint-plugin-unicorn": "^44.0.2"
+  },
+  "preinstallBinaries": [
+    "https://raw.githubusercontent.com/borestad/ci-utils/main/bin/dl",
+    "https://raw.githubusercontent.com/borestad/ci-utils/main/bin/ga-dump-context",
+    "https://raw.githubusercontent.com/borestad/ci-utils/main/bin/ga-dump-env",
+    "https://raw.githubusercontent.com/borestad/ci-utils/main/bin/ip-public",
+    "https://raw.githubusercontent.com/borestad/ci-utils/main/bin/hr",
+    "https://raw.githubusercontent.com/borestad/ci-utils/main/bin/memo",
+    "https://raw.githubusercontent.com/borestad/ci-utils/main/bin/pstats",
+    "https://raw.githubusercontent.com/borestad/ci-utils/main/bin/system-info",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/bc",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/bkt",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/curl",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/cidr-merger",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/dust",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/ets",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/fd",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/gron",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/iprange",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/just",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/rg",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/sd",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/shfmt",
+    "https://raw.githubusercontent.com/borestad/static-binaries/main/x86_64/sponge"
+  ],
+  "eslintConfig": {
+    "extends": "@antfu",
+    "root": true,
+    "ignorePatterns": [
+      "!.*"
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module",
+      "project": "./.cron/tsconfig.json"
+    },
+    "plugins": [
+      "unicorn"
+    ],
+    "rules": {
+      "unicorn/template-indent": [
+        "warn",
+        {
+          "tags": [],
+          "functions": [],
+          "selectors": [
+            "TemplateLiteral"
+          ]
+        }
+      ]
+    },
+    "globals": {},
+    "overrides": [
+      {
+        "files": [
+          "*",
+          "*.ts",
+          "*.tsx",
+          "*.js",
+          "*.mjs"
+        ],
+        "rules": {
+          "template-tag-spacing": [
+            "error",
+            "always"
+          ],
+          "curly": ["error", "multi-line"],
+          "no-console": "error",
+          "@typescript-eslint/comma-dangle": "off",
+          "@typescript-eslint/require-await": [
+            "error"
+          ],
+          "@typescript-eslint/no-floating-promises": [
+            "error"
+          ],
+          "@typescript-eslint/no-misused-promises": [
+            "error"
+          ],
+          "no-multiple-empty-lines": [
+            "error",
+            {
+              "max": 1,
+              "maxBOF": 0,
+              "maxEOF": 0
+            }
+          ]
+        }
+      },
+      {
+        "files": [
+          "settings.json",
+          "deno.json*"
+        ],
+        "rules": {
+          "jsonc/sort-keys": [
+            "error",
+            "asc",
+            {
+              "caseSensitive": true,
+              "natural": false,
+              "minKeys": 2
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
