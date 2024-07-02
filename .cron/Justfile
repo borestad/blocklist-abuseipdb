@@ -1,0 +1,7 @@
+root := `git rev-parse --show-toplevel`
+
+default:
+    pstats memo --ttl=60s -- FORCE_COLOR=1 {{root}}/.cron/jobs/abuseipdb/cron
+    hr
+    pstats memo --ttl=60s -- {{root}}/.cron/jobs/abuseipdb/aggregate
+
