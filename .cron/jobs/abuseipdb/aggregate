@@ -1,0 +1,96 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Setup
+cd "$(dirname $0)"
+GIT_ROOT=$(git rev-parse --show-toplevel)
+
+. $GIT_ROOT/.cron/scripts/ciutil
+
+DB_PATH=$GIT_ROOT/db
+README_PATH=$GIT_ROOT/README.md
+
+DATE=$(date +%F)
+DATE_DIR=$DB_PATH/$DATE
+LATEST="$DATE_DIR/$DATE.ipv4"
+
+aggregate() {
+  local DAYS=$(expr $1 - 1)
+  local OUTPUT=$2
+  cd $DB_PATH
+  ___
+  echo "ℹ $OUTPUT"; echo
+
+  args=()
+
+  for i in $(seq 0 $DAYS); do
+    day=$(date +%Y-%m-%d -d "$(date) - $i days")
+    file=$day/$day.ipv4
+
+    if [[ -f $file ]]; then
+      args+=("$file")
+      # echo "- $(basename $file)"
+        echo "-  $file (`wc -l < $file` ip)"
+    else
+      echo "❌ $file does not exist"
+    fi
+
+  done
+
+  iprange "${args[@]}" --print-single-ips >| $GIT_ROOT/$OUTPUT.tmp
+
+  TS=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+  echo "#" >| $GIT_ROOT/$OUTPUT
+  echo "# Aggregated Blocklist for AbuseIPDB: A list of the most reported IP addresses." >> $GIT_ROOT/$OUTPUT
+  echo "#" >> $GIT_ROOT/$OUTPUT
+  echo "# Last updated:        $TS" >> $GIT_ROOT/$OUTPUT
+  echo "# Confidence level:    ~100%" >> $GIT_ROOT/$OUTPUT
+  echo "# Filename:            $OUTPUT" >> $GIT_ROOT/$OUTPUT
+  echo "# Number of ips:       $(wc -l < $GIT_ROOT/$OUTPUT.tmp)" >> $GIT_ROOT/$OUTPUT
+  echo "#" >> $GIT_ROOT/$OUTPUT
+  echo "# Source:              https://github.com/borestad/blocklist-abuseipdb" >> $GIT_ROOT/$OUTPUT
+  echo "# Credits:             https://www.abuseipdb.com - please support them!" >> $GIT_ROOT/$OUTPUT
+  echo "#" >> $GIT_ROOT/$OUTPUT
+
+  cat $GIT_ROOT/$OUTPUT.tmp >> $GIT_ROOT/$OUTPUT
+  echo
+  echo "Total: (`wc -l < $GIT_ROOT/$OUTPUT.tmp` ip)"
+
+  rm -f $GIT_ROOT/$OUTPUT.tmp
+}
+
+update-stats() {
+  echo "✨ Update footer"
+
+  # Delete everything below placeholder
+  sed -i '/ABUSEIPDB-STATS-PLACEHOLDER/q' $README_PATH
+
+  update=$(date -u '+%Y-%m-%d - %H:%M:%S')
+  echo "Last check: \`$update\` (UTC)" >> $README_PATH
+
+  echo '```' >> $README_PATH
+
+  cd $GIT_ROOT && find . -mindepth 1 -maxdepth 1 -iname '*.ipv4' -print0 | sort -zV | xargs -I {} -0 sh -c 'name=$(basename {}); echo "$name ($(wc -l < $name) ip)"' >> $README_PATH
+  echo '```' >> $README_PATH
+}
+
+
+iprange $DB_PATH/**/*.ipv4 --print-single-ips | sponge $GIT_ROOT/abuseipdb-s100-all.ipv4 &
+
+# c = confidence
+aggregate 1   "abuseipdb-s100-1d.ipv4"
+aggregate 3   "abuseipdb-s100-3d.ipv4"
+aggregate 7   "abuseipdb-s100-7d.ipv4"
+aggregate 14  "abuseipdb-s100-14d.ipv4"
+aggregate 30  "abuseipdb-s100-30d.ipv4"
+aggregate 60  "abuseipdb-s100-60d.ipv4"
+aggregate 90  "abuseipdb-s100-90d.ipv4"
+aggregate 120  "abuseipdb-s100-120d.ipv4"
+
+wait
+
+
+
+
+update-stats
