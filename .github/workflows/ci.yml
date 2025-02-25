@@ -1,0 +1,136 @@
+# eslint-disable yml/no-empty-mapping-value
+
+name: "`⚡︎ CRON ⚡︎`"
+
+on:
+  workflow_dispatch:
+    inputs:
+      debug_enabled:
+        type: boolean
+        description: Enable debugging
+        required: false
+        default: false
+
+  push:
+    branches:
+      - "*"
+      # - main
+      # - 'feature/**'
+  pull_request:
+
+  # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
+  # Note: Since the repository only acts as an entrypoint + uses bkt cache - we can now pull sources much more frequent than previously 5 hours (5x5 > 24)
+  # This should ensure that we don't hammer AbuseIPDB's api to get a 429 (too many requests)
+  schedule:
+    - cron: '01,31 * * * *'
+
+jobs:
+
+  # Job  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  build:
+    name: job ❯ build & run
+    runs-on: ubuntu-24.04
+    concurrency:
+      group: ${{ github.workflow }}
+    timeout-minutes: 5
+    steps:
+      # ─────────────────────────────────────────────────────
+      - name: Bootstrap ❯❯ actions/checkout@v4
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # ─────────────────────────────────────────────────────
+      - name: Bootstrap ❯❯ denoland/setup-deno@v2
+        id: deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      # ─────────────────────────────────────────────────────
+      - name: Bootstrap ❯❯ Set env variables
+        run: |
+          .cron/scripts/ciutil set-env-variables
+
+          # Secrets
+          echo ABUSEIPDB_TOKEN="${{ secrets.ABUSEIPDB_TOKEN }}" >> $GITHUB_ENV
+          echo CRONSRC="${{ secrets.CRONSRC }}" >> $GITHUB_ENV
+          echo CRONSRC_URL="${{ secrets.CRONSRC_URL }}" >> $GITHUB_ENV
+          echo CRONSRC_HEADER="${{ secrets.CRONSRC_HEADER }}" >> $GITHUB_ENV
+          echo MMDB_URL="${{ secrets.MMDB_URL }}" >> $GITHUB_ENV
+          echo HONEYPOT1_URL="${{ secrets.HONEYPOT1_URL }}" >> $GITHUB_ENV
+          echo HONEYPOT2_URL="${{ secrets.HONEYPOT2_URL }}" >> $GITHUB_ENV
+
+      # ─────────────────────────────────────────────────────
+      - uses: actions/cache@v4
+        name: Bootstrap ❯❯ Restore Cache
+        with:
+          path: ${{ env.ACTIONS_CACHE_DIR }}
+          key:  ${{ runner.os }}-v1-store-${{ env.CACHE_PREFIX }}-${{ hashFiles('**/deno.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-v1-store-${{ env.CACHE_PREFIX }}-
+            ${{ runner.os }}-v1-store-
+
+      - uses: actions/cache@v4
+        name: Bootstrap ❯❯ Restore TTL Cache
+        if: always()
+        with:
+          path: ${{ env.TTL_CACHE_DIR }}
+          key:  ${{ runner.os }}-ttl-cache-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            ${{ runner.os }}-ttl-cache-
+            ${{ runner.os }}-
+
+      # ─────────────────────────────────────────────────────
+      - name: Bootstrap ❯❯ Preinstall & Prepare Environment
+        run: |
+          . .cron/scripts/ciutil
+          ✨ "Setup: Preinstall binaries"           && preinstall-binaries
+          ✨ "Debug: System information"            && system-info
+          ✨ "Debug: Env variables"                 && ga-dump-env
+          ✨ "Debug: cache ($ACTIONS_CACHE_DIR)"    && show-cache-structure-default
+          ✨ "Debug: cache ($TTL_CACHE_DIR)"        && show-cache-structure-ttl
+          ✨ "Housekeeping:"                        && cron-housekeeping
+
+          ✨ "Download mmdb database:" && \
+          ( mkdir -p ~/.local/share/ipinfo && cd $_ && \
+            curl -sSL $MMDB_URL | unzstd - -o country_asn.mmdb || true )
+
+          ✨ "Make local script available globally" && \
+          deno install -A -f -g --root ~/.local/ .cron/scripts/ip2ipinfo.ts || true
+      # ─────────────────────────────────────────────────────
+      - name: Cron ❯❯ Job1
+        run: |
+          cd .cron && just
+
+      # ─────────────────────────────────────────────────────
+      - name: Post hooks ❯❯ Commit to repository
+        if: github.ref == 'refs/heads/main'
+        run: |
+          .cron/scripts/ciutil git-squash-to-repository
+
+      # ─────────────────────────────────────────────────────
+      - name: "Debug ❯❯ Context Information"
+        id: github_context_step
+        env:
+          JSON_GITHUB: ${{ toJSON(github) }}
+          JSON_JOB: ${{ toJSON(job) }}
+          JSON_STEPS: ${{ toJSON(steps) }}
+          JSON_RUNNER: ${{ toJSON(runner) }}
+          JSON_STRATEGY: ${{ toJSON(strategy) }}
+          JSON_MATRIX: ${{ toJSON(MATRIX) }}
+        run: |
+          ip-public
+          .cron/scripts/ciutil show-cache-structure-default
+          .cron/scripts/ciutil show-cache-structure-ttl
+          .cron/scripts/ciutil ___
+
+          printf "$JSON_GITHUB"    >> $DEBUG_DIR/github.json
+          printf "$JSON_JOB"       >> $DEBUG_DIR/job.json
+          printf "$JSON_STEPS"     >> $DEBUG_DIR/steps.json
+          printf "$JSON_RUNNER"    >> $DEBUG_DIR/runner.json
+          printf "$JSON_STRATEGY"  >> $DEBUG_DIR/strategy.json
+          printf $JSON_MATRIX      >> $DEBUG_DIR/matrix.json
+
+          ga-dump-context | tee /tmp/ga-dump-context.txt &> /dev/null && cat /tmp/ga-dump-context.txt
+

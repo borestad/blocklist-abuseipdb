@@ -1,0 +1,140 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Setup
+cd "$(dirname $0)"
+
+GIT_ROOT=$(git rev-parse --show-toplevel)
+DB_PATH=$GIT_ROOT/db
+mkdir -p $DB_PATH
+TEMPFILE=$(mktemp)
+TEMPDIR=$(mktemp -d)
+
+function check-block() {
+  local URL="$1"
+  curl -sL "$URL" | \
+    grepip | xargs -n1 $GIT_ROOT/.cron/scripts/abuseipdb-check | jq 'select(.numReports > 1)' | grepip
+}
+
+cd $TEMPDIR
+
+# Debug
+echo "Public IP:"
+echo $(timeout 2s curl --no-progress-meter ipv4.icanhazip.com)
+echo
+
+echo '✔ Debug...'
+date '+%Y/%m/%d %H:%M:%S'
+bkt --ttl=6h -- date '+%Y/%m/%d %H:%M:%S'
+echo
+
+
+echo '✔ Download abuseipdb...'
+# Use a TTL of ~2.5 hours (~ 9/10 requests if verified webmaster)
+bkt --ttl=180min -- curl https://api.abuseipdb.com/api/v2/blacklist \
+  --get \
+  --max-time 10 \
+  --user-agent "" \
+  --no-progress-meter \
+  -d confidenceMinimum=100 \
+  -d limit=9999999 \
+  -H "Key: $ABUSEIPDB_TOKEN" \
+  -H "Accept: text/plain" \
+  --fail \
+  -w "\n" \
+  -o TEMPFILE.1 || true
+
+echo '✔ Download & decorate with extra sources ...'
+echo '#2: abuseipdb.tmiland.com/'
+curl -sL https://abuseipdb.tmiland.com/abuseipdb.txt \
+  --compressed --max-time 10 -G -sL --fail -o TEMPFILE.2 || true
+
+echo '#3: LittleJake'
+curl -sL https://raw.githubusercontent.com/LittleJake/ip-blacklist/main/abuseipdb_blacklist_ip_score_100.txt \
+  --compressed --max-time 10 -G -sL --fail -o TEMPFILE.3 || true
+
+#
+echo '#4: 💩 Whitelisted scanners'
+check-block https://raw.githubusercontent.com/borestad/iplists/refs/heads/main/paloaltonetworks/paloaltonetworks.ipv4 >| TEMPFILE.${RANDOM} || true
+check-block https://raw.githubusercontent.com/borestad/iplists/refs/heads/main/censys/censys.ipv4 >| TEMPFILE.${RANDOM} || true
+check-block https://raw.githubusercontent.com/borestad/iplists/refs/heads/main/project-sonar/project-sonar.ipv4 >| TEMPFILE.${RANDOM} || true
+check-block https://raw.githubusercontent.com/borestad/iplists/refs/heads/main/openai/gptbot.ipv4 >| TEMPFILE.${RANDOM} || true
+
+
+echo '#7: Broken ASNS'
+$GIT_ROOT/.cron/jobs/abuseipdb/asn | \
+  xargs -I% $GIT_ROOT/.cron/scripts/abuseipdb-check % | jq 'select(.numReports > 1)' | grepip >| TEMPFILE.${RANDOM} || true
+
+# Redundancy:
+# - Separate private cache (1 of 5 requests / day) to avoid breaking the 5 free run limit / day
+# - If above urls fail due to github actions being flaky, still have somewhat fresh data.
+# echo '✔ Download from cache'
+echo '#8: Private cache'
+curl "$CRONSRC_URL" --compressed --max-time 10 -G -sL -w "\n\n" --fail -o TEMPFILE.${RANDOM} || true
+
+echo '#9: Private honeypots with verified abuse score'
+curl "$HONEYPOT1_URL/$(date '+%Y-%m-%d').ipv4" --compressed --max-time 10 -G -sL -w "\n\n" --fail -o TEMPFILE.111 || true
+cat TEMPFILE.111 | grepip | iprange - -1 --except $GIT_ROOT/abuseipdb-s100-1d.ipv4 || true
+
+curl "$HONEYPOT2_URL/$(date '+%Y-%m-%d').ipv4" --compressed --max-time 10 -G -sL -w "\n\n" --fail -o TEMPFILE.222 || true
+cat TEMPFILE.222 | grepip | iprange - -1 --except $GIT_ROOT/abuseipdb-s100-1d.ipv4 || true
+
+
+echo '#10: Whitelists'
+dig +short @1.1.1.1 raw.githubusercontent.com | grepip | iprange -1 | sponge WHITELIST.githubusercontent || true
+
+# echo '✔ Stats'
+# for FILE in TEMPFILE.*; do printf "$FILE "; wc -l < $FILE; done
+
+echo '✔ Squash all sources (by design: fail if no sources worked)'
+grep -h "" TEMPFILE.* >> $TEMPFILE
+
+echo '✔ Validate: Clean comments'
+cat $TEMPFILE | shfmt -mn | sponge $TEMPFILE
+
+echo '✔ Validate: Extract ipv6 data'
+  grep ':' $TEMPFILE | sort | tac | cidr-merger | sponge $TEMPFILE.ipv6
+
+echo '✔ Validate: Extract ipv4 data'
+  grep -v ":" $TEMPFILE | \
+  iprange - -1 --except $GIT_ROOT/.cron/jobs/abuseipdb/bogons.ipv4 \
+  > $TEMPFILE.ipv4
+
+# 3. Validate data
+LINES=`wc -l < $TEMPFILE.ipv4`
+if [[ "$LINES" -gt "1000" ]]; then
+  echo "✔ Validate: File contains: $LINES lines"
+  mv $TEMPFILE.ipv4 $DB_PATH/abuseipdb-s100-latest.ipv4
+  mv $TEMPFILE.ipv6 $DB_PATH/abuseipdb-s100-latest.ipv6
+else
+  echo "❌ Validation failed"
+  echo
+  echo "-----------------------------------------------------"
+  cat $TEMPFILE
+  echo "-----------------------------------------------------"
+  cat $TEMPFILE.ipv4
+  echo "-----------------------------------------------------"
+  exit 1
+fi
+
+echo
+echo '✔ Aggregate: Create folders'
+DATE=$(date +%F)
+DATE_DIR=$DB_PATH/$DATE
+mkdir -pv $DATE_DIR && cd $DATE_DIR
+
+echo '✔ Aggregate: Copy latest to correct date folder'
+cp $DB_PATH/abuseipdb-s100-latest.ipv4 "$DATE_DIR/tmp-$(date +%H-%m-%S).ipv4"
+cp $DB_PATH/abuseipdb-s100-latest.ipv6 "$DATE_DIR/tmp-$(date +%H-%m-%S).ipv6"
+
+echo '✔ Aggregate: Squash ipv4 data'
+iprange -1 *.ipv4 | sponge $(date +%Y-%m-%d).ipv4
+
+echo '✔ Aggregate: Squash ipv6 data'
+cat *.ipv6 | grep ':' | sort | uniq | sort | sponge $(date +%Y-%m-%d).ipv6
+
+echo
+echo '✔ Cleanup: Remove temp files'
+rm -f tmp*.ipv4
+rm -f tmp*.ipv6
