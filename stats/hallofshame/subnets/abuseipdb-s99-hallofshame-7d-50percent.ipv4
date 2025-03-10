@@ -1,0 +1,60 @@
+#
+# Hall of Shame: 7d
+# An aggregated list of ip ranges, where more than 50% the traffic from a /24 range is malicious from the last 7days
+#
+#
+# Last updated:        2025-03-10 03:34:30 UTC
+# Days:                7d
+# Malicious level:     > 50%
+# Filename:            abuseipdb-s99-hallofshame-7d-50percent.ipv4
+# Number of ips:       11520
+#
+# Source:              https://github.com/borestad/blocklist-abuseipdb
+# Credits:             https://www.abuseipdb.com - please support them!
+# Example:             https://www.abuseipdb.com/check-block/64.62.156.0/24
+#
+4.227.36.0/24    # US  AS8075    Microsoft Corporation
+20.171.207.0/24  # US  AS8075    Microsoft Corporation
+35.203.210.0/24  # GB  AS396982  Google LLC
+35.203.211.0/24  # GB  AS396982  Google LLC
+38.188.160.0/24  # DO  AS273113  ONERED JWG532 SRL
+43.248.108.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+44.220.185.0/24  # US  AS14618   Amazon.com, Inc.
+44.220.188.0/24  # US  AS14618   Amazon.com, Inc.
+45.83.64.0/24    # DE  AS208843  Alpha Strike Labs GmbH
+45.83.65.0/24    # DE  AS208843  Alpha Strike Labs GmbH
+45.83.66.0/24    # DE  AS208843  Alpha Strike Labs GmbH
+45.83.67.0/24    # DE  AS208843  Alpha Strike Labs GmbH
+45.164.177.0/24  # BR  AS268645  FUTURE DIGITAL TECHNOLOGY E TELECOM LTDA EPP
+45.164.178.0/24  # BR  AS268645  FUTURE DIGITAL TECHNOLOGY E TELECOM LTDA EPP
+47.82.10.0/24    # SG  AS45102   Alibaba (US) Technology Co., Ltd.
+47.82.11.0/24    # SG  AS45102   Alibaba (US) Technology Co., Ltd.
+52.230.152.0/24  # US  AS8075    Microsoft Corporation
+64.62.197.0/24   # US  AS6939    Hurricane Electric LLC
+65.49.1.0/24     # US  AS6939    Hurricane Electric LLC
+87.236.176.0/24  # GB  AS211298  Driftnet Ltd
+103.176.138.0/24 # IN  AS45804   MEGHBELA BROADBAND
+104.152.52.0/24  # US  AS14987   Rethem Hosting LLC
+104.234.115.0/24 # US  AS396982  Google LLC
+112.46.212.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+112.46.213.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+147.185.132.0/24 # US  AS396982  Google LLC
+147.185.133.0/24 # FI  AS396982  Google LLC
+162.142.125.0/24 # US  AS398324  Censys, Inc.
+162.216.149.0/24 # US  AS396982  Google LLC
+162.216.150.0/24 # US  AS396982  Google LLC
+167.94.138.0/24  # US  AS398324  Censys, Inc.
+185.220.101.0/24 # DE  AS60729   Stiftung Erneuerbare Freiheit
+185.247.137.0/24 # GB  AS211298  Driftnet Ltd
+193.163.125.0/24 # GB  AS211298  Driftnet Ltd
+194.5.82.0/24    # SG  AS137409  GSL Networks Pty LTD
+194.187.176.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.177.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.178.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.179.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+195.211.191.0/24 # NL  AS214940  KPROHOST LLC
+198.235.24.0/24  # US  AS396982  Google LLC
+205.210.31.0/24  # US  AS396982  Google LLC
+206.168.34.0/24  # US  AS398324  Censys, Inc.
+217.113.194.0/24 # FR  AS210743  Babbar SAS
+218.92.0.0/24    # CN  AS4134    CHINANET-BACKBONE
