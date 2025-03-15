@@ -1,0 +1,155 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Preinstall
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+function exists() { command -v $1 &> /dev/null; }
+
+cron-housekeeping() {
+  if [[ ! -z $BKT_CACHE_DIR ]]; then
+    fd -u . $BKT_CACHE_DIR --changed-before=7d -x rm -rfv || true
+    fd -u -td -te . $BKT_CACHE_DIR -x rm -rfv || true
+  fi
+}
+
+download() {
+  local url="$1"
+  local software=$(basename "$url")
+  local location=~/.local/bin/$software
+
+  echo "✔ Downloading $software into $location"
+  wget -O $location -q -nv --content-disposition "$url"
+  chmod +x $location 2> /dev/null || true
+}
+
+preinstall-binaries() {
+  # Optimize apt-get install time (no need for mandb on a ci)
+  sudo cp -p /bin/true /usr/bin/mandb 2> /dev/null || true
+  sudo mv -f /var/cache/man /tmp/ 2> /dev/null || true
+
+  mkdir -p ~/.local/bin
+  cp .cron/scripts/ciutil ~/.local/bin/
+
+  for url in $(jq .preinstallBinaries package.json | jq -r .[]); do
+    download "$url" &
+  done
+  wait
+}
+
+to_env() {
+  [[ "$2" == *"/"* ]] && (echo "$1 => $2" && mkdir -p $2)
+  export $1=$2
+  echo "$1=$2" >> $GITHUB_ENV
+}
+
+add_path() {
+  echo $1 >> $GITHUB_PATH
+}
+
+set-env-variables() {
+  mkdir -pv ~/.local/bin
+
+  # Action Cache
+  WS=$RUNNER_WORKSPACE
+
+  to_env ACTIONS_CACHE_DIR $WS/.actions-cache
+  to_env ACTIONS_CACHE_BIN_DIR $WS/.actions-cache/bin
+  to_env PNPM_STORE_DIR $WS/.actions-cache/pnpm/pnpm-store
+  to_env EGET_BIN $WS/.actions-cache/bin
+  to_env DENO_DIR $WS/.actions-cache/.deno
+  to_env PNPM_HOME $WS/.actions-cache/pnpm
+
+  # TTL Cache (Cache that will automatically be invalidated)
+  to_env TTL_CACHE_DIR $WS/.cache-ttl
+  to_env BKT_CACHE_DIR $WS/.cache-ttl/bkt
+
+  # Other dirs
+  to_env DEBUG_DIR $WS/.debug
+  to_env RUNNER_TEMPDIR $RUNNER_TEMP/$(date +%s%N)
+
+  # Other env
+  to_env CACHE_PREFIX "$(date +'%U')"
+  to_env NODE_ENV production
+  to_env TERM xterm-256color
+  to_env FORCE_COLOR 1
+
+  # PATH
+  add_path './node_modules/.bin'
+  add_path $HOME/.local/bin
+  add_path $WS/.actions-cache/pnpm
+  add_path $WS/.actions-cache/bin
+  add_path $GITHUB_WORKSPACE/.cron/scripts
+}
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Debug / Statistics / Information
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+show-cache-structure-default() { dust -b -P -s $ACTIONS_CACHE_DIR && echo; }
+show-cache-structure-ttl() { dust -b -P -s $TTL_CACHE_DIR && echo; }
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Formatters / Printers
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✨() { ___; echo "✨ $1"; echo; }
+
+___() { echo; printf '━%.0s' {1..80}; echo; }
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Git Utils
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+has-file-changed() {
+  changed_files="$(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD 2> /dev/null)"
+  if $(echo "$changed_files" | grep --quiet "$1"); then
+    return 0
+  fi
+  return 1
+}
+
+git-squash-to-repository() {
+  DATE=$(date '+%Y/%m/%d %H:%M')
+  LABEL="SYNC"
+
+  git config user.name github-actions
+  git config user.email github-actions@github.com
+
+  if [[ `git status --porcelain` ]]; then
+    MSG="\`️️⚡️ $LABEL ⚡️\` \`$DATE\`"
+    git add .
+    git commit -m "update"
+    git reset $(git commit-tree HEAD^{tree} -m "$MSG")
+    git push -f
+  fi
+}
+
+git-commit-to-repository() {
+  DATE=$(date '+%Y/%m/%d %H:%M')
+  LABEL="CRON"
+
+  echo
+  git diff --stat HEAD
+  echo
+
+  git config user.name github-actions
+  git config user.email github-actions@github.com
+  git pull --rebase --autostash origin $(git rev-parse --abbrev-ref HEAD)
+
+  for file in $(git status -s | cut -c4-); do
+    echo "file: $file";
+    shortname=$(basename $file | sed -E 's/\.(ipset|netset)//g')
+    git add $file
+    stats=$(git diff --cached --shortstat | sed -E 's/ (insertions?|deletions?|changed?)//g' | sed 's/,//g' | xargs)
+    stats=$(echo $stats | sed 's/1 file//g' | xargs)
+    git commit -m "\`️️⚡️ $LABEL ⚡️\` \`$DATE\` \`$stats $shortname\` [ci skip]" || true
+    echo $stats
+  done
+
+  git push
+}
+
+
+# Allow calling for methods from outside
+for i in "$@"; do
+  "$i"
+done
