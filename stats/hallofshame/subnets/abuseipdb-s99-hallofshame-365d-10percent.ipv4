@@ -1,0 +1,2709 @@
+#
+# Hall of Shame: 365d
+# An aggregated list of ip ranges, where more than 10% the traffic from a /24 range is malicious from the last 365days
+#
+#
+# Last updated:        2025-03-29 18:06:19 UTC
+# Days:                365d
+# Malicious level:     > 10%
+# Filename:            abuseipdb-s99-hallofshame-365d-10percent.ipv4
+# Number of ips:       689664
+#
+# Source:              https://github.com/borestad/blocklist-abuseipdb
+# Credits:             https://www.abuseipdb.com - please support them!
+# Example:             https://www.abuseipdb.com/check-block/64.62.156.0/24
+#
+1.0.248.0/24     # TH  AS23969   TOT Public Company Limited
+1.2.165.0/24     # TH  AS23969   TOT Public Company Limited
+1.2.190.0/24     # TH  AS23969   TOT Public Company Limited
+1.10.222.0/24    # TH  AS23969   TOT Public Company Limited
+1.10.223.0/24    # TH  AS23969   TOT Public Company Limited
+1.24.16.0/24     # CN  AS4837    CHINA UNICOM China169 Backbone
+1.70.8.0/24      # CN  AS4134    CHINANET-BACKBONE
+1.70.9.0/24      # CN  AS4134    CHINANET-BACKBONE
+1.70.10.0/24     # CN  AS4134    CHINANET-BACKBONE
+1.70.11.0/24     # CN  AS4134    CHINANET-BACKBONE
+1.70.12.0/24     # CN  AS4134    CHINANET-BACKBONE
+1.70.13.0/24     # CN  AS4134    CHINANET-BACKBONE
+1.70.14.0/24     # CN  AS4134    CHINANET-BACKBONE
+1.70.15.0/24     # CN  AS4134    CHINANET-BACKBONE
+1.70.103.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.70.124.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.70.126.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.70.127.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.70.137.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.70.139.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.70.143.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.83.125.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.85.219.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.87.137.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.87.219.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.165.64.0/24    # TW  AS3462    Data Communication Business Group
+1.165.65.0/24    # TW  AS3462    Data Communication Business Group
+1.165.66.0/24    # TW  AS3462    Data Communication Business Group
+1.165.68.0/24    # TW  AS3462    Data Communication Business Group
+1.165.69.0/24    # TW  AS3462    Data Communication Business Group
+1.165.70.0/24    # TW  AS3462    Data Communication Business Group
+1.165.71.0/24    # TW  AS3462    Data Communication Business Group
+1.165.72.0/24    # TW  AS3462    Data Communication Business Group
+1.165.73.0/24    # TW  AS3462    Data Communication Business Group
+1.165.74.0/24    # TW  AS3462    Data Communication Business Group
+1.165.75.0/24    # TW  AS3462    Data Communication Business Group
+1.165.76.0/24    # TW  AS3462    Data Communication Business Group
+1.165.77.0/24    # TW  AS3462    Data Communication Business Group
+1.165.78.0/24    # TW  AS3462    Data Communication Business Group
+1.165.79.0/24    # TW  AS3462    Data Communication Business Group
+1.165.80.0/24    # TW  AS3462    Data Communication Business Group
+1.165.81.0/24    # TW  AS3462    Data Communication Business Group
+1.165.82.0/24    # TW  AS3462    Data Communication Business Group
+1.165.84.0/24    # TW  AS3462    Data Communication Business Group
+1.165.85.0/24    # TW  AS3462    Data Communication Business Group
+1.165.86.0/24    # TW  AS3462    Data Communication Business Group
+1.165.87.0/24    # TW  AS3462    Data Communication Business Group
+1.165.88.0/24    # TW  AS3462    Data Communication Business Group
+1.165.89.0/24    # TW  AS3462    Data Communication Business Group
+1.165.90.0/24    # TW  AS3462    Data Communication Business Group
+1.165.91.0/24    # TW  AS3462    Data Communication Business Group
+1.165.92.0/24    # TW  AS3462    Data Communication Business Group
+1.165.93.0/24    # TW  AS3462    Data Communication Business Group
+1.165.94.0/24    # TW  AS3462    Data Communication Business Group
+1.165.95.0/24    # TW  AS3462    Data Communication Business Group
+1.165.96.0/24    # TW  AS3462    Data Communication Business Group
+1.165.98.0/24    # TW  AS3462    Data Communication Business Group
+1.165.99.0/24    # TW  AS3462    Data Communication Business Group
+1.165.100.0/24   # TW  AS3462    Data Communication Business Group
+1.165.101.0/24   # TW  AS3462    Data Communication Business Group
+1.165.102.0/24   # TW  AS3462    Data Communication Business Group
+1.165.103.0/24   # TW  AS3462    Data Communication Business Group
+1.165.105.0/24   # TW  AS3462    Data Communication Business Group
+1.165.106.0/24   # TW  AS3462    Data Communication Business Group
+1.165.107.0/24   # TW  AS3462    Data Communication Business Group
+1.165.108.0/24   # TW  AS3462    Data Communication Business Group
+1.165.109.0/24   # TW  AS3462    Data Communication Business Group
+1.165.110.0/24   # TW  AS3462    Data Communication Business Group
+1.165.111.0/24   # TW  AS3462    Data Communication Business Group
+1.165.112.0/24   # TW  AS3462    Data Communication Business Group
+1.165.114.0/24   # TW  AS3462    Data Communication Business Group
+1.165.115.0/24   # TW  AS3462    Data Communication Business Group
+1.165.116.0/24   # TW  AS3462    Data Communication Business Group
+1.165.117.0/24   # TW  AS3462    Data Communication Business Group
+1.165.118.0/24   # TW  AS3462    Data Communication Business Group
+1.165.119.0/24   # TW  AS3462    Data Communication Business Group
+1.165.120.0/24   # TW  AS3462    Data Communication Business Group
+1.165.122.0/24   # TW  AS3462    Data Communication Business Group
+1.165.125.0/24   # TW  AS3462    Data Communication Business Group
+1.165.128.0/24   # TW  AS3462    Data Communication Business Group
+1.165.129.0/24   # TW  AS3462    Data Communication Business Group
+1.165.131.0/24   # TW  AS3462    Data Communication Business Group
+1.165.132.0/24   # TW  AS3462    Data Communication Business Group
+1.165.134.0/24   # TW  AS3462    Data Communication Business Group
+1.165.136.0/24   # TW  AS3462    Data Communication Business Group
+1.165.137.0/24   # TW  AS3462    Data Communication Business Group
+1.165.140.0/24   # TW  AS3462    Data Communication Business Group
+1.165.143.0/24   # TW  AS3462    Data Communication Business Group
+1.165.144.0/24   # TW  AS3462    Data Communication Business Group
+1.165.145.0/24   # TW  AS3462    Data Communication Business Group
+1.165.148.0/24   # TW  AS3462    Data Communication Business Group
+1.165.150.0/24   # TW  AS3462    Data Communication Business Group
+1.165.152.0/24   # TW  AS3462    Data Communication Business Group
+1.165.158.0/24   # TW  AS3462    Data Communication Business Group
+1.165.159.0/24   # TW  AS3462    Data Communication Business Group
+1.165.247.0/24   # TW  AS3462    Data Communication Business Group
+1.165.248.0/24   # TW  AS3462    Data Communication Business Group
+1.165.249.0/24   # TW  AS3462    Data Communication Business Group
+1.168.81.0/24    # TW  AS3462    Data Communication Business Group
+1.168.194.0/24   # TW  AS3462    Data Communication Business Group
+1.170.3.0/24     # TW  AS3462    Data Communication Business Group
+1.170.16.0/24    # TW  AS3462    Data Communication Business Group
+1.170.29.0/24    # TW  AS3462    Data Communication Business Group
+1.193.63.0/24    # CN  AS4134    CHINANET-BACKBONE
+1.202.113.0/24   # CN  AS4847    China Networks Inter-Exchange
+1.202.114.0/24   # CN  AS4847    China Networks Inter-Exchange
+2.57.121.0/24    # RO  AS47890   UNMANAGED LTD
+2.57.122.0/24    # RO  AS47890   UNMANAGED LTD
+2.58.56.0/24     # NL  AS210558  1337 Services GmbH
+2.185.99.0/24    # IR  AS58224   Iran Telecommunication Company PJS
+2.185.108.0/24   # IR  AS58224   Iran Telecommunication Company PJS
+4.151.38.0/24    # US  AS8075    Microsoft Corporation
+4.227.36.0/24    # US  AS8075    Microsoft Corporation
+4.246.229.0/24   # US  AS8075    Microsoft Corporation
+4.246.230.0/24   # US  AS8075    Microsoft Corporation
+4.246.231.0/24   # US  AS8075    Microsoft Corporation
+4.246.247.0/24   # US  AS8075    Microsoft Corporation
+5.42.99.0/24     # DE  -         -
+5.59.249.0/24    # IT  AS212271  Cinzia Tocci trading as C1V
+5.62.20.0/24     # NL  AS198605  AVAST Software s.r.o.
+5.63.151.0/24    # GB  AS13213   UK-2 Limited
+5.77.208.0/24    # AM  AS44395   Ucom CJSC
+5.77.209.0/24    # AM  AS44395   Ucom CJSC
+5.77.210.0/24    # AM  AS44395   Ucom CJSC
+5.77.211.0/24    # AM  AS44395   Ucom CJSC
+5.77.212.0/24    # AM  AS44395   Ucom CJSC
+5.77.213.0/24    # AM  AS44395   Ucom CJSC
+5.77.214.0/24    # AM  AS44395   Ucom CJSC
+5.77.215.0/24    # AM  AS44395   Ucom CJSC
+5.101.157.0/24   # RU  AS198610  Beget LLC
+5.183.29.0/24    # RU  AS57334   SPB State Unitary Enterprise "ATS Smolnogo"
+5.236.104.0/24   # IR  AS58224   Iran Telecommunication Company PJS
+5.249.228.0/24   # DK  AS51468   One.com A/S
+8.34.210.0/24    # US  AS396982  Google LLC
+8.216.89.0/24    # JP  AS45102   Alibaba (US) Technology Co., Ltd.
+8.221.141.0/24   # JP  AS45102   Alibaba (US) Technology Co., Ltd.
+13.89.125.0/24   # US  AS8075    Microsoft Corporation
+14.102.189.0/24  # IN  AS137120  Nas Internet Services Private Limited
+14.103.112.0/24  # CN  AS4811    China Telecom (Group)
+14.103.114.0/24  # CN  AS4811    China Telecom (Group)
+14.103.115.0/24  # CN  AS4811    China Telecom (Group)
+14.103.117.0/24  # CN  AS4811    China Telecom (Group)
+14.103.118.0/24  # CN  AS4811    China Telecom (Group)
+14.103.127.0/24  # CN  AS4811    China Telecom (Group)
+14.103.170.0/24  # CN  AS4811    China Telecom (Group)
+14.155.222.0/24  # CN  AS4134    CHINANET-BACKBONE
+14.192.192.0/24  # MY  AS9534    Binariang Berhad
+15.204.37.0/24   # US  AS16276   OVH SAS
+18.97.5.0/24     # US  AS14618   Amazon.com, Inc.
+20.29.36.0/24    # US  AS8075    Microsoft Corporation
+20.64.104.0/24   # US  AS8075    Microsoft Corporation
+20.64.105.0/24   # US  AS8075    Microsoft Corporation
+20.64.106.0/24   # US  AS8075    Microsoft Corporation
+20.65.193.0/24   # US  AS8075    Microsoft Corporation
+20.65.194.0/24   # US  AS8075    Microsoft Corporation
+20.65.195.0/24   # US  AS8075    Microsoft Corporation
+20.83.52.0/24    # US  AS8075    Microsoft Corporation
+20.150.202.0/24  # US  AS8075    Microsoft Corporation
+20.163.15.0/24   # US  AS8075    Microsoft Corporation
+20.168.7.0/24    # US  AS8075    Microsoft Corporation
+20.169.104.0/24  # US  AS8075    Microsoft Corporation
+20.169.105.0/24  # US  AS8075    Microsoft Corporation
+20.169.107.0/24  # US  AS8075    Microsoft Corporation
+20.171.206.0/24  # US  AS8075    Microsoft Corporation
+20.171.207.0/24  # US  AS8075    Microsoft Corporation
+20.221.66.0/24   # US  AS8075    Microsoft Corporation
+20.221.67.0/24   # US  AS8075    Microsoft Corporation
+23.92.21.0/24    # US  AS63949   Akamai Connected Cloud
+23.129.64.0/24   # US  -         -
+23.154.177.0/24  # US  AS399532  Universal Layer LLC
+23.158.56.0/24   # DE  AS63023   GTHost
+24.24.64.0/24    # US  AS13343   Charter Communications Inc
+24.24.65.0/24    # US  AS13343   Charter Communications Inc
+24.24.66.0/24    # US  AS13343   Charter Communications Inc
+24.24.67.0/24    # US  AS13343   Charter Communications Inc
+24.24.68.0/24    # US  AS13343   Charter Communications Inc
+24.24.69.0/24    # US  AS13343   Charter Communications Inc
+24.24.70.0/24    # US  AS13343   Charter Communications Inc
+24.24.71.0/24    # US  AS13343   Charter Communications Inc
+24.24.72.0/24    # US  AS13343   Charter Communications Inc
+27.0.216.0/24    # IN  AS24186   RailTel Corporation of India Ltd
+27.0.217.0/24    # IN  AS24186   RailTel Corporation of India Ltd
+27.20.144.0/24   # CN  AS4134    CHINANET-BACKBONE
+27.20.145.0/24   # CN  AS4134    CHINANET-BACKBONE
+27.25.16.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.17.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.18.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.19.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.20.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.21.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.22.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.23.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.77.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.96.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.97.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.98.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.99.0/24    # CN  AS4134    CHINANET-BACKBONE
+27.25.100.0/24   # CN  AS4134    CHINANET-BACKBONE
+27.25.102.0/24   # CN  AS4134    CHINANET-BACKBONE
+27.43.204.0/24   # CN  AS17816   China Unicom IP network China169 Guangdong province
+27.43.206.0/24   # CN  AS17816   China Unicom IP network China169 Guangdong province
+27.47.0.0/24     # CN  AS17622   China Unicom Guangzhou network
+27.47.2.0/24     # CN  AS17622   China Unicom Guangzhou network
+27.47.3.0/24     # CN  AS17622   China Unicom Guangzhou network
+27.98.228.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+27.112.78.0/24   # ID  AS136052  PT Cloud Hosting Indonesia
+27.115.124.0/24  # CN  AS17621   China Unicom Shanghai network
+27.153.130.0/24  # CN  AS4134    CHINANET-BACKBONE
+31.7.70.0/24     # IR  AS43754   Asiatech Data Transmission company
+31.13.224.0/24   # NZ  AS151612  HOSTPERL
+34.34.233.0/24   # US  AS396982  Google LLC
+34.68.34.0/24    # US  AS396982  Google LLC
+34.96.44.0/24    # US  AS396982  Google LLC
+34.96.45.0/24    # US  AS396982  Google LLC
+34.96.46.0/24    # US  AS396982  Google LLC
+34.96.47.0/24    # US  AS396982  Google LLC
+35.203.210.0/24  # GB  AS396982  Google LLC
+35.203.211.0/24  # GB  AS396982  Google LLC
+36.32.3.0/24     # CN  AS140726  UNICOM AnHui province network
+36.49.35.0/24    # CN  AS4134    CHINANET-BACKBONE
+36.104.221.0/24  # CN  AS4134    CHINANET-BACKBONE
+36.106.166.0/24  # CN  AS17638   ASN for TIANJIN Provincial Net of CT
+36.106.167.0/24  # CN  AS17638   ASN for TIANJIN Provincial Net of CT
+36.155.101.0/24  # CN  AS56046   China Mobile communications corporation
+36.232.118.0/24  # TW  AS3462    Data Communication Business Group
+36.233.64.0/24   # TW  AS3462    Data Communication Business Group
+36.233.69.0/24   # TW  AS3462    Data Communication Business Group
+36.233.73.0/24   # TW  AS3462    Data Communication Business Group
+36.233.74.0/24   # TW  AS3462    Data Communication Business Group
+36.233.77.0/24   # TW  AS3462    Data Communication Business Group
+36.233.78.0/24   # TW  AS3462    Data Communication Business Group
+36.233.80.0/24   # TW  AS3462    Data Communication Business Group
+36.233.86.0/24   # TW  AS3462    Data Communication Business Group
+36.233.87.0/24   # TW  AS3462    Data Communication Business Group
+36.233.90.0/24   # TW  AS3462    Data Communication Business Group
+36.233.91.0/24   # TW  AS3462    Data Communication Business Group
+36.233.92.0/24   # TW  AS3462    Data Communication Business Group
+36.233.93.0/24   # TW  AS3462    Data Communication Business Group
+36.233.94.0/24   # TW  AS3462    Data Communication Business Group
+36.233.107.0/24  # TW  AS3462    Data Communication Business Group
+36.234.65.0/24   # TW  AS3462    Data Communication Business Group
+36.234.68.0/24   # TW  AS3462    Data Communication Business Group
+36.234.74.0/24   # TW  AS3462    Data Communication Business Group
+36.234.75.0/24   # TW  AS3462    Data Communication Business Group
+36.234.76.0/24   # TW  AS3462    Data Communication Business Group
+36.234.82.0/24   # TW  AS3462    Data Communication Business Group
+36.234.85.0/24   # TW  AS3462    Data Communication Business Group
+36.234.95.0/24   # TW  AS3462    Data Communication Business Group
+36.234.96.0/24   # TW  AS3462    Data Communication Business Group
+36.234.98.0/24   # TW  AS3462    Data Communication Business Group
+36.234.122.0/24  # TW  AS3462    Data Communication Business Group
+36.234.211.0/24  # TW  AS3462    Data Communication Business Group
+36.235.27.0/24   # TW  AS3462    Data Communication Business Group
+36.235.28.0/24   # TW  AS3462    Data Communication Business Group
+36.235.29.0/24   # TW  AS3462    Data Communication Business Group
+36.235.30.0/24   # TW  AS3462    Data Communication Business Group
+36.235.31.0/24   # TW  AS3462    Data Communication Business Group
+36.235.32.0/24   # TW  AS3462    Data Communication Business Group
+36.235.34.0/24   # TW  AS3462    Data Communication Business Group
+36.235.238.0/24  # TW  AS3462    Data Communication Business Group
+36.235.239.0/24  # TW  AS3462    Data Communication Business Group
+36.235.240.0/24  # TW  AS3462    Data Communication Business Group
+36.235.241.0/24  # TW  AS3462    Data Communication Business Group
+37.19.223.0/24   # AT  AS212238  Datacamp Limited
+37.139.53.0/24   # RU  AS34665   Petersburg Internet Network ltd.
+37.140.223.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+38.45.32.0/24    # VE  AS272122  TELECOMUNICACIONES G-NETWORK, C.A.
+38.132.109.0/24  # US  AS9009    M247 Europe SRL
+38.156.91.0/24   # DO  AS174     Cogent Communications
+38.188.160.0/24  # DO  AS273113  ONERED JWG532 SRL
+38.188.161.0/24  # DO  AS273113  ONERED JWG532 SRL
+40.124.175.0/24  # US  AS8075    Microsoft Corporation
+41.59.41.0/24    # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.42.0/24    # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.43.0/24    # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.48.0/24    # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.50.0/24    # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.52.0/24    # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.53.0/24    # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.54.0/24    # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.58.0/24    # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.71.0/24    # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.116.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.118.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.128.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.129.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.134.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.142.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.145.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.146.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.150.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.173.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.176.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.177.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.59.222.0/24   # TZ  AS33765   TANZANIA TELECOMMUNICATIONS CO. LTD
+41.60.232.0/24   # KE  AS30844   Liquid Telecommunications Ltd
+41.60.233.0/24   # KE  AS30844   Liquid Telecommunications Ltd
+41.60.234.0/24   # KE  AS30844   Liquid Telecommunications Ltd
+41.60.235.0/24   # KE  AS30844   Liquid Telecommunications Ltd
+42.92.120.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.92.121.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.20.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.21.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.22.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.23.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.24.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.25.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.26.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.27.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.56.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.57.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.58.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.59.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.60.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.61.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.62.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.100.63.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.185.57.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.202.21.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.202.102.0/24  # CN  AS4134    CHINANET-BACKBONE
+42.202.103.0/24  # CN  AS4134    CHINANET-BACKBONE
+42.203.68.0/24   # CN  AS4134    CHINANET-BACKBONE
+43.247.160.0/24  # IN  AS132761  Smartlink Solutions Pvt. Ltd.
+43.248.108.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+43.249.184.0/24  # IN  AS58405   UNITED TELECOMS LIMITED
+44.220.185.0/24  # US  AS14618   Amazon.com, Inc.
+44.220.188.0/24  # US  AS14618   Amazon.com, Inc.
+45.33.71.0/24    # US  AS63949   Akamai Connected Cloud
+45.33.73.0/24    # US  AS63949   Akamai Connected Cloud
+45.33.84.0/24    # US  AS63949   Akamai Connected Cloud
+45.33.91.0/24    # US  AS63949   Akamai Connected Cloud
+45.56.100.0/24   # US  AS63949   Akamai Connected Cloud
+45.56.101.0/24   # US  AS63949   Akamai Connected Cloud
+45.56.102.0/24   # US  AS63949   Akamai Connected Cloud
+45.56.109.0/24   # US  AS63949   Akamai Connected Cloud
+45.56.111.0/24   # US  AS63949   Akamai Connected Cloud
+45.58.159.0/24   # NL  AS46844   Sharktech
+45.58.184.0/24   # US  AS46844   Sharktech
+45.64.226.0/24   # IN  AS23860   Alliance Broadband Services Pvt. Ltd.
+45.78.4.0/24     # US  AS25820   IT7 Networks Inc
+45.78.5.0/24     # US  AS25820   IT7 Networks Inc
+45.78.6.0/24     # US  AS25820   IT7 Networks Inc
+45.78.7.0/24     # US  AS25820   IT7 Networks Inc
+45.79.73.0/24    # US  AS63949   Akamai Connected Cloud
+45.79.114.0/24   # US  AS63949   Akamai Connected Cloud
+45.79.132.0/24   # US  AS63949   Akamai Connected Cloud
+45.79.134.0/24   # US  AS63949   Akamai Connected Cloud
+45.79.163.0/24   # US  AS63949   Akamai Connected Cloud
+45.79.173.0/24   # US  AS63949   Akamai Connected Cloud
+45.79.181.0/24   # US  AS63949   Akamai Connected Cloud
+45.79.190.0/24   # US  AS63949   Akamai Connected Cloud
+45.80.158.0/24   # PL  AS210558  1337 Services GmbH
+45.83.64.0/24    # DE  AS208843  Alpha Strike Labs GmbH
+45.83.65.0/24    # DE  AS208843  Alpha Strike Labs GmbH
+45.83.66.0/24    # DE  AS208843  Alpha Strike Labs GmbH
+45.83.67.0/24    # DE  AS208843  Alpha Strike Labs GmbH
+45.86.200.0/24   # NL  AS206092  Internet Utilities Europe and Asia Limited
+45.86.202.0/24   # DE  AS206092  Internet Utilities Europe and Asia Limited
+45.88.90.0/24    # KZ  AS41798   JSC Transtelecom
+45.88.91.0/24    # US  AS399486  12651980 CANADA INC.
+45.93.20.0/24    # RU  AS57523   Chang Way Technologies Co. Limited
+45.94.31.0/24    # NL  AS210558  1337 Services GmbH
+45.95.146.0/24   # NL  AS49870   Alsycon B.V.
+45.95.147.0/24   # NL  AS49870   Alsycon B.V.
+45.114.125.0/24  # HK  AS206888  HanMing HK Limited
+45.114.179.0/24  # IN  AS45804   MEGHBELA BROADBAND
+45.125.66.0/24   # LT  AS133398  Tele Asia Limited
+45.128.96.0/24   # FI  -         -
+45.128.199.0/24  # NL  AS62240   Clouvider
+45.128.232.0/24  # NL  AS50053   Individual Entrepreneur Anton Levin
+45.130.145.0/24  # RU  AS50340   JSC Selectel
+45.134.26.0/24   # RU  AS198953  Proton66 OOO
+45.135.232.0/24  # RU  AS198953  Proton66 OOO
+45.136.57.0/24   # KZ  AS208450  Megahost Kazakhstan TOO
+45.137.201.0/24  # DE  AS49581   Ferdinand Zink trading as Tube-Hosting
+45.138.16.0/24   # PL  AS210558  1337 Services GmbH
+45.140.17.0/24   # RU  AS198953  Proton66 OOO
+45.141.215.0/24  # PL  AS210558  1337 Services GmbH
+45.142.193.0/24  # NL  AS214295  SKYNET NETWORK LTD
+45.144.212.0/24  # NL  AS214940  KPROHOST LLC
+45.148.10.0/24   # NL  AS48090   TECHOFF SRV LIMITED
+45.149.241.0/24  # GB  -         -
+45.150.237.0/24  # RU  AS328543  Sun Network Company Limited
+45.151.99.0/24   # US  AS19318   Interserver, Inc
+45.154.1.0/24    # US  AS56971   CGI GLOBAL LIMITED
+45.154.98.0/24   # NL  AS210558  1337 Services GmbH
+45.156.128.0/24  # NL  AS211680  NSEC - Sistemas Informaticos, S.A.
+45.156.129.0/24  # US  AS211680  NSEC - Sistemas Informaticos, S.A.
+45.156.130.0/24  # US  AS211680  NSEC - Sistemas Informaticos, S.A.
+45.164.177.0/24  # BR  AS268645  FUTURE DIGITAL TECHNOLOGY E TELECOM LTDA EPP
+45.164.178.0/24  # BR  AS268645  FUTURE DIGITAL TECHNOLOGY E TELECOM LTDA EPP
+45.167.163.0/24  # BR  AS268041  LINKVALE INTERNET EIRELI
+45.177.166.0/24  # BR  AS269029  ARANET COMUNICACAO LTDA - ME
+45.178.129.0/24  # BR  AS269025  GmaX Telecomunicaçao
+45.178.130.0/24  # BR  AS269025  GmaX Telecomunicaçao
+45.178.249.0/24  # BR  AS269051  UNIVERSO FIBER COMUNICACAO MULTIMIDIA
+45.178.250.0/24  # BR  AS269051  UNIVERSO FIBER COMUNICACAO MULTIMIDIA
+45.178.251.0/24  # BR  AS269051  UNIVERSO FIBER COMUNICACAO MULTIMIDIA
+45.184.110.0/24  # PY  AS269783  WIND NET S.A.
+45.195.9.0/24    # JP  AS142002  Scloud Pte Ltd
+45.200.148.0/24  # ID  AS17561   LARUS Limited
+45.200.149.0/24  # ID  AS17561   LARUS Limited
+45.202.32.0/24   # LT  AS6079    RCN
+45.206.58.0/24   # TW  AS984     OCTOPUS WEB SOLUTION INC
+45.221.97.0/24   # US  AS140869  Turing Group Limited
+45.227.254.0/24  # LT  AS267784  Flyservers S.A.
+45.229.19.0/24   # AR  AS266690  QTY S.A
+45.230.66.0/24   # AR  AS266702  MEGALINK S.R.L.
+45.232.28.0/24   # BR  AS267241  GMAES TELECOM LTDA ME
+46.21.90.0/24    # IR  AS34636   Laser Company Ltd
+46.21.91.0/24    # IR  AS34636   Laser Company Ltd
+46.100.77.0/24   # IR  -         -
+46.100.177.0/24  # IR  AS58224   Iran Telecommunication Company PJS
+46.101.164.0/24  # DE  AS14061   DigitalOcean, LLC
+46.142.124.0/24  # DE  AS8881    1&1 Versatel Deutschland GmbH
+46.148.40.0/24   # IR  -         -
+46.236.65.0/24   # SE  AS29518   Bredband2 AB
+46.243.68.0/24   # SK  AS39574   Minet Slovakia s.r.o.
+46.246.8.0/24    # SE  AS42708   GleSYS AB
+47.82.9.0/24     # SG  AS45102   Alibaba (US) Technology Co., Ltd.
+47.82.10.0/24    # SG  AS45102   Alibaba (US) Technology Co., Ltd.
+47.82.11.0/24    # SG  AS45102   Alibaba (US) Technology Co., Ltd.
+47.238.193.0/24  # HK  AS45102   Alibaba (US) Technology Co., Ltd.
+48.216.196.0/24  # US  AS8075    Microsoft Corporation
+48.216.248.0/24  # US  AS8075    Microsoft Corporation
+48.217.153.0/24  # US  AS8075    Microsoft Corporation
+49.77.199.0/24   # CN  AS4134    CHINANET-BACKBONE
+49.113.92.0/24   # CN  AS4134    CHINANET-BACKBONE
+49.113.93.0/24   # CN  AS4134    CHINANET-BACKBONE
+49.113.94.0/24   # CN  AS4134    CHINANET-BACKBONE
+49.113.95.0/24   # CN  AS4134    CHINANET-BACKBONE
+49.124.149.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.124.151.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.124.152.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.124.153.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.160.83.0/24   # KR  AS17858   LG POWERCOMM
+50.114.17.0/24   # US  AS401152  Ace Data Centers II, L.L.C.
+50.116.4.0/24    # US  AS63949   Akamai Connected Cloud
+50.116.58.0/24   # US  AS63949   Akamai Connected Cloud
+50.116.60.0/24   # US  AS63949   Akamai Connected Cloud
+51.8.102.0/24    # US  AS8075    Microsoft Corporation
+52.230.152.0/24  # US  AS8075    Microsoft Corporation
+57.152.56.0/24   # US  AS8075    Microsoft Corporation
+57.152.78.0/24   # US  AS8075    Microsoft Corporation
+58.42.205.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.45.56.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.47.16.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.47.17.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.47.18.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.47.19.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.47.64.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.47.65.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.47.66.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.47.67.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.47.104.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.47.105.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.47.106.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.47.107.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.47.108.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.47.109.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.47.110.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.47.111.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.47.120.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.47.121.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.47.122.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.47.123.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.52.81.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.52.83.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.52.84.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.52.86.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.52.87.0/24    # CN  AS4134    CHINANET-BACKBONE
+58.52.102.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.52.105.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.52.106.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.52.109.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.52.110.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.52.111.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.59.233.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.59.246.0/24   # CN  AS4134    CHINANET-BACKBONE
+58.84.60.0/24    # IN  AS134674  TATA PLAY BROADBAND PRIVATE LIMITED
+58.84.61.0/24    # IN  AS134674  TATA PLAY BROADBAND PRIVATE LIMITED
+58.84.62.0/24    # IN  AS134674  TATA PLAY BROADBAND PRIVATE LIMITED
+58.212.237.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.45.228.0/24   # CN  AS4134    CHINANET-BACKBONE
+59.47.188.0/24   # CN  AS4134    CHINANET-BACKBONE
+59.52.178.0/24   # CN  AS4134    CHINANET-BACKBONE
+59.52.179.0/24   # CN  AS4134    CHINANET-BACKBONE
+59.61.184.0/24   # CN  AS4134    CHINANET-BACKBONE
+59.88.1.0/24     # IN  AS9829    National Internet Backbone
+59.88.4.0/24     # IN  AS9829    National Internet Backbone
+59.88.6.0/24     # IN  AS9829    National Internet Backbone
+59.88.9.0/24     # IN  AS9829    National Internet Backbone
+59.88.10.0/24    # IN  AS9829    National Internet Backbone
+59.88.11.0/24    # IN  AS9829    National Internet Backbone
+59.88.13.0/24    # IN  AS9829    National Internet Backbone
+59.88.80.0/24    # IN  AS9829    National Internet Backbone
+59.88.81.0/24    # IN  AS9829    National Internet Backbone
+59.88.86.0/24    # IN  AS9829    National Internet Backbone
+59.88.88.0/24    # IN  AS9829    National Internet Backbone
+59.88.95.0/24    # IN  AS9829    National Internet Backbone
+59.88.130.0/24   # IN  AS9829    National Internet Backbone
+59.88.131.0/24   # IN  AS9829    National Internet Backbone
+59.88.134.0/24   # IN  AS9829    National Internet Backbone
+59.88.135.0/24   # IN  AS9829    National Internet Backbone
+59.88.137.0/24   # IN  AS9829    National Internet Backbone
+59.88.138.0/24   # IN  AS9829    National Internet Backbone
+59.88.141.0/24   # IN  AS9829    National Internet Backbone
+59.88.142.0/24   # IN  AS9829    National Internet Backbone
+59.88.146.0/24   # IN  AS9829    National Internet Backbone
+59.88.149.0/24   # IN  AS9829    National Internet Backbone
+59.88.150.0/24   # IN  AS9829    National Internet Backbone
+59.88.151.0/24   # IN  AS9829    National Internet Backbone
+59.88.152.0/24   # IN  AS9829    National Internet Backbone
+59.88.157.0/24   # IN  AS9829    National Internet Backbone
+59.88.158.0/24   # IN  AS9829    National Internet Backbone
+59.88.159.0/24   # IN  AS9829    National Internet Backbone
+59.89.2.0/24     # IN  AS9829    National Internet Backbone
+59.89.6.0/24     # IN  AS9829    National Internet Backbone
+59.89.67.0/24    # IN  AS9829    National Internet Backbone
+59.89.69.0/24    # IN  AS9829    National Internet Backbone
+59.89.220.0/24   # IN  AS9829    National Internet Backbone
+59.91.35.0/24    # IN  AS9829    National Internet Backbone
+59.91.37.0/24    # IN  AS9829    National Internet Backbone
+59.91.42.0/24    # IN  AS9829    National Internet Backbone
+59.91.44.0/24    # IN  AS9829    National Internet Backbone
+59.91.45.0/24    # IN  AS9829    National Internet Backbone
+59.91.97.0/24    # IN  AS9829    National Internet Backbone
+59.91.164.0/24   # IN  AS9829    National Internet Backbone
+59.91.234.0/24   # IN  AS9829    National Internet Backbone
+59.91.237.0/24   # IN  AS9829    National Internet Backbone
+59.91.254.0/24   # IN  AS9829    National Internet Backbone
+59.92.45.0/24    # IN  AS9829    National Internet Backbone
+59.92.164.0/24   # IN  AS9829    National Internet Backbone
+59.92.169.0/24   # IN  AS9829    National Internet Backbone
+59.92.172.0/24   # IN  AS9829    National Internet Backbone
+59.92.174.0/24   # IN  AS9829    National Internet Backbone
+59.92.179.0/24   # IN  AS9829    National Internet Backbone
+59.92.189.0/24   # IN  AS9829    National Internet Backbone
+59.93.73.0/24    # IN  AS9829    National Internet Backbone
+59.93.234.0/24   # IN  AS9829    National Internet Backbone
+59.93.236.0/24   # IN  AS9829    National Internet Backbone
+59.95.81.0/24    # IN  AS9829    National Internet Backbone
+59.95.82.0/24    # IN  AS9829    National Internet Backbone
+59.95.83.0/24    # IN  AS9829    National Internet Backbone
+59.95.85.0/24    # IN  AS9829    National Internet Backbone
+59.95.86.0/24    # IN  AS9829    National Internet Backbone
+59.95.87.0/24    # IN  AS9829    National Internet Backbone
+59.95.88.0/24    # IN  AS9829    National Internet Backbone
+59.95.89.0/24    # IN  AS9829    National Internet Backbone
+59.95.91.0/24    # IN  AS9829    National Internet Backbone
+59.95.92.0/24    # IN  AS9829    National Internet Backbone
+59.95.93.0/24    # IN  AS9829    National Internet Backbone
+59.95.94.0/24    # IN  AS9829    National Internet Backbone
+59.95.95.0/24    # IN  AS9829    National Internet Backbone
+59.95.120.0/24   # IN  AS9829    National Internet Backbone
+59.96.125.0/24   # IN  AS9829    National Internet Backbone
+59.97.28.0/24    # IN  AS9829    National Internet Backbone
+59.97.30.0/24    # IN  AS9829    National Internet Backbone
+59.97.176.0/24   # IN  AS9829    National Internet Backbone
+59.97.177.0/24   # IN  AS9829    National Internet Backbone
+59.97.178.0/24   # IN  AS9829    National Internet Backbone
+59.97.179.0/24   # IN  AS9829    National Internet Backbone
+59.97.180.0/24   # IN  AS9829    National Internet Backbone
+59.97.181.0/24   # IN  AS9829    National Internet Backbone
+59.97.182.0/24   # IN  AS9829    National Internet Backbone
+59.97.183.0/24   # IN  AS9829    National Internet Backbone
+59.97.247.0/24   # IN  AS9829    National Internet Backbone
+59.98.22.0/24    # IN  AS9829    National Internet Backbone
+59.98.31.0/24    # IN  AS9829    National Internet Backbone
+59.99.195.0/24   # IN  AS9829    National Internet Backbone
+59.99.201.0/24   # IN  AS9829    National Internet Backbone
+59.172.116.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.172.117.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.172.119.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.173.132.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.173.133.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.173.134.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.173.135.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.178.0.0/24    # IN  AS9829    National Internet Backbone
+59.178.4.0/24    # IN  AS9829    National Internet Backbone
+59.178.8.0/24    # IN  AS9829    National Internet Backbone
+59.178.9.0/24    # IN  AS9829    National Internet Backbone
+59.178.11.0/24   # IN  AS9829    National Internet Backbone
+59.178.13.0/24   # IN  AS9829    National Internet Backbone
+59.178.33.0/24   # IN  AS9829    National Internet Backbone
+59.178.146.0/24  # IN  AS9829    National Internet Backbone
+59.178.153.0/24  # IN  AS9829    National Internet Backbone
+59.178.244.0/24  # IN  AS9829    National Internet Backbone
+59.180.182.0/24  # IN  AS17813   Mahanagar Telephone Nigam Limited
+59.182.65.0/24   # IN  AS9829    National Internet Backbone
+59.182.112.0/24  # IN  AS9829    National Internet Backbone
+59.182.114.0/24  # IN  AS9829    National Internet Backbone
+59.182.115.0/24  # IN  AS9829    National Internet Backbone
+59.182.117.0/24  # IN  AS9829    National Internet Backbone
+59.182.120.0/24  # IN  AS9829    National Internet Backbone
+59.182.124.0/24  # IN  AS9829    National Internet Backbone
+59.182.125.0/24  # IN  AS9829    National Internet Backbone
+59.182.126.0/24  # IN  AS9829    National Internet Backbone
+59.182.132.0/24  # IN  AS9829    National Internet Backbone
+59.182.138.0/24  # IN  AS9829    National Internet Backbone
+59.182.144.0/24  # IN  AS9829    National Internet Backbone
+59.182.147.0/24  # IN  AS9829    National Internet Backbone
+59.182.150.0/24  # IN  AS9829    National Internet Backbone
+59.182.156.0/24  # IN  AS9829    National Internet Backbone
+59.182.157.0/24  # IN  AS9829    National Internet Backbone
+59.182.240.0/24  # IN  AS9829    National Internet Backbone
+59.182.246.0/24  # IN  AS9829    National Internet Backbone
+59.182.249.0/24  # IN  AS9829    National Internet Backbone
+59.182.251.0/24  # IN  AS9829    National Internet Backbone
+59.183.17.0/24   # IN  AS9829    National Internet Backbone
+59.183.19.0/24   # IN  AS9829    National Internet Backbone
+59.183.30.0/24   # IN  AS9829    National Internet Backbone
+59.183.144.0/24  # IN  AS9829    National Internet Backbone
+59.183.146.0/24  # IN  AS9829    National Internet Backbone
+59.183.147.0/24  # IN  AS9829    National Internet Backbone
+59.183.150.0/24  # IN  AS9829    National Internet Backbone
+59.183.151.0/24  # IN  AS9829    National Internet Backbone
+59.183.153.0/24  # IN  AS9829    National Internet Backbone
+59.183.155.0/24  # IN  AS9829    National Internet Backbone
+59.184.54.0/24   # IN  AS9829    National Internet Backbone
+59.184.68.0/24   # IN  AS9829    National Internet Backbone
+59.184.70.0/24   # IN  AS9829    National Internet Backbone
+59.184.74.0/24   # IN  AS9829    National Internet Backbone
+59.184.79.0/24   # IN  AS9829    National Internet Backbone
+59.184.240.0/24  # IN  AS9829    National Internet Backbone
+59.184.242.0/24  # IN  AS9829    National Internet Backbone
+59.184.243.0/24  # IN  AS9829    National Internet Backbone
+59.184.245.0/24  # IN  AS9829    National Internet Backbone
+59.184.248.0/24  # IN  AS9829    National Internet Backbone
+59.184.250.0/24  # IN  AS9829    National Internet Backbone
+59.184.252.0/24  # IN  AS9829    National Internet Backbone
+59.184.253.0/24  # IN  AS9829    National Internet Backbone
+59.184.254.0/24  # IN  AS9829    National Internet Backbone
+59.184.255.0/24  # IN  AS9829    National Internet Backbone
+60.13.6.0/24     # CN  AS4837    CHINA UNICOM China169 Backbone
+60.13.7.0/24     # CN  AS4837    CHINA UNICOM China169 Backbone
+60.13.138.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+60.23.232.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+60.23.233.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+60.23.234.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+60.23.235.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+60.23.236.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+60.23.237.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+60.23.238.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+60.23.239.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+60.161.47.0/24   # CN  AS4134    CHINANET-BACKBONE
+61.0.152.0/24    # IN  AS9829    National Internet Backbone
+61.1.128.0/24    # IN  AS9829    National Internet Backbone
+61.1.131.0/24    # IN  AS9829    National Internet Backbone
+61.1.140.0/24    # IN  AS9829    National Internet Backbone
+61.1.143.0/24    # IN  AS9829    National Internet Backbone
+61.2.146.0/24    # IN  AS9829    National Internet Backbone
+61.2.147.0/24    # IN  AS9829    National Internet Backbone
+61.2.149.0/24    # IN  AS9829    National Internet Backbone
+61.3.16.0/24     # IN  AS9829    National Internet Backbone
+61.3.17.0/24     # IN  AS9829    National Internet Backbone
+61.3.18.0/24     # IN  AS9829    National Internet Backbone
+61.3.19.0/24     # IN  AS9829    National Internet Backbone
+61.3.20.0/24     # IN  AS9829    National Internet Backbone
+61.3.21.0/24     # IN  AS9829    National Internet Backbone
+61.3.23.0/24     # IN  AS9829    National Internet Backbone
+61.3.24.0/24     # IN  AS9829    National Internet Backbone
+61.3.25.0/24     # IN  AS9829    National Internet Backbone
+61.3.27.0/24     # IN  AS9829    National Internet Backbone
+61.3.28.0/24     # IN  AS9829    National Internet Backbone
+61.3.31.0/24     # IN  AS9829    National Internet Backbone
+61.3.48.0/24     # IN  AS9829    National Internet Backbone
+61.3.133.0/24    # IN  AS9829    National Internet Backbone
+61.3.134.0/24    # IN  AS9829    National Internet Backbone
+61.3.136.0/24    # IN  AS9829    National Internet Backbone
+61.3.137.0/24    # IN  AS9829    National Internet Backbone
+61.3.141.0/24    # IN  AS9829    National Internet Backbone
+61.3.142.0/24    # IN  AS9829    National Internet Backbone
+61.3.209.0/24    # IN  AS9829    National Internet Backbone
+61.3.217.0/24    # IN  AS9829    National Internet Backbone
+61.3.221.0/24    # IN  AS9829    National Internet Backbone
+61.7.189.0/24    # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+61.158.26.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+61.167.255.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+61.223.8.0/24    # TW  AS3462    Data Communication Business Group
+61.223.10.0/24   # TW  AS3462    Data Communication Business Group
+61.223.11.0/24   # TW  AS3462    Data Communication Business Group
+61.223.74.0/24   # TW  AS3462    Data Communication Business Group
+61.223.109.0/24  # TW  AS3462    Data Communication Business Group
+61.223.110.0/24  # TW  AS3462    Data Communication Business Group
+61.223.111.0/24  # TW  AS3462    Data Communication Business Group
+61.223.128.0/24  # TW  AS3462    Data Communication Business Group
+61.223.129.0/24  # TW  AS3462    Data Communication Business Group
+61.223.130.0/24  # TW  AS3462    Data Communication Business Group
+61.223.131.0/24  # TW  AS3462    Data Communication Business Group
+61.223.132.0/24  # TW  AS3462    Data Communication Business Group
+61.223.133.0/24  # TW  AS3462    Data Communication Business Group
+61.223.134.0/24  # TW  AS3462    Data Communication Business Group
+61.223.135.0/24  # TW  AS3462    Data Communication Business Group
+61.223.136.0/24  # TW  AS3462    Data Communication Business Group
+61.223.137.0/24  # TW  AS3462    Data Communication Business Group
+61.223.138.0/24  # TW  AS3462    Data Communication Business Group
+61.223.139.0/24  # TW  AS3462    Data Communication Business Group
+61.223.140.0/24  # TW  AS3462    Data Communication Business Group
+61.223.141.0/24  # TW  AS3462    Data Communication Business Group
+61.223.142.0/24  # TW  AS3462    Data Communication Business Group
+61.223.143.0/24  # TW  AS3462    Data Communication Business Group
+61.224.2.0/24    # TW  AS3462    Data Communication Business Group
+61.224.4.0/24    # TW  AS3462    Data Communication Business Group
+61.224.5.0/24    # TW  AS3462    Data Communication Business Group
+61.224.21.0/24   # TW  AS3462    Data Communication Business Group
+61.224.22.0/24   # TW  AS3462    Data Communication Business Group
+61.224.24.0/24   # TW  AS3462    Data Communication Business Group
+61.224.27.0/24   # TW  AS3462    Data Communication Business Group
+61.224.28.0/24   # TW  AS3462    Data Communication Business Group
+61.224.45.0/24   # TW  AS3462    Data Communication Business Group
+62.72.43.0/24    # IN  AS141995  Contabo Asia Private Limited
+62.142.125.0/24  # FI  AS719     Elisa Oyj
+62.204.41.0/24   # RU  AS59425   Chang Way Technologies Co. Limited
+64.62.156.0/24   # US  AS6939    Hurricane Electric LLC
+64.62.197.0/24   # US  AS6939    Hurricane Electric LLC
+64.124.8.0/24    # US  AS36321   Castle Global Inc.
+64.227.133.0/24  # IN  AS14061   DigitalOcean, LLC
+64.227.142.0/24  # IN  AS14061   DigitalOcean, LLC
+64.227.143.0/24  # IN  AS14061   DigitalOcean, LLC
+64.227.144.0/24  # IN  AS14061   DigitalOcean, LLC
+64.227.146.0/24  # IN  AS14061   DigitalOcean, LLC
+64.227.147.0/24  # IN  AS14061   DigitalOcean, LLC
+64.227.149.0/24  # IN  AS14061   DigitalOcean, LLC
+64.227.151.0/24  # IN  AS14061   DigitalOcean, LLC
+64.227.153.0/24  # IN  AS14061   DigitalOcean, LLC
+64.227.156.0/24  # IN  AS14061   DigitalOcean, LLC
+64.227.158.0/24  # IN  AS14061   DigitalOcean, LLC
+65.49.1.0/24     # US  AS6939    Hurricane Electric LLC
+65.49.20.0/24    # US  AS6939    Hurricane Electric LLC
+66.63.187.0/24   # TR  AS214943  Railnet LLC
+66.132.153.0/24  # US  AS398324  Censys, Inc.
+66.175.44.0/24   # US  AS30447   Internet Names For Business Inc.
+66.175.212.0/24  # US  AS63949   Akamai Connected Cloud
+66.175.213.0/24  # US  AS63949   Akamai Connected Cloud
+66.228.37.0/24   # US  AS63949   Akamai Connected Cloud
+66.228.44.0/24   # US  AS63949   Akamai Connected Cloud
+68.183.85.0/24   # IN  AS14061   DigitalOcean, LLC
+68.183.88.0/24   # IN  AS14061   DigitalOcean, LLC
+69.164.217.0/24  # US  AS63949   Akamai Connected Cloud
+69.164.219.0/24  # US  AS63949   Akamai Connected Cloud
+70.39.75.0/24    # US  AS46844   Sharktech
+70.39.90.0/24    # US  AS46844   Sharktech
+71.6.233.0/24    # US  AS10439   CariNet, Inc.
+74.80.208.0/24   # US  AS36321   Castle Global Inc.
+74.82.47.0/24    # US  AS6939    Hurricane Electric LLC
+74.207.240.0/24  # US  AS63949   Akamai Connected Cloud
+77.90.22.0/24    # DE  AS58212   dataforest GmbH
+77.90.153.0/24   # TR  AS214943  Railnet LLC
+77.90.185.0/24   # LT  AS215476  Inside Network LTD
+77.239.211.0/24  # RU  AS8359    MTS PJSC
+77.239.213.0/24  # RU  AS8359    MTS PJSC
+77.239.214.0/24  # RU  AS8359    MTS PJSC
+77.239.215.0/24  # RU  AS8359    MTS PJSC
+77.239.216.0/24  # RU  AS8359    MTS PJSC
+77.239.217.0/24  # RU  AS8359    MTS PJSC
+77.239.218.0/24  # RU  AS8359    MTS PJSC
+77.239.219.0/24  # RU  AS8359    MTS PJSC
+77.239.220.0/24  # RU  AS8359    MTS PJSC
+77.239.222.0/24  # RU  AS8359    MTS PJSC
+78.39.250.0/24   # IR  AS58224   Iran Telecommunication Company PJS
+78.128.114.0/24  # BG  AS50360   Tamatiya EOOD
+78.153.140.0/24  # GB  AS202306  HOSTGLOBAL.PLUS LTD
+79.110.49.0/24   # FR  AS399486  12651980 CANADA INC.
+79.110.62.0/24   # FI  -         -
+80.64.30.0/24    # RU  AS59425   Chang Way Technologies Co. Limited
+80.66.83.0/24    # RU  AS209559  XHOST INTERNET SOLUTIONS LP
+80.76.49.0/24    # US  AS399486  12651980 CANADA INC.
+80.76.51.0/24    # AL  AS48014   Albanian Hosting SH.P.K.
+80.87.206.0/24   # FR  AS16276   OVH SAS
+80.94.92.0/24    # RO  AS47890   UNMANAGED LTD
+80.94.93.0/24    # RO  AS47890   UNMANAGED LTD
+80.94.95.0/24    # RO  AS204428  SS-Net
+80.184.221.0/24  # KW  AS6412    KEMS Block-A, Floor 7, Souq Al-Kabeer Kuwait City, State of Kuwait P O Box 3623, Safat 13037 KW
+80.191.254.0/24  # IR  AS58224   Iran Telecommunication Company PJS
+80.210.161.0/24  # IR  AS58224   Iran Telecommunication Company PJS
+80.210.164.0/24  # IR  AS58224   Iran Telecommunication Company PJS
+80.210.174.0/24  # IR  AS58224   Iran Telecommunication Company PJS
+80.244.11.0/24   # NL  AS60781   LeaseWeb Netherlands B.V.
+81.0.246.0/24    # GB  AS51167   Contabo GmbH
+81.24.156.0/24   # SA  AS35753   Integrated Telecom Co. Ltd
+81.30.107.0/24   # LT  AS215930  CIPHER OPERATIONS DOO BEOGRAD - NOVI BEOGRAD
+81.88.49.0/24    # IT  AS39729   REGISTER S.P.A.
+81.161.238.0/24  # NL  AS214668  AxusHost B.V.
+82.180.144.0/24  # IN  AS141995  Contabo Asia Private Limited
+83.222.190.0/24  # BG  AS204428  SS-Net
+83.222.191.0/24  # BG  AS204428  SS-Net
+84.17.46.0/24    # NL  AS60068   Datacamp Limited
+84.17.52.0/24    # CH  AS212238  Datacamp Limited
+84.21.173.0/24   # DE  AS215439  PLAY2GO INTERNATIONAL LIMITED
+84.53.198.0/24   # RU  AS34168   PJSC Rostelecom
+84.53.216.0/24   # RU  AS34168   PJSC Rostelecom
+84.53.229.0/24   # RU  AS34168   PJSC Rostelecom
+84.54.51.0/24    # CH  AS200019  ALEXHOST SRL
+85.31.47.0/24    # NL  AS151612  HOSTPERL
+85.128.143.0/24  # PL  AS15967   Nazwa.pl Sp.z.o.o.
+85.142.100.0/24  # RU  AS49505   JSC Selectel
+85.203.21.0/24   # SG  AS206092  Internet Utilities Europe and Asia Limited
+85.208.214.0/24  # JP  AS138968  rainbow network limited
+85.208.253.0/24  # IR  AS61173   Green Web Samaneh Novin PJSC
+85.209.11.0/24   # RU  AS216358  KSB CB CJSC
+85.209.133.0/24  # DE  AS215787  NTG Nuernberger Telekommunikationsgesellschaft mbH
+85.209.229.0/24  # FI  AS56594   CGI GLOBAL LIMITED
+86.62.13.0/24    # RU  AS60764   TK Telecom
+86.62.14.0/24    # RU  AS60764   TK Telecom
+87.120.84.0/24   # DE  AS215439  PLAY2GO INTERNATIONAL LIMITED
+87.120.112.0/24  # BG  -         -
+87.120.113.0/24  # BG  -         -
+87.120.114.0/24  # BG  -         -
+87.120.115.0/24  # BG  -         -
+87.120.116.0/24  # BG  -         -
+87.120.117.0/24  # BG  -         -
+87.120.120.0/24  # BG  -         -
+87.120.125.0/24  # BG  -         -
+87.120.126.0/24  # BG  AS213511  VSVK Onderhoud B.V.
+87.120.127.0/24  # US  AS213511  VSVK Onderhoud B.V.
+87.120.165.0/24  # DE  AS215439  PLAY2GO INTERNATIONAL LIMITED
+87.121.69.0/24   # NL  AS213035  Des Capital B.V.
+87.121.84.0/24   # NL  AS215925  VPSVAULT.HOST LTD
+87.121.86.0/24   # EE  AS214417  Andrii Hrosh
+87.121.105.0/24  # SE  AS215439  PLAY2GO INTERNATIONAL LIMITED
+87.236.176.0/24  # GB  AS211298  Driftnet Ltd
+87.248.154.0/24  # IR  AS47216   Ettelaat Fanavarn-E Tookan Co Ltd
+88.129.112.0/24  # SE  AS29518   Bredband2 AB
+88.202.190.0/24  # GB  AS13213   UK-2 Limited
+89.182.200.0/24  # DE  AS13045   htp GmbH
+89.183.192.0/24  # DE  AS13045   htp GmbH
+89.187.164.0/24  # US  AS60068   Datacamp Limited
+89.190.156.0/24  # NL  AS49870   Alsycon B.V.
+89.213.174.0/24  # RO  AS214209  Internet Magnate (Pty) Ltd
+89.248.163.0/24  # NL  AS202425  IP Volume inc
+89.248.165.0/24  # NL  AS202425  IP Volume inc
+91.92.240.0/24   # NL  AS2914    NTT America, Inc.
+91.92.241.0/24   # NL  AS2914    NTT America, Inc.
+91.92.242.0/24   # NL  AS2914    NTT America, Inc.
+91.92.243.0/24   # NL  AS2914    NTT America, Inc.
+91.92.244.0/24   # NL  AS2914    NTT America, Inc.
+91.92.245.0/24   # NL  AS2914    NTT America, Inc.
+91.92.246.0/24   # NL  AS2914    NTT America, Inc.
+91.92.247.0/24   # NL  AS2914    NTT America, Inc.
+91.92.248.0/24   # NL  AS2914    NTT America, Inc.
+91.92.249.0/24   # NL  AS2914    NTT America, Inc.
+91.92.250.0/24   # NL  AS2914    NTT America, Inc.
+91.92.251.0/24   # NL  AS2914    NTT America, Inc.
+91.92.252.0/24   # NL  AS2914    NTT America, Inc.
+91.92.254.0/24   # NL  AS2914    NTT America, Inc.
+91.92.255.0/24   # NL  AS2914    NTT America, Inc.
+91.149.4.0/24    # NO  AS203995  Lyse Tele AS
+91.196.152.0/24  # FR  AS213412  ONYPHE SAS
+91.212.137.0/24  # RU  AS49347   PUBLIC JOINT STOCK COMPANY "TRANSCAPITALBANK"
+91.231.202.0/24  # AM  AS210315  Arpinet LLC
+92.53.96.0/24    # RU  AS9123    TimeWeb Ltd.
+92.118.39.0/24   # HU  AS47890   UNMANAGED LTD
+92.119.36.0/24   # US  AS62240   Clouvider
+92.249.48.0/24   # DE  AS215787  NTG Nuernberger Telekommunikationsgesellschaft mbH
+92.255.57.0/24   # RU  AS207566  Chang Way Technologies Co. Limited
+92.255.85.0/24   # RU  AS207566  Chang Way Technologies Co. Limited
+93.90.73.0/24    # TW  AS138968  rainbow network limited
+93.123.39.0/24   # EE  AS213702  QWINS LTD
+93.123.85.0/24   # EE  -         -
+93.123.109.0/24  # GB  AS48090   TECHOFF SRV LIMITED
+93.126.35.0/24   # IR  AS44375   Asmanfaraz Sepahan Company (P.J.S)
+93.170.122.0/24  # UA  AS208038  ITTak LLC
+94.79.7.0/24     # RU  AS8732    JSC Comcor
+94.103.125.0/24  # EE  -         -
+94.141.120.0/24  # GB  AS61087   DGTL TECH UK LLP
+94.154.35.0/24   # TR  AS214943  Railnet LLC
+94.156.8.0/24    # CA  AS214438  NexGen Cloud Ltd
+94.156.64.0/24   # NL  AS2914    NTT America, Inc.
+94.156.65.0/24   # NL  AS2914    NTT America, Inc.
+94.156.66.0/24   # NL  AS2914    NTT America, Inc.
+94.156.67.0/24   # NL  AS2914    NTT America, Inc.
+94.156.68.0/24   # NL  AS2914    NTT America, Inc.
+94.156.69.0/24   # NL  AS2914    NTT America, Inc.
+94.156.71.0/24   # NL  AS2914    NTT America, Inc.
+94.156.79.0/24   # FI  AS57043   HOSTKEY B.V.
+94.156.167.0/24  # NL  AS213511  VSVK Onderhoud B.V.
+94.156.177.0/24  # TR  AS214943  Railnet LLC
+94.156.227.0/24  # TR  AS214943  Railnet LLC
+95.167.53.0/24   # RU  AS12389   PJSC Rostelecom
+95.182.115.0/24  # FI  AS56971   CGI GLOBAL LIMITED
+95.214.27.0/24   # BG  AS20911   Net-Surf.net Ltd.
+95.214.55.0/24   # PL  AS201814  MEVSPACE sp. z o.o.
+96.44.153.0/24   # US  AS36352   HostPapa
+96.126.110.0/24  # US  AS63949   Akamai Connected Cloud
+97.107.129.0/24  # US  AS63949   Akamai Connected Cloud
+97.107.131.0/24  # US  AS63949   Akamai Connected Cloud
+97.107.137.0/24  # US  AS63949   Akamai Connected Cloud
+97.107.138.0/24  # US  AS63949   Akamai Connected Cloud
+97.107.141.0/24  # US  AS63949   Akamai Connected Cloud
+98.80.4.0/24     # US  AS14618   Amazon.com, Inc.
+98.96.193.0/24   # US  AS21859   Zenlayer Inc
+98.197.25.0/24   # US  AS7922    Comcast Cable Communications, LLC
+100.29.192.0/24  # US  AS14618   Amazon.com, Inc.
+101.51.113.0/24  # TH  AS23969   TOT Public Company Limited
+101.51.114.0/24  # TH  AS23969   TOT Public Company Limited
+101.68.57.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+101.68.58.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+101.68.59.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+101.71.37.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+101.71.38.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+101.71.39.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+102.207.137.0/24 # NG  AS329503  NGCOM LASTMILE SOLUTION LTD
+102.207.138.0/24 # NG  AS329503  NGCOM LASTMILE SOLUTION LTD
+102.212.40.0/24  # NG  AS329244  Connect, Surf and Smile Limited
+102.212.41.0/24  # NG  AS329244  Connect, Surf and Smile Limited
+103.28.245.0/24  # IN  AS24186   RailTel Corporation of India Ltd
+103.30.63.0/24   # BD  AS150397  UNIVERSE LINK
+103.31.39.0/24   # ID  AS136052  PT Cloud Hosting Indonesia
+103.42.243.0/24  # ID  AS151595  PT Merdeka Media Teknologi
+103.48.66.0/24   # IN  AS45235   GEOCITY NETWORK SOLUTIONS PVT LTD
+103.48.67.0/24   # IN  AS45235   GEOCITY NETWORK SOLUTIONS PVT LTD
+103.52.114.0/24  # ID  AS136052  PT Cloud Hosting Indonesia
+103.59.94.0/24   # ID  AS136052  PT Cloud Hosting Indonesia
+103.69.226.0/24  # IN  AS136359  Hansin It Services Pvt. Ltd.
+103.76.120.0/24  # ID  AS136052  PT Cloud Hosting Indonesia
+103.78.0.0/24    # VN  AS140810  Megacore Technology Company Limited
+103.82.92.0/24   # ID  AS136052  PT Cloud Hosting Indonesia
+103.91.180.0/24  # IN  AS55947   Bangalore Broadband Network Pvt Ltd
+103.94.142.0/24  # IN  AS150627  Paltech Info Services Pvt Ltd
+103.94.143.0/24  # IN  AS150627  Paltech Info Services Pvt Ltd
+103.98.36.0/24   # IN  AS45235   GEOCITY NETWORK SOLUTIONS PVT LTD
+103.98.37.0/24   # IN  AS45235   GEOCITY NETWORK SOLUTIONS PVT LTD
+103.98.38.0/24   # IN  AS45235   GEOCITY NETWORK SOLUTIONS PVT LTD
+103.101.113.0/24 # IN  AS137085  ANO Broadband Service Pvt Ltd
+103.101.114.0/24 # IN  AS137085  ANO Broadband Service Pvt Ltd
+103.117.56.0/24  # ID  AS136052  PT Cloud Hosting Indonesia
+103.117.57.0/24  # ID  AS136052  PT Cloud Hosting Indonesia
+103.134.154.0/24 # SG  AS138608  Cloud Host Pte Ltd
+103.139.193.0/24 # ID  AS136052  PT Cloud Hosting Indonesia
+103.140.72.0/24  # IN  AS139482  Vilas Internet Services Pvt Ltd
+103.140.73.0/24  # IN  AS139482  Vilas Internet Services Pvt Ltd
+103.142.199.0/24 # IN  AS139482  Vilas Internet Services Pvt Ltd
+103.156.210.0/24 # IN  AS134904  Code Technology
+103.159.44.0/24  # IN  AS141265  Nextgen Broadband Private Limited
+103.159.45.0/24  # IN  AS141265  Nextgen Broadband Private Limited
+103.163.220.0/24 # JP  AS206092  Internet Utilities Europe and Asia Limited
+103.164.3.0/24   # IN  AS134904  Code Technology
+103.167.175.0/24 # IN  AS132771  Fibre Air Services Private Limited
+103.167.204.0/24 # IN  AS132771  Fibre Air Services Private Limited
+103.169.87.0/24  # IN  AS150075  TJMGLOBAL DIGITECH PRIVATE LIMITED
+103.171.39.0/24  # IN  AS134290  Arrow Touch Wireless Internet Private Limited
+103.171.84.0/24  # ID  AS136052  PT Cloud Hosting Indonesia
+103.171.85.0/24  # ID  AS136052  PT Cloud Hosting Indonesia
+103.172.205.0/24 # ID  AS136052  PT Cloud Hosting Indonesia
+103.173.15.0/24  # IN  AS139482  Vilas Internet Services Pvt Ltd
+103.173.211.0/24 # IN  AS132771  Fibre Air Services Private Limited
+103.174.114.0/24 # ID  AS136052  PT Cloud Hosting Indonesia
+103.174.115.0/24 # ID  AS136052  PT Cloud Hosting Indonesia
+103.174.130.0/24 # IN  AS147287  DATAPARADISE
+103.175.180.0/24 # IN  AS141265  Nextgen Broadband Private Limited
+103.175.181.0/24 # IN  AS141265  Nextgen Broadband Private Limited
+103.176.79.0/24  # ID  AS136052  PT Cloud Hosting Indonesia
+103.176.138.0/24 # IN  AS45804   MEGHBELA BROADBAND
+103.177.43.0/24  # IN  AS139482  Vilas Internet Services Pvt Ltd
+103.177.181.0/24 # IN  AS139482  Vilas Internet Services Pvt Ltd
+103.179.56.0/24  # ID  AS136052  PT Cloud Hosting Indonesia
+103.179.57.0/24  # ID  AS136052  PT Cloud Hosting Indonesia
+103.180.176.0/24 # IN  AS151734  WEBYNE DATA CENTRE PRIVATE LIMITED
+103.181.198.0/24 # IN  AS151734  WEBYNE DATA CENTRE PRIVATE LIMITED
+103.183.74.0/24  # ID  AS136052  PT Cloud Hosting Indonesia
+103.184.194.0/24 # IN  AS134337  R2 Net Solutions Pvt Ltd
+103.184.195.0/24 # IN  AS134337  R2 Net Solutions Pvt Ltd
+103.187.147.0/24 # SG  AS138608  Cloud Host Pte Ltd
+103.187.199.0/24 # IN  AS149582  VRINDA TECHNOLOGY
+103.189.234.0/24 # SG  AS138608  Cloud Host Pte Ltd
+103.189.235.0/24 # SG  AS138608  Cloud Host Pte Ltd
+103.190.91.0/24  # IN  AS149591  Swip Wifi Network Private Limited
+103.192.198.0/24 # IN  AS59187   NEEVAI SUPERCLOUD PVT LTD
+103.192.199.0/24 # IN  AS59187   NEEVAI SUPERCLOUD PVT LTD
+103.200.84.0/24  # IN  AS24186   RailTel Corporation of India Ltd
+103.203.57.0/24  # US  AS136180  Beijing Tiantexin Tech. Co., Ltd.
+103.206.100.0/24 # IN  AS137120  Nas Internet Services Private Limited
+103.211.17.0/24  # IN  AS133982  Excitel Broadband Private Limited
+103.226.138.0/24 # ID  AS136052  PT Cloud Hosting Indonesia
+103.233.178.0/24 # HK  AS398704  STACKS INC
+103.242.199.0/24 # IN  AS23860   Alliance Broadband Services Pvt. Ltd.
+103.250.10.0/24  # SG  AS138608  Cloud Host Pte Ltd
+104.28.157.0/24  # KR  AS13335   Cloudflare, Inc.
+104.152.52.0/24  # US  AS14987   Rethem Hosting LLC
+104.156.155.0/24 # US  AS400161  Academy for Internet Research Limited Liability Company
+104.234.115.0/24 # US  AS396982  Google LLC
+104.237.144.0/24 # US  AS63949   Akamai Connected Cloud
+104.237.145.0/24 # US  AS63949   Akamai Connected Cloud
+104.245.240.0/24 # TR  AS214943  Railnet LLC
+104.245.241.0/24 # TR  AS214943  Railnet LLC
+104.250.49.0/24  # HK  AS137280  Kingsoft cloud corporation limited
+104.250.50.0/24  # HK  AS137280  Kingsoft cloud corporation limited
+105.73.203.0/24  # MA  AS36884   Wana Corporate
+106.4.161.0/24   # CN  AS4134    CHINANET-BACKBONE
+106.40.240.0/24  # CN  AS4134    CHINANET-BACKBONE
+106.40.241.0/24  # CN  AS4134    CHINANET-BACKBONE
+106.40.242.0/24  # CN  AS4134    CHINANET-BACKBONE
+106.40.243.0/24  # CN  AS4134    CHINANET-BACKBONE
+106.43.100.0/24  # CN  AS4134    CHINANET-BACKBONE
+106.43.101.0/24  # CN  AS4134    CHINANET-BACKBONE
+106.43.102.0/24  # CN  AS4134    CHINANET-BACKBONE
+106.43.103.0/24  # CN  AS4134    CHINANET-BACKBONE
+106.57.1.0/24    # CN  AS4134    CHINANET-BACKBONE
+106.58.23.0/24   # CN  AS4134    CHINANET-BACKBONE
+106.59.248.0/24  # CN  AS4134    CHINANET-BACKBONE
+106.75.144.0/24  # CN  AS58466   CHINANET Guangdong province network
+107.14.82.0/24   # US  AS7843    Charter Communications Inc
+107.14.86.0/24   # US  AS7843    Charter Communications Inc
+107.14.92.0/24   # US  AS8052    Charter Communications Inc
+107.151.239.0/24 # HK  AS134365  Ansheng Network Technology Co., Limited
+107.170.252.0/24 # US  AS14061   DigitalOcean, LLC
+107.189.8.0/24   # LU  AS53667   FranTech Solutions
+108.165.145.0/24 # DE  AS401152  Ace Data Centers II, L.L.C.
+108.165.243.0/24 # US  AS401152  Ace Data Centers II, L.L.C.
+109.123.117.0/24 # GB  AS13213   UK-2 Limited
+109.205.213.0/24 # US  AS19318   Interserver, Inc
+109.206.237.0/24 # US  -         -
+109.236.61.0/24  # NL  AS213613  BOTSHIELD LTD
+109.237.98.0/24  # DE  AS210644  AEZA INTERNATIONAL LTD
+109.248.163.0/24 # FI  AS56971   CGI GLOBAL LIMITED
+110.13.51.0/24   # KR  AS9318    SK Broadband Co Ltd
+110.13.251.0/24  # KR  AS9318    SK Broadband Co Ltd
+110.24.32.0/24   # TW  AS9674    Far EastTone Telecommunication Co., Ltd.
+110.24.36.0/24   # TW  AS9674    Far EastTone Telecommunication Co., Ltd.
+110.77.164.0/24  # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+110.77.198.0/24  # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+110.77.207.0/24  # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+110.77.229.0/24  # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+110.77.241.0/24  # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+110.77.244.0/24  # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+110.78.133.0/24  # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+110.78.172.0/24  # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+110.85.99.0/24   # CN  AS4134    CHINANET-BACKBONE
+110.86.160.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.86.161.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.177.176.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.177.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.179.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.180.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.181.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.182.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.183.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.74.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.182.75.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.182.78.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.182.79.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.182.173.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.174.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.175.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.185.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.188.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.189.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.191.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.224.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.225.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.226.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.227.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.239.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.241.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.243.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.246.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.249.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.250.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.182.251.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.183.16.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.17.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.18.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.19.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.20.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.21.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.22.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.23.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.24.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.25.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.26.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.27.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.28.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.29.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.30.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.31.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.48.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.49.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.50.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.51.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.52.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.53.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.54.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.55.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.56.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.57.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.58.0/24  # CN  AS4134    CHINANET-BACKBONE
+110.183.59.0/24  # CN  AS4134    CHINANET-BACKBONE
+111.7.96.0/24    # CN  AS9808    China Mobile Communications Group Co., Ltd.
+111.22.74.0/24   # CN  AS56047   China Mobile communications corporation
+111.23.112.0/24  # CN  AS56047   China Mobile communications corporation
+111.67.193.0/24  # CN  AS4808    China Unicom Beijing Province Network
+111.67.194.0/24  # CN  AS4808    China Unicom Beijing Province Network
+111.67.195.0/24  # CN  AS4808    China Unicom Beijing Province Network
+111.67.196.0/24  # CN  AS4808    China Unicom Beijing Province Network
+111.67.197.0/24  # CN  AS4808    China Unicom Beijing Province Network
+111.67.201.0/24  # CN  AS4808    China Unicom Beijing Province Network
+111.70.26.0/24   # TW  AS17421   Mobile Business Group
+111.70.32.0/24   # TW  AS17421   Mobile Business Group
+111.70.49.0/24   # TW  AS17421   Mobile Business Group
+111.113.88.0/24  # CN  AS4134    CHINANET-BACKBONE
+111.113.89.0/24  # CN  AS4134    CHINANET-BACKBONE
+111.126.184.0/24 # CN  AS4134    CHINANET-BACKBONE
+111.224.218.0/24 # CN  AS4134    CHINANET-BACKBONE
+111.224.219.0/24 # CN  AS4134    CHINANET-BACKBONE
+111.224.220.0/24 # CN  AS4134    CHINANET-BACKBONE
+111.224.221.0/24 # CN  AS4134    CHINANET-BACKBONE
+111.224.235.0/24 # CN  AS4134    CHINANET-BACKBONE
+111.246.128.0/24 # TW  AS3462    Data Communication Business Group
+111.246.129.0/24 # TW  AS3462    Data Communication Business Group
+111.246.130.0/24 # TW  AS3462    Data Communication Business Group
+111.246.131.0/24 # TW  AS3462    Data Communication Business Group
+111.246.132.0/24 # TW  AS3462    Data Communication Business Group
+111.246.133.0/24 # TW  AS3462    Data Communication Business Group
+111.246.134.0/24 # TW  AS3462    Data Communication Business Group
+111.246.135.0/24 # TW  AS3462    Data Communication Business Group
+111.246.136.0/24 # TW  AS3462    Data Communication Business Group
+111.246.137.0/24 # TW  AS3462    Data Communication Business Group
+111.246.138.0/24 # TW  AS3462    Data Communication Business Group
+111.246.139.0/24 # TW  AS3462    Data Communication Business Group
+111.246.140.0/24 # TW  AS3462    Data Communication Business Group
+111.246.141.0/24 # TW  AS3462    Data Communication Business Group
+111.246.142.0/24 # TW  AS3462    Data Communication Business Group
+111.246.143.0/24 # TW  AS3462    Data Communication Business Group
+111.246.144.0/24 # TW  AS3462    Data Communication Business Group
+111.246.145.0/24 # TW  AS3462    Data Communication Business Group
+111.246.146.0/24 # TW  AS3462    Data Communication Business Group
+111.246.147.0/24 # TW  AS3462    Data Communication Business Group
+111.246.148.0/24 # TW  AS3462    Data Communication Business Group
+111.246.150.0/24 # TW  AS3462    Data Communication Business Group
+111.246.151.0/24 # TW  AS3462    Data Communication Business Group
+111.246.152.0/24 # TW  AS3462    Data Communication Business Group
+111.246.153.0/24 # TW  AS3462    Data Communication Business Group
+111.246.154.0/24 # TW  AS3462    Data Communication Business Group
+111.246.155.0/24 # TW  AS3462    Data Communication Business Group
+111.246.156.0/24 # TW  AS3462    Data Communication Business Group
+111.246.157.0/24 # TW  AS3462    Data Communication Business Group
+111.246.158.0/24 # TW  AS3462    Data Communication Business Group
+111.246.159.0/24 # TW  AS3462    Data Communication Business Group
+111.246.160.0/24 # TW  AS3462    Data Communication Business Group
+111.246.161.0/24 # TW  AS3462    Data Communication Business Group
+111.246.163.0/24 # TW  AS3462    Data Communication Business Group
+111.246.164.0/24 # TW  AS3462    Data Communication Business Group
+111.246.165.0/24 # TW  AS3462    Data Communication Business Group
+111.246.166.0/24 # TW  AS3462    Data Communication Business Group
+111.246.167.0/24 # TW  AS3462    Data Communication Business Group
+111.246.168.0/24 # TW  AS3462    Data Communication Business Group
+111.246.169.0/24 # TW  AS3462    Data Communication Business Group
+111.246.171.0/24 # TW  AS3462    Data Communication Business Group
+111.246.172.0/24 # TW  AS3462    Data Communication Business Group
+111.246.173.0/24 # TW  AS3462    Data Communication Business Group
+111.246.174.0/24 # TW  AS3462    Data Communication Business Group
+111.246.176.0/24 # TW  AS3462    Data Communication Business Group
+111.246.178.0/24 # TW  AS3462    Data Communication Business Group
+111.246.179.0/24 # TW  AS3462    Data Communication Business Group
+111.246.180.0/24 # TW  AS3462    Data Communication Business Group
+111.246.181.0/24 # TW  AS3462    Data Communication Business Group
+111.246.182.0/24 # TW  AS3462    Data Communication Business Group
+111.246.183.0/24 # TW  AS3462    Data Communication Business Group
+111.246.185.0/24 # TW  AS3462    Data Communication Business Group
+111.246.186.0/24 # TW  AS3462    Data Communication Business Group
+111.246.188.0/24 # TW  AS3462    Data Communication Business Group
+111.246.215.0/24 # TW  AS3462    Data Communication Business Group
+111.246.216.0/24 # TW  AS3462    Data Communication Business Group
+111.246.217.0/24 # TW  AS3462    Data Communication Business Group
+111.246.218.0/24 # TW  AS3462    Data Communication Business Group
+111.252.35.0/24  # TW  AS3462    Data Communication Business Group
+111.252.66.0/24  # TW  AS3462    Data Communication Business Group
+111.252.67.0/24  # TW  AS3462    Data Communication Business Group
+111.252.68.0/24  # TW  AS3462    Data Communication Business Group
+111.252.72.0/24  # TW  AS3462    Data Communication Business Group
+111.252.220.0/24 # TW  AS3462    Data Communication Business Group
+111.252.221.0/24 # TW  AS3462    Data Communication Business Group
+111.252.222.0/24 # TW  AS3462    Data Communication Business Group
+111.252.223.0/24 # TW  AS3462    Data Communication Business Group
+111.252.224.0/24 # TW  AS3462    Data Communication Business Group
+111.252.225.0/24 # TW  AS3462    Data Communication Business Group
+111.252.226.0/24 # TW  AS3462    Data Communication Business Group
+111.252.227.0/24 # TW  AS3462    Data Communication Business Group
+111.252.228.0/24 # TW  AS3462    Data Communication Business Group
+111.252.229.0/24 # TW  AS3462    Data Communication Business Group
+111.253.141.0/24 # TW  AS3462    Data Communication Business Group
+111.253.164.0/24 # TW  AS3462    Data Communication Business Group
+111.253.187.0/24 # TW  AS3462    Data Communication Business Group
+111.253.188.0/24 # TW  AS3462    Data Communication Business Group
+111.253.189.0/24 # TW  AS3462    Data Communication Business Group
+111.253.190.0/24 # TW  AS3462    Data Communication Business Group
+111.253.191.0/24 # TW  AS3462    Data Communication Business Group
+111.253.192.0/24 # TW  AS3462    Data Communication Business Group
+111.253.193.0/24 # TW  AS3462    Data Communication Business Group
+111.253.194.0/24 # TW  AS3462    Data Communication Business Group
+111.253.195.0/24 # TW  AS3462    Data Communication Business Group
+111.253.196.0/24 # TW  AS3462    Data Communication Business Group
+111.253.197.0/24 # TW  AS3462    Data Communication Business Group
+111.253.198.0/24 # TW  AS3462    Data Communication Business Group
+111.253.199.0/24 # TW  AS3462    Data Communication Business Group
+111.253.200.0/24 # TW  AS3462    Data Communication Business Group
+111.253.201.0/24 # TW  AS3462    Data Communication Business Group
+111.253.202.0/24 # TW  AS3462    Data Communication Business Group
+111.253.203.0/24 # TW  AS3462    Data Communication Business Group
+111.253.204.0/24 # TW  AS3462    Data Communication Business Group
+111.253.205.0/24 # TW  AS3462    Data Communication Business Group
+111.253.206.0/24 # TW  AS3462    Data Communication Business Group
+111.253.207.0/24 # TW  AS3462    Data Communication Business Group
+111.253.208.0/24 # TW  AS3462    Data Communication Business Group
+111.253.209.0/24 # TW  AS3462    Data Communication Business Group
+111.253.210.0/24 # TW  AS3462    Data Communication Business Group
+111.253.211.0/24 # TW  AS3462    Data Communication Business Group
+111.253.213.0/24 # TW  AS3462    Data Communication Business Group
+111.253.214.0/24 # TW  AS3462    Data Communication Business Group
+111.253.215.0/24 # TW  AS3462    Data Communication Business Group
+111.253.216.0/24 # TW  AS3462    Data Communication Business Group
+111.253.217.0/24 # TW  AS3462    Data Communication Business Group
+111.253.218.0/24 # TW  AS3462    Data Communication Business Group
+111.253.219.0/24 # TW  AS3462    Data Communication Business Group
+111.253.220.0/24 # TW  AS3462    Data Communication Business Group
+111.253.221.0/24 # TW  AS3462    Data Communication Business Group
+111.253.222.0/24 # TW  AS3462    Data Communication Business Group
+111.253.223.0/24 # TW  AS3462    Data Communication Business Group
+111.253.224.0/24 # TW  AS3462    Data Communication Business Group
+111.253.225.0/24 # TW  AS3462    Data Communication Business Group
+111.253.226.0/24 # TW  AS3462    Data Communication Business Group
+111.253.227.0/24 # TW  AS3462    Data Communication Business Group
+111.253.228.0/24 # TW  AS3462    Data Communication Business Group
+111.253.230.0/24 # TW  AS3462    Data Communication Business Group
+111.253.231.0/24 # TW  AS3462    Data Communication Business Group
+111.253.232.0/24 # TW  AS3462    Data Communication Business Group
+111.253.233.0/24 # TW  AS3462    Data Communication Business Group
+111.253.234.0/24 # TW  AS3462    Data Communication Business Group
+111.253.235.0/24 # TW  AS3462    Data Communication Business Group
+111.253.237.0/24 # TW  AS3462    Data Communication Business Group
+111.253.238.0/24 # TW  AS3462    Data Communication Business Group
+111.253.239.0/24 # TW  AS3462    Data Communication Business Group
+111.253.240.0/24 # TW  AS3462    Data Communication Business Group
+111.253.243.0/24 # TW  AS3462    Data Communication Business Group
+111.253.244.0/24 # TW  AS3462    Data Communication Business Group
+111.253.245.0/24 # TW  AS3462    Data Communication Business Group
+111.253.246.0/24 # TW  AS3462    Data Communication Business Group
+111.253.248.0/24 # TW  AS3462    Data Communication Business Group
+111.253.251.0/24 # TW  AS3462    Data Communication Business Group
+112.13.110.0/24  # CN  AS56041   China Mobile communications corporation
+112.46.212.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+112.46.213.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+112.46.214.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+112.46.217.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+112.49.112.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+112.49.236.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+112.94.96.0/24   # CN  AS17622   China Unicom Guangzhou network
+112.94.97.0/24   # CN  AS17622   China Unicom Guangzhou network
+112.94.98.0/24   # CN  AS17622   China Unicom Guangzhou network
+112.94.99.0/24   # CN  AS17622   China Unicom Guangzhou network
+112.94.252.0/24  # CN  AS17622   China Unicom Guangzhou network
+112.94.253.0/24  # CN  AS17622   China Unicom Guangzhou network
+112.98.20.0/24   # CN  AS4134    CHINANET-BACKBONE
+112.98.217.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.102.84.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.102.85.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.102.86.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.102.87.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.102.168.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.102.169.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.102.170.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.102.171.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.102.220.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.102.221.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.102.222.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.102.223.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.60.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.61.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.62.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.63.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.72.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.73.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.74.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.75.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.92.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.93.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.94.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.95.0/24  # CN  AS4134    CHINANET-BACKBONE
+112.103.118.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.128.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.129.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.130.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.131.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.140.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.141.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.142.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.204.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.205.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.206.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.207.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.103.248.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.115.155.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.116.122.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.119.248.0/24 # HK  AS4760    HKT Limited
+112.185.230.0/24 # KR  AS4766    Korea Telecom
+112.185.233.0/24 # KR  AS4766    Korea Telecom
+112.185.234.0/24 # KR  AS4766    Korea Telecom
+113.24.160.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.24.164.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.24.165.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.24.166.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.24.167.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.24.184.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.24.190.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.27.15.0/24   # CN  AS4134    CHINANET-BACKBONE
+113.27.32.0/24   # CN  AS4134    CHINANET-BACKBONE
+113.27.35.0/24   # CN  AS4134    CHINANET-BACKBONE
+113.27.38.0/24   # CN  AS4134    CHINANET-BACKBONE
+113.27.39.0/24   # CN  AS4134    CHINANET-BACKBONE
+113.27.81.0/24   # CN  AS4134    CHINANET-BACKBONE
+113.30.168.0/24  # IN  AS59191   PEERCAST TELECOM INDIA PVT LTD
+113.75.112.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.87.80.0/24   # CN  AS4134    CHINANET-BACKBONE
+113.87.81.0/24   # CN  AS4134    CHINANET-BACKBONE
+113.128.64.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.128.65.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.128.66.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.128.67.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.128.237.0/24 # CN  AS4134    CHINANET-BACKBONE
+113.201.15.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+113.218.188.0/24 # CN  AS4134    CHINANET-BACKBONE
+113.221.8.0/24   # CN  AS4134    CHINANET-BACKBONE
+113.221.9.0/24   # CN  AS4134    CHINANET-BACKBONE
+113.221.10.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.11.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.12.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.13.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.14.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.15.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.24.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.25.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.26.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.27.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.36.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.37.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.38.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.39.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.42.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.44.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.45.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.46.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.47.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.58.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.72.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.73.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.74.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.75.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.76.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.77.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.78.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.79.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.96.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.97.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.98.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.221.99.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.240.152.0/24 # CN  AS4134    CHINANET-BACKBONE
+113.240.206.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.25.102.0/24  # TW  AS3462    Data Communication Business Group
+114.26.20.0/24   # TW  AS3462    Data Communication Business Group
+114.26.23.0/24   # TW  AS3462    Data Communication Business Group
+114.26.228.0/24  # TW  AS3462    Data Communication Business Group
+114.38.199.0/24  # TW  AS3462    Data Communication Business Group
+114.38.201.0/24  # TW  AS3462    Data Communication Business Group
+114.38.203.0/24  # TW  AS3462    Data Communication Business Group
+114.38.205.0/24  # TW  AS3462    Data Communication Business Group
+114.38.206.0/24  # TW  AS3462    Data Communication Business Group
+114.38.207.0/24  # TW  AS3462    Data Communication Business Group
+114.38.208.0/24  # TW  AS3462    Data Communication Business Group
+114.38.209.0/24  # TW  AS3462    Data Communication Business Group
+114.38.210.0/24  # TW  AS3462    Data Communication Business Group
+114.38.211.0/24  # TW  AS3462    Data Communication Business Group
+114.38.212.0/24  # TW  AS3462    Data Communication Business Group
+114.38.213.0/24  # TW  AS3462    Data Communication Business Group
+114.38.215.0/24  # TW  AS3462    Data Communication Business Group
+114.38.216.0/24  # TW  AS3462    Data Communication Business Group
+114.38.217.0/24  # TW  AS3462    Data Communication Business Group
+114.38.220.0/24  # TW  AS3462    Data Communication Business Group
+114.38.221.0/24  # TW  AS3462    Data Communication Business Group
+114.38.222.0/24  # TW  AS3462    Data Communication Business Group
+114.38.223.0/24  # TW  AS3462    Data Communication Business Group
+114.38.224.0/24  # TW  AS3462    Data Communication Business Group
+114.38.225.0/24  # TW  AS3462    Data Communication Business Group
+114.38.226.0/24  # TW  AS3462    Data Communication Business Group
+114.38.227.0/24  # TW  AS3462    Data Communication Business Group
+114.38.228.0/24  # TW  AS3462    Data Communication Business Group
+114.38.229.0/24  # TW  AS3462    Data Communication Business Group
+114.41.64.0/24   # TW  AS3462    Data Communication Business Group
+114.41.65.0/24   # TW  AS3462    Data Communication Business Group
+114.41.66.0/24   # TW  AS3462    Data Communication Business Group
+114.41.68.0/24   # TW  AS3462    Data Communication Business Group
+114.41.69.0/24   # TW  AS3462    Data Communication Business Group
+114.41.71.0/24   # TW  AS3462    Data Communication Business Group
+114.41.72.0/24   # TW  AS3462    Data Communication Business Group
+114.41.76.0/24   # TW  AS3462    Data Communication Business Group
+114.41.77.0/24   # TW  AS3462    Data Communication Business Group
+114.41.78.0/24   # TW  AS3462    Data Communication Business Group
+114.41.79.0/24   # TW  AS3462    Data Communication Business Group
+114.41.80.0/24   # TW  AS3462    Data Communication Business Group
+114.41.81.0/24   # TW  AS3462    Data Communication Business Group
+114.41.82.0/24   # TW  AS3462    Data Communication Business Group
+114.41.83.0/24   # TW  AS3462    Data Communication Business Group
+114.41.84.0/24   # TW  AS3462    Data Communication Business Group
+114.41.85.0/24   # TW  AS3462    Data Communication Business Group
+114.41.86.0/24   # TW  AS3462    Data Communication Business Group
+114.41.87.0/24   # TW  AS3462    Data Communication Business Group
+114.41.192.0/24  # TW  AS3462    Data Communication Business Group
+114.41.193.0/24  # TW  AS3462    Data Communication Business Group
+114.41.194.0/24  # TW  AS3462    Data Communication Business Group
+114.41.195.0/24  # TW  AS3462    Data Communication Business Group
+114.41.196.0/24  # TW  AS3462    Data Communication Business Group
+114.41.197.0/24  # TW  AS3462    Data Communication Business Group
+114.41.198.0/24  # TW  AS3462    Data Communication Business Group
+114.41.199.0/24  # TW  AS3462    Data Communication Business Group
+114.41.200.0/24  # TW  AS3462    Data Communication Business Group
+114.41.201.0/24  # TW  AS3462    Data Communication Business Group
+114.41.202.0/24  # TW  AS3462    Data Communication Business Group
+114.41.203.0/24  # TW  AS3462    Data Communication Business Group
+114.41.204.0/24  # TW  AS3462    Data Communication Business Group
+114.41.205.0/24  # TW  AS3462    Data Communication Business Group
+114.41.206.0/24  # TW  AS3462    Data Communication Business Group
+114.41.207.0/24  # TW  AS3462    Data Communication Business Group
+114.41.208.0/24  # TW  AS3462    Data Communication Business Group
+114.41.209.0/24  # TW  AS3462    Data Communication Business Group
+114.41.210.0/24  # TW  AS3462    Data Communication Business Group
+114.41.211.0/24  # TW  AS3462    Data Communication Business Group
+114.41.217.0/24  # TW  AS3462    Data Communication Business Group
+114.41.222.0/24  # TW  AS3462    Data Communication Business Group
+114.41.224.0/24  # TW  AS3462    Data Communication Business Group
+114.41.226.0/24  # TW  AS3462    Data Communication Business Group
+114.41.235.0/24  # TW  AS3462    Data Communication Business Group
+114.41.236.0/24  # TW  AS3462    Data Communication Business Group
+114.41.237.0/24  # TW  AS3462    Data Communication Business Group
+114.41.238.0/24  # TW  AS3462    Data Communication Business Group
+114.42.75.0/24   # TW  AS3462    Data Communication Business Group
+114.42.76.0/24   # TW  AS3462    Data Communication Business Group
+114.42.77.0/24   # TW  AS3462    Data Communication Business Group
+114.46.106.0/24  # TW  AS3462    Data Communication Business Group
+114.46.112.0/24  # TW  AS3462    Data Communication Business Group
+114.46.114.0/24  # TW  AS3462    Data Communication Business Group
+114.46.115.0/24  # TW  AS3462    Data Communication Business Group
+114.46.116.0/24  # TW  AS3462    Data Communication Business Group
+114.46.117.0/24  # TW  AS3462    Data Communication Business Group
+114.46.118.0/24  # TW  AS3462    Data Communication Business Group
+114.46.119.0/24  # TW  AS3462    Data Communication Business Group
+114.46.120.0/24  # TW  AS3462    Data Communication Business Group
+114.46.121.0/24  # TW  AS3462    Data Communication Business Group
+114.46.122.0/24  # TW  AS3462    Data Communication Business Group
+114.46.123.0/24  # TW  AS3462    Data Communication Business Group
+114.46.124.0/24  # TW  AS3462    Data Communication Business Group
+114.46.125.0/24  # TW  AS3462    Data Communication Business Group
+114.46.126.0/24  # TW  AS3462    Data Communication Business Group
+114.46.127.0/24  # TW  AS3462    Data Communication Business Group
+114.46.235.0/24  # TW  AS3462    Data Communication Business Group
+114.138.96.0/24  # CN  AS4134    CHINANET-BACKBONE
+114.138.97.0/24  # CN  AS4134    CHINANET-BACKBONE
+114.138.98.0/24  # CN  AS4134    CHINANET-BACKBONE
+114.138.99.0/24  # CN  AS4134    CHINANET-BACKBONE
+114.138.100.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.138.101.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.138.102.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.138.103.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.138.104.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.138.105.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.138.106.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.138.107.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.138.108.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.138.109.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.138.110.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.138.111.0/24 # CN  AS4134    CHINANET-BACKBONE
+114.227.57.0/24  # CN  AS4134    CHINANET-BACKBONE
+114.227.58.0/24  # CN  AS4134    CHINANET-BACKBONE
+116.53.43.0/24   # CN  AS4134    CHINANET-BACKBONE
+116.53.54.0/24   # CN  AS4134    CHINANET-BACKBONE
+116.58.230.0/24  # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+116.58.251.0/24  # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+116.98.163.0/24  # VN  AS24086   Viettel Corporation
+116.98.170.0/24  # VN  AS24086   Viettel Corporation
+116.98.173.0/24  # VN  AS24086   Viettel Corporation
+116.98.175.0/24  # VN  AS24086   Viettel Corporation
+116.105.211.0/24 # VN  AS24086   Viettel Corporation
+116.105.213.0/24 # VN  AS24086   Viettel Corporation
+116.110.81.0/24  # VN  AS24086   Viettel Corporation
+116.110.93.0/24  # VN  AS24086   Viettel Corporation
+116.111.186.0/24 # VN  AS24086   Viettel Corporation
+116.111.187.0/24 # VN  AS24086   Viettel Corporation
+116.122.138.0/24 # KR  AS9318    SK Broadband Co Ltd
+116.148.108.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+116.148.109.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+116.148.110.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+116.148.111.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+116.193.190.0/24 # ID  AS136052  PT Cloud Hosting Indonesia
+116.193.191.0/24 # ID  AS136052  PT Cloud Hosting Indonesia
+116.207.92.0/24  # CN  AS4134    CHINANET-BACKBONE
+116.207.93.0/24  # CN  AS4134    CHINANET-BACKBONE
+116.211.150.0/24 # CN  AS58563   CHINANET Hubei province network
+116.252.76.0/24  # CN  AS4134    CHINANET-BACKBONE
+117.26.110.0/24  # CN  AS4134    CHINANET-BACKBONE
+117.26.113.0/24  # CN  AS4134    CHINANET-BACKBONE
+117.26.208.0/24  # CN  AS4134    CHINANET-BACKBONE
+117.29.44.0/24   # CN  AS4134    CHINANET-BACKBONE
+117.43.219.0/24  # CN  AS4134    CHINANET-BACKBONE
+117.114.194.0/24 # CN  AS4847    China Networks Inter-Exchange
+117.136.49.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+117.192.134.0/24 # IN  AS9829    National Internet Backbone
+117.192.135.0/24 # IN  AS9829    National Internet Backbone
+117.193.249.0/24 # IN  AS9829    National Internet Backbone
+117.193.255.0/24 # IN  AS9829    National Internet Backbone
+117.194.56.0/24  # IN  AS9829    National Internet Backbone
+117.194.63.0/24  # IN  AS9829    National Internet Backbone
+117.194.96.0/24  # IN  AS9829    National Internet Backbone
+117.194.98.0/24  # IN  AS9829    National Internet Backbone
+117.194.99.0/24  # IN  AS9829    National Internet Backbone
+117.194.139.0/24 # IN  AS9829    National Internet Backbone
+117.195.19.0/24  # IN  AS9829    National Internet Backbone
+117.195.121.0/24 # IN  AS9829    National Internet Backbone
+117.195.164.0/24 # IN  AS9829    National Internet Backbone
+117.195.165.0/24 # IN  AS9829    National Internet Backbone
+117.195.166.0/24 # IN  AS9829    National Internet Backbone
+117.195.167.0/24 # IN  AS9829    National Internet Backbone
+117.195.197.0/24 # IN  AS9829    National Internet Backbone
+117.195.198.0/24 # IN  AS9829    National Internet Backbone
+117.195.199.0/24 # IN  AS9829    National Internet Backbone
+117.195.241.0/24 # IN  AS9829    National Internet Backbone
+117.195.247.0/24 # IN  AS9829    National Internet Backbone
+117.196.4.0/24   # IN  AS9829    National Internet Backbone
+117.196.5.0/24   # IN  AS9829    National Internet Backbone
+117.196.6.0/24   # IN  AS9829    National Internet Backbone
+117.196.160.0/24 # IN  AS9829    National Internet Backbone
+117.196.166.0/24 # IN  AS9829    National Internet Backbone
+117.196.171.0/24 # IN  AS9829    National Internet Backbone
+117.196.172.0/24 # IN  AS9829    National Internet Backbone
+117.196.175.0/24 # IN  AS9829    National Internet Backbone
+117.197.198.0/24 # IN  AS9829    National Internet Backbone
+117.198.8.0/24   # IN  AS9829    National Internet Backbone
+117.198.10.0/24  # IN  AS9829    National Internet Backbone
+117.198.11.0/24  # IN  AS9829    National Internet Backbone
+117.198.12.0/24  # IN  AS9829    National Internet Backbone
+117.200.84.0/24  # IN  AS9829    National Internet Backbone
+117.200.92.0/24  # IN  AS9829    National Internet Backbone
+117.200.177.0/24 # IN  AS9829    National Internet Backbone
+117.200.181.0/24 # IN  AS9829    National Internet Backbone
+117.200.183.0/24 # IN  AS9829    National Internet Backbone
+117.200.185.0/24 # IN  AS9829    National Internet Backbone
+117.202.68.0/24  # IN  AS9829    National Internet Backbone
+117.202.71.0/24  # IN  AS9829    National Internet Backbone
+117.202.211.0/24 # IN  AS9829    National Internet Backbone
+117.204.23.0/24  # IN  AS9829    National Internet Backbone
+117.204.164.0/24 # IN  AS9829    National Internet Backbone
+117.204.165.0/24 # IN  AS9829    National Internet Backbone
+117.204.166.0/24 # IN  AS9829    National Internet Backbone
+117.204.167.0/24 # IN  AS9829    National Internet Backbone
+117.205.86.0/24  # IN  AS9829    National Internet Backbone
+117.205.87.0/24  # IN  AS9829    National Internet Backbone
+117.205.88.0/24  # IN  AS9829    National Internet Backbone
+117.205.94.0/24  # IN  AS9829    National Internet Backbone
+117.205.108.0/24 # IN  AS9829    National Internet Backbone
+117.205.160.0/24 # IN  AS9829    National Internet Backbone
+117.205.161.0/24 # IN  AS9829    National Internet Backbone
+117.205.164.0/24 # IN  AS9829    National Internet Backbone
+117.205.166.0/24 # IN  AS9829    National Internet Backbone
+117.205.173.0/24 # IN  AS9829    National Internet Backbone
+117.205.174.0/24 # IN  AS9829    National Internet Backbone
+117.205.175.0/24 # IN  AS9829    National Internet Backbone
+117.206.4.0/24   # IN  AS9829    National Internet Backbone
+117.206.5.0/24   # IN  AS9829    National Internet Backbone
+117.206.15.0/24  # IN  AS9829    National Internet Backbone
+117.206.17.0/24  # IN  AS9829    National Internet Backbone
+117.206.18.0/24  # IN  AS9829    National Internet Backbone
+117.206.19.0/24  # IN  AS9829    National Internet Backbone
+117.206.20.0/24  # IN  AS9829    National Internet Backbone
+117.206.21.0/24  # IN  AS9829    National Internet Backbone
+117.206.22.0/24  # IN  AS9829    National Internet Backbone
+117.206.24.0/24  # IN  AS9829    National Internet Backbone
+117.206.25.0/24  # IN  AS9829    National Internet Backbone
+117.206.33.0/24  # IN  AS9829    National Internet Backbone
+117.206.67.0/24  # IN  AS9829    National Internet Backbone
+117.206.73.0/24  # IN  AS9829    National Internet Backbone
+117.206.74.0/24  # IN  AS9829    National Internet Backbone
+117.206.75.0/24  # IN  AS9829    National Internet Backbone
+117.206.139.0/24 # IN  AS9829    National Internet Backbone
+117.206.140.0/24 # IN  AS9829    National Internet Backbone
+117.206.184.0/24 # IN  AS9829    National Internet Backbone
+117.207.33.0/24  # IN  AS9829    National Internet Backbone
+117.207.42.0/24  # IN  AS9829    National Internet Backbone
+117.207.47.0/24  # IN  AS9829    National Internet Backbone
+117.207.162.0/24 # IN  AS9829    National Internet Backbone
+117.207.163.0/24 # IN  AS9829    National Internet Backbone
+117.207.164.0/24 # IN  AS9829    National Internet Backbone
+117.207.165.0/24 # IN  AS9829    National Internet Backbone
+117.207.167.0/24 # IN  AS9829    National Internet Backbone
+117.207.168.0/24 # IN  AS9829    National Internet Backbone
+117.207.169.0/24 # IN  AS9829    National Internet Backbone
+117.207.170.0/24 # IN  AS9829    National Internet Backbone
+117.207.242.0/24 # IN  AS9829    National Internet Backbone
+117.207.243.0/24 # IN  AS9829    National Internet Backbone
+117.207.253.0/24 # IN  AS9829    National Internet Backbone
+117.208.115.0/24 # IN  AS9829    National Internet Backbone
+117.208.116.0/24 # IN  AS9829    National Internet Backbone
+117.208.160.0/24 # IN  AS9829    National Internet Backbone
+117.208.162.0/24 # IN  AS9829    National Internet Backbone
+117.208.163.0/24 # IN  AS9829    National Internet Backbone
+117.208.167.0/24 # IN  AS9829    National Internet Backbone
+117.208.168.0/24 # IN  AS9829    National Internet Backbone
+117.208.175.0/24 # IN  AS9829    National Internet Backbone
+117.208.209.0/24 # IN  AS9829    National Internet Backbone
+117.208.213.0/24 # IN  AS9829    National Internet Backbone
+117.208.215.0/24 # IN  AS9829    National Internet Backbone
+117.208.218.0/24 # IN  AS9829    National Internet Backbone
+117.209.0.0/24   # IN  AS9829    National Internet Backbone
+117.209.1.0/24   # IN  AS9829    National Internet Backbone
+117.209.2.0/24   # IN  AS9829    National Internet Backbone
+117.209.4.0/24   # IN  AS9829    National Internet Backbone
+117.209.5.0/24   # IN  AS9829    National Internet Backbone
+117.209.6.0/24   # IN  AS9829    National Internet Backbone
+117.209.7.0/24   # IN  AS9829    National Internet Backbone
+117.209.8.0/24   # IN  AS9829    National Internet Backbone
+117.209.9.0/24   # IN  AS9829    National Internet Backbone
+117.209.10.0/24  # IN  AS9829    National Internet Backbone
+117.209.11.0/24  # IN  AS9829    National Internet Backbone
+117.209.12.0/24  # IN  AS9829    National Internet Backbone
+117.209.13.0/24  # IN  AS9829    National Internet Backbone
+117.209.14.0/24  # IN  AS9829    National Internet Backbone
+117.209.15.0/24  # IN  AS9829    National Internet Backbone
+117.209.16.0/24  # IN  AS9829    National Internet Backbone
+117.209.17.0/24  # IN  AS9829    National Internet Backbone
+117.209.18.0/24  # IN  AS9829    National Internet Backbone
+117.209.19.0/24  # IN  AS9829    National Internet Backbone
+117.209.20.0/24  # IN  AS9829    National Internet Backbone
+117.209.21.0/24  # IN  AS9829    National Internet Backbone
+117.209.22.0/24  # IN  AS9829    National Internet Backbone
+117.209.23.0/24  # IN  AS9829    National Internet Backbone
+117.209.24.0/24  # IN  AS9829    National Internet Backbone
+117.209.25.0/24  # IN  AS9829    National Internet Backbone
+117.209.26.0/24  # IN  AS9829    National Internet Backbone
+117.209.27.0/24  # IN  AS9829    National Internet Backbone
+117.209.28.0/24  # IN  AS9829    National Internet Backbone
+117.209.29.0/24  # IN  AS9829    National Internet Backbone
+117.209.31.0/24  # IN  AS9829    National Internet Backbone
+117.209.32.0/24  # IN  AS9829    National Internet Backbone
+117.209.33.0/24  # IN  AS9829    National Internet Backbone
+117.209.36.0/24  # IN  AS9829    National Internet Backbone
+117.209.40.0/24  # IN  AS9829    National Internet Backbone
+117.209.41.0/24  # IN  AS9829    National Internet Backbone
+117.209.45.0/24  # IN  AS9829    National Internet Backbone
+117.209.80.0/24  # IN  AS9829    National Internet Backbone
+117.209.81.0/24  # IN  AS9829    National Internet Backbone
+117.209.82.0/24  # IN  AS9829    National Internet Backbone
+117.209.83.0/24  # IN  AS9829    National Internet Backbone
+117.209.84.0/24  # IN  AS9829    National Internet Backbone
+117.209.85.0/24  # IN  AS9829    National Internet Backbone
+117.209.86.0/24  # IN  AS9829    National Internet Backbone
+117.209.87.0/24  # IN  AS9829    National Internet Backbone
+117.209.88.0/24  # IN  AS9829    National Internet Backbone
+117.209.89.0/24  # IN  AS9829    National Internet Backbone
+117.209.90.0/24  # IN  AS9829    National Internet Backbone
+117.209.91.0/24  # IN  AS9829    National Internet Backbone
+117.209.92.0/24  # IN  AS9829    National Internet Backbone
+117.209.93.0/24  # IN  AS9829    National Internet Backbone
+117.209.94.0/24  # IN  AS9829    National Internet Backbone
+117.209.95.0/24  # IN  AS9829    National Internet Backbone
+117.209.112.0/24 # IN  AS9829    National Internet Backbone
+117.209.117.0/24 # IN  AS9829    National Internet Backbone
+117.209.118.0/24 # IN  AS9829    National Internet Backbone
+117.209.240.0/24 # IN  AS9829    National Internet Backbone
+117.209.241.0/24 # IN  AS9829    National Internet Backbone
+117.210.217.0/24 # IN  AS9829    National Internet Backbone
+117.210.219.0/24 # IN  AS9829    National Internet Backbone
+117.210.221.0/24 # IN  AS9829    National Internet Backbone
+117.210.223.0/24 # IN  AS9829    National Internet Backbone
+117.211.159.0/24 # IN  AS9829    National Internet Backbone
+117.212.48.0/24  # IN  AS9829    National Internet Backbone
+117.212.59.0/24  # IN  AS9829    National Internet Backbone
+117.212.61.0/24  # IN  AS9829    National Internet Backbone
+117.212.167.0/24 # IN  AS9829    National Internet Backbone
+117.212.170.0/24 # IN  AS9829    National Internet Backbone
+117.213.112.0/24 # IN  AS9829    National Internet Backbone
+117.213.125.0/24 # IN  AS9829    National Internet Backbone
+117.213.241.0/24 # IN  AS9829    National Internet Backbone
+117.213.242.0/24 # IN  AS9829    National Internet Backbone
+117.213.243.0/24 # IN  AS9829    National Internet Backbone
+117.213.244.0/24 # IN  AS9829    National Internet Backbone
+117.213.247.0/24 # IN  AS9829    National Internet Backbone
+117.213.248.0/24 # IN  AS9829    National Internet Backbone
+117.213.250.0/24 # IN  AS9829    National Internet Backbone
+117.213.251.0/24 # IN  AS9829    National Internet Backbone
+117.213.253.0/24 # IN  AS9829    National Internet Backbone
+117.213.254.0/24 # IN  AS9829    National Internet Backbone
+117.214.11.0/24  # IN  AS9829    National Internet Backbone
+117.214.15.0/24  # IN  AS9829    National Internet Backbone
+117.214.72.0/24  # IN  AS9829    National Internet Backbone
+117.214.73.0/24  # IN  AS9829    National Internet Backbone
+117.214.74.0/24  # IN  AS9829    National Internet Backbone
+117.214.75.0/24  # IN  AS9829    National Internet Backbone
+117.214.76.0/24  # IN  AS9829    National Internet Backbone
+117.214.78.0/24  # IN  AS9829    National Internet Backbone
+117.214.79.0/24  # IN  AS9829    National Internet Backbone
+117.215.48.0/24  # IN  AS9829    National Internet Backbone
+117.215.49.0/24  # IN  AS9829    National Internet Backbone
+117.215.50.0/24  # IN  AS9829    National Internet Backbone
+117.215.52.0/24  # IN  AS9829    National Internet Backbone
+117.215.53.0/24  # IN  AS9829    National Internet Backbone
+117.215.54.0/24  # IN  AS9829    National Internet Backbone
+117.215.55.0/24  # IN  AS9829    National Internet Backbone
+117.215.56.0/24  # IN  AS9829    National Internet Backbone
+117.215.57.0/24  # IN  AS9829    National Internet Backbone
+117.215.58.0/24  # IN  AS9829    National Internet Backbone
+117.215.59.0/24  # IN  AS9829    National Internet Backbone
+117.215.60.0/24  # IN  AS9829    National Internet Backbone
+117.215.61.0/24  # IN  AS9829    National Internet Backbone
+117.215.62.0/24  # IN  AS9829    National Internet Backbone
+117.215.63.0/24  # IN  AS9829    National Internet Backbone
+117.215.226.0/24 # IN  AS9829    National Internet Backbone
+117.215.232.0/24 # IN  AS9829    National Internet Backbone
+117.216.5.0/24   # IN  AS9829    National Internet Backbone
+117.216.7.0/24   # IN  AS9829    National Internet Backbone
+117.216.22.0/24  # IN  AS9829    National Internet Backbone
+117.216.23.0/24  # IN  AS9829    National Internet Backbone
+117.216.25.0/24  # IN  AS9829    National Internet Backbone
+117.216.30.0/24  # IN  AS9829    National Internet Backbone
+117.216.150.0/24 # IN  AS9829    National Internet Backbone
+117.216.152.0/24 # IN  AS9829    National Internet Backbone
+117.216.154.0/24 # IN  AS9829    National Internet Backbone
+117.217.35.0/24  # IN  AS9829    National Internet Backbone
+117.217.38.0/24  # IN  AS9829    National Internet Backbone
+117.217.41.0/24  # IN  AS9829    National Internet Backbone
+117.217.91.0/24  # IN  AS9829    National Internet Backbone
+117.219.38.0/24  # IN  AS9829    National Internet Backbone
+117.219.65.0/24  # IN  AS9829    National Internet Backbone
+117.219.67.0/24  # IN  AS9829    National Internet Backbone
+117.219.71.0/24  # IN  AS9829    National Internet Backbone
+117.219.76.0/24  # IN  AS9829    National Internet Backbone
+117.221.113.0/24 # IN  AS9829    National Internet Backbone
+117.221.118.0/24 # IN  AS9829    National Internet Backbone
+117.221.125.0/24 # IN  AS9829    National Internet Backbone
+117.221.171.0/24 # IN  AS9829    National Internet Backbone
+117.223.0.0/24   # IN  AS9829    National Internet Backbone
+117.223.1.0/24   # IN  AS9829    National Internet Backbone
+117.223.2.0/24   # IN  AS9829    National Internet Backbone
+117.223.5.0/24   # IN  AS9829    National Internet Backbone
+117.223.6.0/24   # IN  AS9829    National Internet Backbone
+117.231.131.0/24 # IN  AS9829    National Internet Backbone
+117.231.132.0/24 # IN  AS9829    National Internet Backbone
+117.231.134.0/24 # IN  AS9829    National Internet Backbone
+117.231.136.0/24 # IN  AS9829    National Internet Backbone
+117.231.138.0/24 # IN  AS9829    National Internet Backbone
+117.232.6.0/24   # IN  AS9829    National Internet Backbone
+117.233.129.0/24 # IN  AS9829    National Internet Backbone
+117.233.138.0/24 # IN  AS9829    National Internet Backbone
+117.233.148.0/24 # IN  AS9829    National Internet Backbone
+117.233.178.0/24 # IN  AS9829    National Internet Backbone
+117.233.188.0/24 # IN  AS9829    National Internet Backbone
+117.233.229.0/24 # IN  AS9829    National Internet Backbone
+117.235.96.0/24  # IN  AS9829    National Internet Backbone
+117.235.111.0/24 # IN  AS9829    National Internet Backbone
+117.241.11.0/24  # IN  AS9829    National Internet Backbone
+117.241.12.0/24  # IN  AS9829    National Internet Backbone
+117.241.179.0/24 # IN  AS9829    National Internet Backbone
+117.241.201.0/24 # IN  AS9829    National Internet Backbone
+117.242.194.0/24 # IN  AS9829    National Internet Backbone
+117.242.195.0/24 # IN  AS9829    National Internet Backbone
+117.242.196.0/24 # IN  AS9829    National Internet Backbone
+117.242.197.0/24 # IN  AS9829    National Internet Backbone
+117.242.199.0/24 # IN  AS9829    National Internet Backbone
+117.242.204.0/24 # IN  AS9829    National Internet Backbone
+117.242.224.0/24 # IN  AS9829    National Internet Backbone
+117.242.225.0/24 # IN  AS9829    National Internet Backbone
+117.242.239.0/24 # IN  AS9829    National Internet Backbone
+117.243.192.0/24 # IN  AS9829    National Internet Backbone
+117.243.248.0/24 # IN  AS9829    National Internet Backbone
+117.243.255.0/24 # IN  AS9829    National Internet Backbone
+117.245.1.0/24   # IN  AS9829    National Internet Backbone
+117.245.3.0/24   # IN  AS9829    National Internet Backbone
+117.245.4.0/24   # IN  AS9829    National Internet Backbone
+117.245.5.0/24   # IN  AS9829    National Internet Backbone
+117.245.6.0/24   # IN  AS9829    National Internet Backbone
+117.245.10.0/24  # IN  AS9829    National Internet Backbone
+117.245.11.0/24  # IN  AS9829    National Internet Backbone
+117.245.12.0/24  # IN  AS9829    National Internet Backbone
+117.245.15.0/24  # IN  AS9829    National Internet Backbone
+117.245.216.0/24 # IN  AS9829    National Internet Backbone
+117.245.220.0/24 # IN  AS9829    National Internet Backbone
+117.245.221.0/24 # IN  AS9829    National Internet Backbone
+117.248.37.0/24  # IN  AS9829    National Internet Backbone
+117.248.161.0/24 # IN  AS9829    National Internet Backbone
+117.248.165.0/24 # IN  AS9829    National Internet Backbone
+117.248.171.0/24 # IN  AS9829    National Internet Backbone
+117.248.172.0/24 # IN  AS9829    National Internet Backbone
+117.251.172.0/24 # IN  AS9829    National Internet Backbone
+117.253.65.0/24  # IN  AS9829    National Internet Backbone
+117.253.167.0/24 # IN  AS9829    National Internet Backbone
+117.254.32.0/24  # IN  AS9829    National Internet Backbone
+117.254.33.0/24  # IN  AS9829    National Internet Backbone
+117.254.34.0/24  # IN  AS9829    National Internet Backbone
+117.254.35.0/24  # IN  AS9829    National Internet Backbone
+117.254.96.0/24  # IN  AS9829    National Internet Backbone
+117.254.97.0/24  # IN  AS9829    National Internet Backbone
+117.254.98.0/24  # IN  AS9829    National Internet Backbone
+117.254.99.0/24  # IN  AS9829    National Internet Backbone
+117.254.101.0/24 # IN  AS9829    National Internet Backbone
+117.254.102.0/24 # IN  AS9829    National Internet Backbone
+117.255.24.0/24  # IN  AS9829    National Internet Backbone
+117.255.65.0/24  # IN  AS9829    National Internet Backbone
+117.255.73.0/24  # IN  AS9829    National Internet Backbone
+117.255.78.0/24  # IN  AS9829    National Internet Backbone
+117.255.97.0/24  # IN  AS9829    National Internet Backbone
+118.99.80.0/24   # ID  AS17451   BIZNET NETWORKS
+118.161.13.0/24  # TW  AS3462    Data Communication Business Group
+118.170.43.0/24  # TW  AS3462    Data Communication Business Group
+118.170.45.0/24  # TW  AS3462    Data Communication Business Group
+118.170.192.0/24 # TW  AS3462    Data Communication Business Group
+118.170.194.0/24 # TW  AS3462    Data Communication Business Group
+118.170.196.0/24 # TW  AS3462    Data Communication Business Group
+118.170.197.0/24 # TW  AS3462    Data Communication Business Group
+118.170.198.0/24 # TW  AS3462    Data Communication Business Group
+118.170.199.0/24 # TW  AS3462    Data Communication Business Group
+118.170.200.0/24 # TW  AS3462    Data Communication Business Group
+118.170.204.0/24 # TW  AS3462    Data Communication Business Group
+118.170.205.0/24 # TW  AS3462    Data Communication Business Group
+118.170.206.0/24 # TW  AS3462    Data Communication Business Group
+118.170.207.0/24 # TW  AS3462    Data Communication Business Group
+118.170.210.0/24 # TW  AS3462    Data Communication Business Group
+118.170.214.0/24 # TW  AS3462    Data Communication Business Group
+118.170.216.0/24 # TW  AS3462    Data Communication Business Group
+118.170.220.0/24 # TW  AS3462    Data Communication Business Group
+118.170.224.0/24 # TW  AS3462    Data Communication Business Group
+118.170.231.0/24 # TW  AS3462    Data Communication Business Group
+118.170.241.0/24 # TW  AS3462    Data Communication Business Group
+118.170.242.0/24 # TW  AS3462    Data Communication Business Group
+118.171.220.0/24 # TW  AS3462    Data Communication Business Group
+118.172.255.0/24 # TH  AS23969   TOT Public Company Limited
+118.173.49.0/24  # TH  AS23969   TOT Public Company Limited
+118.175.101.0/24 # TH  AS23969   TOT Public Company Limited
+118.175.201.0/24 # TH  AS23969   TOT Public Company Limited
+118.175.236.0/24 # TH  AS23969   TOT Public Company Limited
+118.175.237.0/24 # TH  AS23969   TOT Public Company Limited
+118.193.69.0/24  # KR  AS135377  UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+118.212.120.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+118.212.121.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+118.212.122.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+118.212.123.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+118.248.224.0/24 # CN  AS4134    CHINANET-BACKBONE
+118.249.82.0/24  # CN  AS4134    CHINANET-BACKBONE
+118.250.64.0/24  # CN  AS4134    CHINANET-BACKBONE
+118.250.105.0/24 # CN  AS4134    CHINANET-BACKBONE
+118.250.106.0/24 # CN  AS4134    CHINANET-BACKBONE
+119.42.74.0/24   # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+119.42.124.0/24  # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+119.68.207.0/24  # KR  AS17858   LG POWERCOMM
+119.99.220.0/24  # CN  AS4134    CHINANET-BACKBONE
+120.0.52.0/24    # CN  AS4837    CHINA UNICOM China169 Backbone
+120.36.16.0/24   # CN  AS4134    CHINANET-BACKBONE
+120.39.36.0/24   # CN  AS4134    CHINANET-BACKBONE
+120.56.4.0/24    # IN  AS9829    National Internet Backbone
+120.56.8.0/24    # IN  AS9829    National Internet Backbone
+120.57.124.0/24  # IN  AS17813   Mahanagar Telephone Nigam Limited
+120.57.125.0/24  # IN  AS17813   Mahanagar Telephone Nigam Limited
+120.57.173.0/24  # IN  AS17813   Mahanagar Telephone Nigam Limited
+120.57.213.0/24  # IN  AS17813   Mahanagar Telephone Nigam Limited
+120.61.16.0/24   # IN  AS9829    National Internet Backbone
+120.61.18.0/24   # IN  AS9829    National Internet Backbone
+120.61.21.0/24   # IN  AS9829    National Internet Backbone
+120.61.22.0/24   # IN  AS9829    National Internet Backbone
+120.61.23.0/24   # IN  AS9829    National Internet Backbone
+120.61.24.0/24   # IN  AS9829    National Internet Backbone
+120.61.27.0/24   # IN  AS9829    National Internet Backbone
+120.61.31.0/24   # IN  AS9829    National Internet Backbone
+120.61.80.0/24   # IN  AS9829    National Internet Backbone
+120.61.85.0/24   # IN  AS9829    National Internet Backbone
+120.61.88.0/24   # IN  AS9829    National Internet Backbone
+120.61.93.0/24   # IN  AS9829    National Internet Backbone
+120.61.168.0/24  # IN  AS9829    National Internet Backbone
+120.61.175.0/24  # IN  AS9829    National Internet Backbone
+120.61.240.0/24  # IN  AS9829    National Internet Backbone
+120.61.242.0/24  # IN  AS9829    National Internet Backbone
+120.61.243.0/24  # IN  AS9829    National Internet Backbone
+120.61.248.0/24  # IN  AS9829    National Internet Backbone
+120.61.250.0/24  # IN  AS9829    National Internet Backbone
+120.61.252.0/24  # IN  AS9829    National Internet Backbone
+120.61.254.0/24  # IN  AS9829    National Internet Backbone
+120.85.113.0/24  # CN  AS17622   China Unicom Guangzhou network
+120.85.117.0/24  # CN  AS17622   China Unicom Guangzhou network
+120.85.118.0/24  # CN  AS17622   China Unicom Guangzhou network
+120.86.255.0/24  # CN  AS17816   China Unicom IP network China169 Guangdong province
+120.245.136.0/24 # CN  AS56048   China Mobile Communicaitons Corporation
+121.29.178.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+121.61.128.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.129.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.130.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.131.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.132.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.133.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.134.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.135.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.142.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.160.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.161.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.163.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.194.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.200.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.201.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.244.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.245.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.246.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.61.247.0/24  # CN  AS4134    CHINANET-BACKBONE
+121.122.103.0/24 # MY  AS9534    Binariang Berhad
+121.144.59.0/24  # KR  AS4766    Korea Telecom
+121.205.253.0/24 # CN  AS4134    CHINANET-BACKBONE
+121.225.148.0/24 # CN  AS4134    CHINANET-BACKBONE
+121.225.149.0/24 # CN  AS4134    CHINANET-BACKBONE
+122.96.28.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+122.96.29.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+122.96.31.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+122.96.48.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+122.96.50.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+122.97.136.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+122.97.137.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+122.97.138.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+122.97.214.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+122.118.48.0/24  # TW  AS3462    Data Communication Business Group
+122.118.160.0/24 # TW  AS3462    Data Communication Business Group
+122.118.162.0/24 # TW  AS3462    Data Communication Business Group
+122.118.192.0/24 # TW  AS3462    Data Communication Business Group
+122.118.230.0/24 # TW  AS3462    Data Communication Business Group
+122.159.210.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+122.187.229.0/24 # IN  AS9498    BHARTI Airtel Ltd.
+122.187.230.0/24 # IN  AS9498    BHARTI Airtel Ltd.
+122.194.9.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+123.108.206.0/24 # IN  AS133593  VIZAG BROADCASTING COMPANY PVT. LTD
+123.160.221.0/24 # CN  AS137687  Luoyang, Henan Province, P.R.China.
+123.163.114.0/24 # CN  AS4134    CHINANET-BACKBONE
+123.165.80.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.165.81.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.165.82.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.165.83.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.165.84.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.165.85.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.165.86.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.165.87.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.165.152.0/24 # CN  AS4134    CHINANET-BACKBONE
+123.165.153.0/24 # CN  AS4134    CHINANET-BACKBONE
+123.165.154.0/24 # CN  AS4134    CHINANET-BACKBONE
+123.165.155.0/24 # CN  AS4134    CHINANET-BACKBONE
+123.166.66.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.166.132.0/24 # CN  AS4134    CHINANET-BACKBONE
+123.166.135.0/24 # CN  AS4134    CHINANET-BACKBONE
+123.173.87.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.175.4.0/24   # CN  AS4134    CHINANET-BACKBONE
+123.175.25.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.175.48.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.178.210.0/24 # CN  AS4134    CHINANET-BACKBONE
+123.185.222.0/24 # CN  AS134762  CHINANET Liaoning province Dalian MAN network
+123.185.223.0/24 # CN  AS134762  CHINANET Liaoning province Dalian MAN network
+123.245.66.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.245.67.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.245.84.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.245.85.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.245.97.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.245.99.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.254.109.0/24 # HK  AS55933   Cloudie Limited
+124.31.104.0/24  # CN  AS4134    CHINANET-BACKBONE
+124.31.105.0/24  # CN  AS4134    CHINANET-BACKBONE
+124.31.106.0/24  # CN  AS4134    CHINANET-BACKBONE
+124.31.107.0/24  # CN  AS4134    CHINANET-BACKBONE
+124.41.248.0/24  # NP  AS17501   WorldLink Communications Pvt Ltd
+124.41.249.0/24  # NP  AS17501   WorldLink Communications Pvt Ltd
+124.234.247.0/24 # CN  AS4134    CHINANET-BACKBONE
+124.235.240.0/24 # CN  AS4134    CHINANET-BACKBONE
+124.243.183.0/24 # SG  AS136907  HUAWEI CLOUDS
+125.25.203.0/24  # TH  AS23969   TOT Public Company Limited
+125.26.172.0/24  # TH  AS23969   TOT Public Company Limited
+125.26.173.0/24  # TH  AS23969   TOT Public Company Limited
+125.26.174.0/24  # TH  AS23969   TOT Public Company Limited
+125.26.175.0/24  # TH  AS23969   TOT Public Company Limited
+125.62.199.0/24  # IN  AS133593  VIZAG BROADCASTING COMPANY PVT. LTD
+125.82.242.0/24  # CN  AS4134    CHINANET-BACKBONE
+125.82.243.0/24  # CN  AS4134    CHINANET-BACKBONE
+125.87.80.0/24   # CN  AS4134    CHINANET-BACKBONE
+125.87.81.0/24   # CN  AS4134    CHINANET-BACKBONE
+125.87.82.0/24   # CN  AS4134    CHINANET-BACKBONE
+125.87.88.0/24   # CN  AS4134    CHINANET-BACKBONE
+125.87.89.0/24   # CN  AS4134    CHINANET-BACKBONE
+125.87.90.0/24   # CN  AS4134    CHINANET-BACKBONE
+125.87.94.0/24   # CN  AS4134    CHINANET-BACKBONE
+125.87.95.0/24   # CN  AS4134    CHINANET-BACKBONE
+125.224.64.0/24  # TW  AS3462    Data Communication Business Group
+125.224.65.0/24  # TW  AS3462    Data Communication Business Group
+125.224.67.0/24  # TW  AS3462    Data Communication Business Group
+125.224.68.0/24  # TW  AS3462    Data Communication Business Group
+125.224.69.0/24  # TW  AS3462    Data Communication Business Group
+125.224.71.0/24  # TW  AS3462    Data Communication Business Group
+125.224.75.0/24  # TW  AS3462    Data Communication Business Group
+125.224.102.0/24 # TW  AS3462    Data Communication Business Group
+125.224.103.0/24 # TW  AS3462    Data Communication Business Group
+125.224.104.0/24 # TW  AS3462    Data Communication Business Group
+125.224.206.0/24 # TW  AS3462    Data Communication Business Group
+125.224.208.0/24 # TW  AS3462    Data Communication Business Group
+125.224.209.0/24 # TW  AS3462    Data Communication Business Group
+125.224.210.0/24 # TW  AS3462    Data Communication Business Group
+125.224.211.0/24 # TW  AS3462    Data Communication Business Group
+125.230.12.0/24  # TW  AS3462    Data Communication Business Group
+125.230.18.0/24  # TW  AS3462    Data Communication Business Group
+125.230.19.0/24  # TW  AS3462    Data Communication Business Group
+125.230.20.0/24  # TW  AS3462    Data Communication Business Group
+125.230.21.0/24  # TW  AS3462    Data Communication Business Group
+125.230.22.0/24  # TW  AS3462    Data Communication Business Group
+125.230.23.0/24  # TW  AS3462    Data Communication Business Group
+125.230.24.0/24  # TW  AS3462    Data Communication Business Group
+125.230.25.0/24  # TW  AS3462    Data Communication Business Group
+125.230.26.0/24  # TW  AS3462    Data Communication Business Group
+125.230.27.0/24  # TW  AS3462    Data Communication Business Group
+125.230.28.0/24  # TW  AS3462    Data Communication Business Group
+125.230.29.0/24  # TW  AS3462    Data Communication Business Group
+125.230.30.0/24  # TW  AS3462    Data Communication Business Group
+125.230.194.0/24 # TW  AS3462    Data Communication Business Group
+125.230.195.0/24 # TW  AS3462    Data Communication Business Group
+125.230.196.0/24 # TW  AS3462    Data Communication Business Group
+125.231.224.0/24 # TW  AS3462    Data Communication Business Group
+125.231.225.0/24 # TW  AS3462    Data Communication Business Group
+125.231.226.0/24 # TW  AS3462    Data Communication Business Group
+125.231.228.0/24 # TW  AS3462    Data Communication Business Group
+125.231.229.0/24 # TW  AS3462    Data Communication Business Group
+125.231.230.0/24 # TW  AS3462    Data Communication Business Group
+128.1.32.0/24    # TW  AS135377  UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+128.1.132.0/24   # HK  AS135377  UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+129.18.188.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.189.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.198.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.202.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.203.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.204.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.207.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.214.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.220.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.221.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.222.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.233.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.18.236.0/24  # NG  AS36923   SWIFT NETWORKS LIMITED
+129.222.203.0/24 # CO  AS14593   Space Exploration Technologies Corporation
+134.209.151.0/24 # IN  AS14061   DigitalOcean, LLC
+134.209.155.0/24 # IN  AS14061   DigitalOcean, LLC
+136.144.33.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+136.144.42.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+138.84.41.0/24   # CO  AS14593   Space Exploration Technologies Corporation
+138.186.174.0/24 # BR  AS263877  rede banda larga
+138.197.131.0/24 # CA  AS14061   DigitalOcean, LLC
+138.197.133.0/24 # CA  AS14061   DigitalOcean, LLC
+138.197.145.0/24 # CA  AS14061   DigitalOcean, LLC
+138.204.71.0/24  # BR  AS263880  WANTEL TECNOLOGIA LTDA. ­ EPP
+139.59.19.0/24   # IN  AS14061   DigitalOcean, LLC
+139.59.58.0/24   # IN  AS14061   DigitalOcean, LLC
+139.226.161.0/24 # CN  AS17621   China Unicom Shanghai network
+140.206.195.0/24 # CN  AS17621   China Unicom Shanghai network
+141.11.24.0/24   # IT  AS56962   RHS s.r.l.
+141.98.7.0/24    # DE  AS215439  PLAY2GO INTERNATIONAL LIMITED
+141.98.10.0/24   # LT  AS209605  UAB Host Baltic
+141.98.11.0/24   # LT  AS209605  UAB Host Baltic
+143.110.177.0/24 # IN  AS14061   DigitalOcean, LLC
+143.110.183.0/24 # IN  AS14061   DigitalOcean, LLC
+143.198.47.0/24  # CA  AS14061   DigitalOcean, LLC
+143.255.242.0/24 # BR  AS265157  MICROTELL SCM LTDA
+144.86.173.0/24  # US  AS396982  Google LLC
+144.217.24.0/24  # CA  AS16276   OVH SAS
+146.70.52.0/24   # SE  AS9009    M247 Europe SRL
+146.88.240.0/24  # US  AS19905   Vercara, LLC
+146.88.241.0/24  # US  AS19905   Vercara, LLC
+146.185.25.0/24  # GB  AS29302   Hosting Services Inc
+147.78.47.0/24   # NL  AS209588  Flyservers S.A.
+147.78.103.0/24  # BG  -         -
+147.182.155.0/24 # CA  AS14061   DigitalOcean, LLC
+147.185.132.0/24 # US  AS396982  Google LLC
+147.185.133.0/24 # FI  AS396982  Google LLC
+147.185.135.0/24 # US  AS396982  Google LLC
+148.222.199.0/24 # CO  AS14593   Space Exploration Technologies Corporation
+149.22.87.0/24   # JP  AS212238  Datacamp Limited
+149.40.50.0/24   # US  AS212238  Datacamp Limited
+149.62.45.0/24   # JP  AS23959   Owl Limited
+149.88.103.0/24  # JP  AS212238  Datacamp Limited
+149.100.65.0/24  # US  AS153531  DATAGEEKS CLOUD IP TECHNOLOGY PRIVATE LIMITED
+152.89.198.0/24  # RU  AS213498  Infronet-Telecom LLC
+154.12.182.0/24  # JP  AS132110  HONGKONG JIUMAO INTERNATIONAL TRADING CO., LIMITED
+154.16.56.0/24   # DE  AS16509   Amazon.com, Inc.
+154.49.1.0/24    # UA  AS174     Cogent Communications
+154.54.249.0/24  # FR  AS210743  Babbar SAS
+154.57.142.0/24  # IN  AS153531  DATAGEEKS CLOUD IP TECHNOLOGY PRIVATE LIMITED
+154.57.143.0/24  # IN  AS153531  DATAGEEKS CLOUD IP TECHNOLOGY PRIVATE LIMITED
+154.84.61.0/24   # US  AS400619  AROSSCLOUD INC.
+154.203.197.0/24 # HK  AS984     OCTOPUS WEB SOLUTION INC
+154.212.141.0/24 # HK  AS9465    AGOTOZ PTE. LTD.
+154.213.184.0/24 # SC  AS984     OCTOPUS WEB SOLUTION INC
+154.213.185.0/24 # JP  AS984     OCTOPUS WEB SOLUTION INC
+154.213.186.0/24 # NL  AS984     OCTOPUS WEB SOLUTION INC
+154.213.187.0/24 # JP  AS984     OCTOPUS WEB SOLUTION INC
+154.213.188.0/24 # PT  AS984     OCTOPUS WEB SOLUTION INC
+154.213.189.0/24 # JP  AS984     OCTOPUS WEB SOLUTION INC
+154.213.190.0/24 # NL  AS984     OCTOPUS WEB SOLUTION INC
+154.213.192.0/24 # US  AS984     OCTOPUS WEB SOLUTION INC
+154.216.16.0/24  # LT  AS17561   LARUS Limited
+154.216.17.0/24  # LT  AS17561   LARUS Limited
+154.216.18.0/24  # LT  AS17561   LARUS Limited
+154.216.19.0/24  # LT  AS17561   LARUS Limited
+154.216.20.0/24  # LT  AS17561   LARUS Limited
+154.221.34.0/24  # IN  AS59187   NEEVAI SUPERCLOUD PVT LTD
+156.0.130.0/24   # GH  AS328224  University of Energy and Natural Resources
+156.229.232.0/24 # NL  AS60223   Netiface Limited
+156.229.233.0/24 # NL  AS60223   Netiface Limited
+156.233.225.0/24 # JP  -         -
+156.238.98.0/24  # IN  AS59187   NEEVAI SUPERCLOUD PVT LTD
+156.238.99.0/24  # IN  AS59187   NEEVAI SUPERCLOUD PVT LTD
+156.238.100.0/24 # IN  AS59187   NEEVAI SUPERCLOUD PVT LTD
+156.253.227.0/24 # NL  AS60223   Netiface Limited
+157.66.147.0/24  # IN  AS152499  INFINITYLINK COMMUNICATIONS PRIVATE LIMITED
+158.255.83.0/24  # RU  AS60904   ATC Telecom LTD.
+159.89.160.0/24  # IN  AS14061   DigitalOcean, LLC
+159.192.226.0/24 # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+159.192.227.0/24 # TH  AS131090  CAT TELECOM Public Company Ltd,CAT
+159.203.2.0/24   # CA  AS14061   DigitalOcean, LLC
+159.203.9.0/24   # CA  AS14061   DigitalOcean, LLC
+159.203.44.0/24  # CA  AS14061   DigitalOcean, LLC
+159.203.62.0/24  # CA  AS14061   DigitalOcean, LLC
+160.124.98.0/24  # HK  AS132839  POWER LINE DATACENTER
+160.187.239.0/24 # BD  AS153362  RUPGANJ ONLINE
+161.248.54.0/24  # IN  AS150627  Paltech Info Services Pvt Ltd
+161.248.55.0/24  # IN  AS150627  Paltech Info Services Pvt Ltd
+162.0.232.0/24   # US  AS22612   Namecheap, Inc.
+162.142.125.0/24 # US  AS398324  Censys, Inc.
+162.216.18.0/24  # US  AS63949   Akamai Connected Cloud
+162.216.149.0/24 # US  AS396982  Google LLC
+162.216.150.0/24 # US  AS396982  Google LLC
+165.22.227.0/24  # CA  AS14061   DigitalOcean, LLC
+165.154.195.0/24 # TW  AS142002  Scloud Pte Ltd
+165.154.208.0/24 # ID  AS142002  Scloud Pte Ltd
+165.154.209.0/24 # GB  AS142002  Scloud Pte Ltd
+165.154.213.0/24 # BR  AS142002  Scloud Pte Ltd
+165.154.226.0/24 # TW  AS142002  Scloud Pte Ltd
+165.154.227.0/24 # TW  AS142002  Scloud Pte Ltd
+165.154.231.0/24 # JP  AS142002  Scloud Pte Ltd
+165.154.235.0/24 # US  AS142002  Scloud Pte Ltd
+165.154.252.0/24 # GB  AS142002  Scloud Pte Ltd
+165.154.254.0/24 # US  AS142002  Scloud Pte Ltd
+165.227.46.0/24  # CA  AS14061   DigitalOcean, LLC
+165.231.182.0/24 # EE  AS58065   Orion Network Limited
+166.1.227.0/24   # US  AS55286   B2 Net Solutions Inc.
+166.143.166.0/24 # US  AS6167    Verizon Business
+167.94.138.0/24  # US  AS398324  Censys, Inc.
+167.94.145.0/24  # DE  AS398705  Censys, Inc.
+167.94.146.0/24  # DE  AS398705  Censys, Inc.
+167.99.181.0/24  # CA  AS14061   DigitalOcean, LLC
+167.248.133.0/24 # US  AS398324  Censys, Inc.
+167.249.71.0/24  # BR  AS271646  ULTRALINK TELECOM LTDA - ME
+168.220.235.0/24 # IN  AS151734  WEBYNE DATA CENTRE PRIVATE LIMITED
+168.232.12.0/24  # BR  AS264932  STAYNET SERVIÇOS DE INTERNET LTDA
+168.232.14.0/24  # BR  AS264932  STAYNET SERVIÇOS DE INTERNET LTDA
+168.232.15.0/24  # BR  AS264932  STAYNET SERVIÇOS DE INTERNET LTDA
+170.64.129.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.131.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.133.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.135.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.137.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.138.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.139.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.142.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.143.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.145.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.147.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.149.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.151.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.152.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.154.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.155.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.156.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.157.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.159.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.162.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.163.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.164.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.165.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.167.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.169.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.173.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.174.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.175.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.177.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.179.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.183.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.185.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.187.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.188.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.189.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.191.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.193.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.194.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.195.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.196.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.197.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.198.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.199.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.201.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.202.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.203.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.205.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.206.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.207.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.208.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.209.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.211.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.212.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.213.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.214.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.215.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.217.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.218.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.219.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.220.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.221.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.222.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.224.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.225.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.226.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.227.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.228.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.229.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.230.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.231.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.232.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.233.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.234.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.235.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.236.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.237.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.238.0/24  # AU  AS14061   DigitalOcean, LLC
+170.64.239.0/24  # AU  AS14061   DigitalOcean, LLC
+170.155.12.0/24  # AR  AS27967   Gobernacion de la Provincia de Buenos Aires
+170.244.73.0/24  # BR  AS266498  UNIVERSO FIBER COMUNICACAO MULTIMIDIA
+171.8.138.0/24   # CN  AS4134    CHINANET-BACKBONE
+171.12.10.0/24   # CN  AS4134    CHINANET-BACKBONE
+171.22.31.0/24   # DE  AS215439  PLAY2GO INTERNATIONAL LIMITED
+171.36.6.0/24    # CN  AS4837    CHINA UNICOM China169 Backbone
+171.37.46.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+171.41.144.0/24  # CN  AS4134    CHINANET-BACKBONE
+171.83.165.0/24  # CN  AS4134    CHINANET-BACKBONE
+171.108.182.0/24 # CN  AS4134    CHINANET-BACKBONE
+171.113.147.0/24 # CN  AS137266  CHINATELECOM Hubei province Wuhan 5G network
+171.116.170.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+171.251.18.0/24  # VN  AS7552    Viettel Group
+171.251.22.0/24  # VN  AS7552    Viettel Group
+172.104.11.0/24  # US  AS63949   Akamai Connected Cloud
+172.104.30.0/24  # US  AS63949   Akamai Connected Cloud
+172.104.210.0/24 # US  AS63949   Akamai Connected Cloud
+172.104.215.0/24 # US  AS63949   Akamai Connected Cloud
+172.104.217.0/24 # US  AS63949   Akamai Connected Cloud
+172.105.157.0/24 # US  AS63949   Akamai Connected Cloud
+172.168.40.0/24  # US  AS8075    Microsoft Corporation
+172.168.41.0/24  # US  AS8075    Microsoft Corporation
+172.169.111.0/24 # US  AS8075    Microsoft Corporation
+172.172.245.0/24 # US  AS8075    Microsoft Corporation
+172.174.253.0/24 # US  AS8075    Microsoft Corporation
+172.178.95.0/24  # US  AS8075    Microsoft Corporation
+172.178.126.0/24 # US  AS8075    Microsoft Corporation
+172.202.118.0/24 # US  AS8075    Microsoft Corporation
+172.206.143.0/24 # US  AS8075    Microsoft Corporation
+172.206.147.0/24 # US  AS8075    Microsoft Corporation
+172.206.148.0/24 # US  AS8075    Microsoft Corporation
+172.212.103.0/24 # US  AS8075    Microsoft Corporation
+172.245.102.0/24 # US  AS212238  Datacamp Limited
+173.255.212.0/24 # US  AS63949   Akamai Connected Cloud
+173.255.221.0/24 # US  AS63949   Akamai Connected Cloud
+175.0.60.0/24    # CN  AS4134    CHINANET-BACKBONE
+175.0.61.0/24    # CN  AS4134    CHINANET-BACKBONE
+175.0.62.0/24    # CN  AS4134    CHINANET-BACKBONE
+175.0.63.0/24    # CN  AS4134    CHINANET-BACKBONE
+175.8.112.0/24   # CN  AS4134    CHINANET-BACKBONE
+175.8.113.0/24   # CN  AS4134    CHINANET-BACKBONE
+175.8.114.0/24   # CN  AS4134    CHINANET-BACKBONE
+175.8.115.0/24   # CN  AS4134    CHINANET-BACKBONE
+175.9.132.0/24   # CN  AS4134    CHINANET-BACKBONE
+175.10.18.0/24   # CN  AS4134    CHINANET-BACKBONE
+175.10.100.0/24  # CN  AS4134    CHINANET-BACKBONE
+175.11.132.0/24  # CN  AS4134    CHINANET-BACKBONE
+175.11.133.0/24  # CN  AS4134    CHINANET-BACKBONE
+175.11.240.0/24  # CN  AS4134    CHINANET-BACKBONE
+175.11.241.0/24  # CN  AS4134    CHINANET-BACKBONE
+175.11.243.0/24  # CN  AS4134    CHINANET-BACKBONE
+175.13.0.0/24    # CN  AS4134    CHINANET-BACKBONE
+175.13.1.0/24    # CN  AS4134    CHINANET-BACKBONE
+175.13.203.0/24  # CN  AS4134    CHINANET-BACKBONE
+175.13.226.0/24  # CN  AS4134    CHINANET-BACKBONE
+175.30.48.0/24   # CN  AS4134    CHINANET-BACKBONE
+175.31.169.0/24  # CN  AS4134    CHINANET-BACKBONE
+175.31.254.0/24  # CN  AS4134    CHINANET-BACKBONE
+175.107.0.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.1.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.2.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.3.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.9.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.36.0/24  # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.37.0/24  # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.38.0/24  # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.39.0/24  # PK  AS23888   National Telecommunication Corporation HQ,
+175.165.80.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+175.165.81.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+175.165.82.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+175.165.83.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+175.165.84.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+175.165.85.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+175.165.86.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+175.165.87.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+176.65.137.0/24  # DE  AS215462  BUGGZ HOSTING
+176.65.138.0/24  # DE  AS215462  BUGGZ HOSTING
+176.97.210.0/24  # DE  AS49581   Ferdinand Zink trading as Tube-Hosting
+176.113.115.0/24 # RU  AS57678   Cat Technologies Co. Limited
+177.12.182.0/24  # BR  AS263033  LINKLI TELECOMUNICACOES LTDA
+177.12.185.0/24  # BR  AS263033  LINKLI TELECOMUNICACOES LTDA
+177.74.105.0/24  # BR  AS267575  MARANET TELECOM LTDA
+177.85.16.0/24   # BR  AS53043   NET VALE LTDA
+177.85.22.0/24   # BR  AS53043   NET VALE LTDA
+177.221.107.0/24 # BR  AS52654   Bi-Link Telecom
+178.72.70.0/24   # RU  AS8359    MTS PJSC
+178.72.71.0/24   # RU  AS8359    MTS PJSC
+178.72.81.0/24   # RU  AS8359    MTS PJSC
+178.79.168.0/24  # GB  AS63949   Akamai Connected Cloud
+178.128.233.0/24 # CA  AS14061   DigitalOcean, LLC
+178.141.242.0/24 # RU  AS8359    MTS PJSC
+178.141.243.0/24 # RU  AS8359    MTS PJSC
+178.141.244.0/24 # RU  AS8359    MTS PJSC
+178.215.224.0/24 # NL  -         -
+178.215.236.0/24 # DE  AS215439  PLAY2GO INTERNATIONAL LIMITED
+178.215.238.0/24 # DE  AS215439  PLAY2GO INTERNATIONAL LIMITED
+179.42.153.0/24  # BR  AS271192  Acess.Net Telecomunicacoes LTDA
+179.60.147.0/24  # NL  AS209588  Flyservers S.A.
+179.125.0.0/24   # BR  AS53043   NET VALE LTDA
+180.95.231.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+180.95.238.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+180.101.88.0/24  # CN  AS4134    CHINANET-BACKBONE
+180.101.233.0/24 # CN  AS4134    CHINANET-BACKBONE
+180.110.242.0/24 # CN  AS4134    CHINANET-BACKBONE
+180.136.232.0/24 # CN  AS4134    CHINANET-BACKBONE
+180.136.235.0/24 # CN  AS4134    CHINANET-BACKBONE
+180.149.125.0/24 # MN  AS45204   GEMNET LLC
+180.180.159.0/24 # TH  AS23969   TOT Public Company Limited
+180.188.231.0/24 # IN  AS133296  Web Werks India Pvt. Ltd.
+180.225.193.0/24 # KR  AS17858   LG POWERCOMM
+180.242.128.0/24 # ID  AS7713    PT Telekomunikasi Indonesia
+180.242.129.0/24 # ID  AS7713    PT Telekomunikasi Indonesia
+180.242.130.0/24 # ID  AS7713    PT Telekomunikasi Indonesia
+180.242.131.0/24 # ID  AS7713    PT Telekomunikasi Indonesia
+181.115.208.0/24 # BO  AS6568    Entel S.A. - EntelNet
+181.214.218.0/24 # BE  AS174     Cogent Communications
+182.32.50.0/24   # CN  AS4134    CHINANET-BACKBONE
+182.52.66.0/24   # TH  AS23969   TOT Public Company Limited
+182.52.115.0/24  # TH  AS23969   TOT Public Company Limited
+182.52.243.0/24  # TH  AS23969   TOT Public Company Limited
+182.53.178.0/24  # TH  AS23969   TOT Public Company Limited
+182.53.187.0/24  # TH  AS23969   TOT Public Company Limited
+182.138.158.0/24 # CN  AS4134    CHINANET-BACKBONE
+182.237.2.0/24   # HK  AS55933   Cloudie Limited
+182.240.9.0/24   # CN  AS4134    CHINANET-BACKBONE
+182.240.20.0/24  # CN  AS4134    CHINANET-BACKBONE
+182.240.63.0/24  # CN  AS4134    CHINANET-BACKBONE
+182.245.79.0/24  # CN  AS4134    CHINANET-BACKBONE
+182.245.106.0/24 # CN  AS4134    CHINANET-BACKBONE
+183.4.20.0/24    # CN  AS4134    CHINANET-BACKBONE
+183.4.21.0/24    # CN  AS4134    CHINANET-BACKBONE
+183.4.22.0/24    # CN  AS4134    CHINANET-BACKBONE
+183.4.23.0/24    # CN  AS4134    CHINANET-BACKBONE
+183.35.50.0/24   # CN  AS4134    CHINANET-BACKBONE
+183.93.66.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+183.95.157.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+183.150.182.0/24 # CN  AS4134    CHINANET-BACKBONE
+183.150.183.0/24 # CN  AS4134    CHINANET-BACKBONE
+183.160.194.0/24 # CN  AS4134    CHINANET-BACKBONE
+183.160.195.0/24 # CN  AS4134    CHINANET-BACKBONE
+183.240.211.0/24 # CN  AS56040   China Mobile communications corporation
+184.105.139.0/24 # US  AS6939    Hurricane Electric LLC
+184.105.247.0/24 # US  AS6939    Hurricane Electric LLC
+185.7.214.0/24   # RU  AS207566  Chang Way Technologies Co. Limited
+185.42.12.0/24   # RU  AS59425   Chang Way Technologies Co. Limited
+185.47.211.0/24  # RS  AS198371  NINET Company Nis d.o.o.
+185.77.170.0/24  # ES  AS201337  AVATEL TELECOM, SA
+185.77.171.0/24  # ES  AS201337  AVATEL TELECOM, SA
+185.91.127.0/24  # NL  AS49581   Ferdinand Zink trading as Tube-Hosting
+185.93.89.0/24   # NL  AS213790  Limited Network LTD
+185.147.124.0/24 # RU  AS49505   JSC Selectel
+185.147.125.0/24 # RU  AS49505   JSC Selectel
+185.160.30.0/24  # TR  AS213537  INCEPTION GAME AND MEDIA SERVICES LTD
+185.180.140.0/24 # US  AS211680  NSEC - Sistemas Informaticos, S.A.
+185.180.141.0/24 # US  AS21859   Zenlayer Inc
+185.180.143.0/24 # US  AS211680  NSEC - Sistemas Informaticos, S.A.
+185.184.122.0/24 # DE  AS213877  u1host ltd
+185.188.217.0/24 # RS  AS206358  Qendrim Kryeziu trading as N.P.SH "ISP - Broadcast
+185.196.8.0/24   # CH  AS42624   Global-Data System IT Corporation
+185.196.9.0/24   # CH  AS42624   Global-Data System IT Corporation
+185.196.10.0/24  # CH  AS42624   Global-Data System IT Corporation
+185.196.11.0/24  # CH  AS42624   Global-Data System IT Corporation
+185.198.69.0/24  # RU  -         -
+185.200.116.0/24 # SG  AS9009    M247 Europe SRL
+185.208.158.0/24 # CH  AS42624   Global-Data System IT Corporation
+185.213.164.0/24 # IR  AS61173   Green Web Samaneh Novin PJSC
+185.213.165.0/24 # IR  AS61173   Green Web Samaneh Novin PJSC
+185.216.70.0/24  # BG  AS16509   Amazon.com, Inc.
+185.220.101.0/24 # DE  AS60729   Stiftung Erneuerbare Freiheit
+185.223.152.0/24 # US  AS396356  Latitude.sh
+185.224.0.0/24   # NL  AS36680   Netiface LLC
+185.224.128.0/24 # NL  AS49870   Alsycon B.V.
+185.226.169.0/24 # ES  AS205718  ALCORT INGENIERIA Y ASESORIA S.L.
+185.226.197.0/24 # NL  AS21859   Zenlayer Inc
+185.232.205.0/24 # ES  AS400992  ZhouyiSat Communications
+185.233.19.0/24  # SE  AS209178  IPv4 Superhub Limited
+185.234.216.0/24 # RU  -         -
+185.241.208.0/24 # PL  AS210558  1337 Services GmbH
+185.242.224.0/24 # GB  AS3320    Deutsche Telekom AG
+185.242.225.0/24 # GB  AS51692   Steven Smith trading as HyberHost
+185.242.226.0/24 # NL  AS202425  IP Volume inc
+185.242.227.0/24 # NL  AS202418  Hendrik George Koren
+185.242.228.0/24 # SE  AS3399    Obenet AB
+185.242.229.0/24 # SE  AS3399    Obenet AB
+185.242.230.0/24 # SE  AS3399    Obenet AB
+185.242.231.0/24 # SE  AS3399    Obenet AB
+185.242.232.0/24 # HK  AS55933   Cloudie Limited
+185.242.233.0/24 # HK  AS55933   Cloudie Limited
+185.242.234.0/24 # HK  AS55933   Cloudie Limited
+185.242.235.0/24 # HK  AS55933   Cloudie Limited
+185.242.236.0/24 # IE  AS31122   Digiweb ltd
+185.242.237.0/24 # IE  AS31122   Digiweb ltd
+185.242.238.0/24 # IE  AS212312  Exigent Network Integration Ltd
+185.242.239.0/24 # IE  AS212312  Exigent Network Integration Ltd
+185.243.5.0/24   # US  AS23470   ReliableSite.Net LLC
+185.247.137.0/24 # GB  AS211298  Driftnet Ltd
+185.255.91.0/24  # IR  AS61173   Green Web Samaneh Novin PJSC
+186.177.88.0/24  # CR  AS262197  MILLICOM CABLE COSTA RICA S.A.
+187.103.1.0/24   # BR  AS53098   NEWNET CONSULTORIA, INFORMATICA LTDA
+187.103.2.0/24   # BR  AS53098   NEWNET CONSULTORIA, INFORMATICA LTDA
+187.103.3.0/24   # BR  AS53098   NEWNET CONSULTORIA, INFORMATICA LTDA
+187.103.4.0/24   # BR  AS53098   NEWNET CONSULTORIA, INFORMATICA LTDA
+187.120.16.0/24  # BR  AS266181  GOLDEN LINK
+188.190.10.0/24  # UA  AS200195  Verasel, Inc.
+188.215.172.0/24 # IR  AS58224   Iran Telecommunication Company PJS
+189.50.215.0/24  # BR  AS270535  S DE OLIVEIRA FILHO
+189.51.28.0/24   # BR  AS28198   SEMPRE TELECOMUNICACOES LTDA
+190.109.227.0/24 # BO  AS52495   Cotel Ltda.
+190.109.228.0/24 # BO  AS52495   Cotel Ltda.
+190.109.229.0/24 # BO  AS52495   Cotel Ltda.
+191.55.188.0/24  # BR  AS53006   ALGAR TELECOM S/A
+191.55.189.0/24  # BR  AS53006   ALGAR TELECOM S/A
+191.55.190.0/24  # BR  AS53006   ALGAR TELECOM S/A
+191.55.191.0/24  # BR  AS53006   ALGAR TELECOM S/A
+191.96.168.0/24  # NL  AS174     Cogent Communications
+191.242.106.0/24 # BR  AS263476  V W INTERNET
+192.24.160.0/24  # US  AS6181    Cincinnati Bell Telephone Company LLC
+192.42.116.0/24  # NL  AS1101    SURF B.V.
+192.72.5.0/24    # TW  AS4780    Digital United Inc.
+192.81.131.0/24  # US  AS63949   Akamai Connected Cloud
+192.155.89.0/24  # US  AS63949   Akamai Connected Cloud
+192.155.90.0/24  # US  AS63949   Akamai Connected Cloud
+192.155.102.0/24 # US  AS30083   velia.net
+192.241.207.0/24 # US  AS14061   DigitalOcean, LLC
+193.26.115.0/24  # US  AS23470   ReliableSite.Net LLC
+193.32.126.0/24  # FR  AS39351   31173 Services AB
+193.32.162.0/24  # RO  AS47890   UNMANAGED LTD
+193.35.18.0/24   # GB  AS834     IPXO LLC
+193.36.225.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+193.37.32.0/24   # SG  AS206092  Internet Utilities Europe and Asia Limited
+193.37.33.0/24   # US  AS206092  Internet Utilities Europe and Asia Limited
+193.37.69.0/24   # RU  AS213194  Nechaev Dmitry Sergeevich
+193.46.255.0/24  # RO  AS47890   UNMANAGED LTD
+193.57.40.0/24   # NL  AS267784  Flyservers S.A.
+193.118.53.0/24  # NL  AS21859   Zenlayer Inc
+193.143.1.0/24   # RU  AS198953  Proton66 OOO
+193.163.125.0/24 # GB  AS211298  Driftnet Ltd
+193.176.211.0/24 # HK  AS206092  Internet Utilities Europe and Asia Limited
+193.200.78.0/24  # NL  AS214967  Optibounce, LLC
+193.222.96.0/24  # BG  AS214059  Mahmoud Saber Ahmed Abdalla Youssef
+193.232.37.0/24  # RU  AS8848    JSC Center of Financial Technologies
+193.232.101.0/24 # RU  AS50416   PUBLIC JOINT STOCK COMPANY "TRANSCAPITALBANK"
+193.233.133.0/24 # DE  AS210644  AEZA INTERNATIONAL LTD
+193.233.232.0/24 # DE  AS210644  AEZA INTERNATIONAL LTD
+193.233.233.0/24 # DE  AS210644  AEZA INTERNATIONAL LTD
+194.0.234.0/24   # LT  AS214295  SKYNET NETWORK LTD
+194.5.82.0/24    # SG  AS137409  GSL Networks Pty LTD
+194.26.135.0/24  # RU  AS43991   Voronezh Telecom LLC
+194.26.192.0/24  # NL  AS210558  1337 Services GmbH
+194.48.251.0/24  # NZ  AS151612  HOSTPERL
+194.50.16.0/24   # NL  AS49870   Alsycon B.V.
+194.55.186.0/24  # BG  -         -
+194.59.30.0/24   # FR  AS399486  12651980 CANADA INC.
+194.59.31.0/24   # FR  AS399486  12651980 CANADA INC.
+194.61.40.0/24   # SG  AS137409  GSL Networks Pty LTD
+194.85.126.0/24  # RU  AS8848    JSC Center of Financial Technologies
+194.85.251.0/24  # DE  -         -
+194.165.16.0/24  # LT  AS48721   Flyservers S.A.
+194.169.175.0/24 # BG  -         -
+194.180.48.0/24  # PL  AS201814  MEVSPACE sp. z o.o.
+194.180.49.0/24  # PL  AS201814  MEVSPACE sp. z o.o.
+194.187.176.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.177.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.178.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.179.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+195.18.18.0/24   # UA  AS48004   PE Tsibrankov Konstantin Igorevich
+195.78.54.0/24   # NL  AS174     Cogent Communications
+195.177.94.0/24  # FR  AS47400   Dyjix Association
+195.177.95.0/24  # NL  -         -
+195.178.110.0/24 # NL  AS48090   TECHOFF SRV LIMITED
+195.178.203.0/24 # RU  AS5429    Telecommunications center UMOS, LLC
+195.184.76.0/24  # US  AS213412  ONYPHE SAS
+195.211.190.0/24 # NL  AS214943  Railnet LLC
+195.211.191.0/24 # NL  AS214940  KPROHOST LLC
+195.225.38.0/24  # RU  AS35022   Gazprombank JSC
+196.251.69.0/24  # NL  AS401120  cheapy.host LLC
+196.251.70.0/24  # NL  AS401120  cheapy.host LLC
+196.251.71.0/24  # NL  AS401120  cheapy.host LLC
+196.251.72.0/24  # NL  AS401120  cheapy.host LLC
+196.251.73.0/24  # NL  AS401120  cheapy.host LLC
+196.251.80.0/24  # NL  AS401120  cheapy.host LLC
+196.251.81.0/24  # NL  AS401120  cheapy.host LLC
+196.251.83.0/24  # NL  AS401120  cheapy.host LLC
+196.251.84.0/24  # NL  AS401120  cheapy.host LLC
+196.251.85.0/24  # NL  AS401120  cheapy.host LLC
+196.251.86.0/24  # NL  AS401120  cheapy.host LLC
+196.251.87.0/24  # NL  AS401120  cheapy.host LLC
+196.251.88.0/24  # NL  AS401120  cheapy.host LLC
+196.251.91.0/24  # NL  AS401120  cheapy.host LLC
+196.251.92.0/24  # NL  AS401109  Zhongguancun LLC
+196.251.113.0/24 # NL  AS401116  Nybula LLC
+196.251.118.0/24 # NL  AS401116  Nybula LLC
+197.255.198.0/24 # GM  AS37323   Netpage Company Limited
+197.255.201.0/24 # GM  AS37323   Netpage Company Limited
+197.255.202.0/24 # GM  AS37323   Netpage Company Limited
+197.255.203.0/24 # GM  AS37323   Netpage Company Limited
+198.54.114.0/24  # US  AS22612   Namecheap, Inc.
+198.58.109.0/24  # US  AS63949   Akamai Connected Cloud
+198.74.56.0/24   # US  AS63949   Akamai Connected Cloud
+198.235.24.0/24  # US  AS396982  Google LLC
+199.45.154.0/24  # CN  AS398722  Censys, Inc.
+199.45.155.0/24  # HK  AS398722  Censys, Inc.
+200.95.174.0/24  # BR  AS27720   CITTA TELECOM LTDA
+201.202.13.0/24  # CR  AS11830   Instituto Costarricense de Electricidad y Telecom.
+202.9.122.0/24   # IN  AS137120  Nas Internet Services Private Limited
+202.44.243.0/24  # TH  AS4618    Internet Thailand Company Limited
+202.66.164.0/24  # IN  AS134337  R2 Net Solutions Pvt Ltd
+202.66.165.0/24  # IN  AS134337  R2 Net Solutions Pvt Ltd
+202.66.166.0/24  # IN  AS134337  R2 Net Solutions Pvt Ltd
+202.66.167.0/24  # IN  AS134337  R2 Net Solutions Pvt Ltd
+202.75.28.0/24   # ID  AS138871  PT. Trans Indonesia Superkoridor
+202.131.82.0/24  # KH  AS17981   Cambo Technology(ISP) Co.,Ltd
+203.145.34.0/24  # ID  AS136052  PT Cloud Hosting Indonesia
+204.8.96.0/24    # US  AS62744   Quintex Alliance Consulting
+204.10.194.0/24  # DE  AS206216  Advin Services LLC
+204.76.203.0/24  # NL  AS51396   Pfcloud UG
+204.188.228.0/24 # US  AS46844   Sharktech
+205.169.39.0/24  # US  AS3356    Level 3 Parent, LLC
+205.210.31.0/24  # US  AS396982  Google LLC
+206.0.180.0/24   # VE  AS271907  COLNETWORK C.A.
+206.168.34.0/24  # US  AS398324  Censys, Inc.
+209.38.16.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.17.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.18.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.19.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.20.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.21.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.22.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.23.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.24.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.25.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.26.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.27.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.28.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.29.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.30.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.31.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.80.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.81.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.91.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.92.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.94.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.95.0/24   # AU  AS14061   DigitalOcean, LLC
+209.38.120.0/24  # IN  AS14061   DigitalOcean, LLC
+209.38.121.0/24  # IN  AS14061   DigitalOcean, LLC
+209.38.122.0/24  # IN  AS14061   DigitalOcean, LLC
+209.38.123.0/24  # IN  AS14061   DigitalOcean, LLC
+209.38.165.0/24  # GB  AS14061   DigitalOcean, LLC
+211.193.108.0/24 # KR  AS4766    Korea Telecom
+212.30.36.0/24   # DE  AS137409  GSL Networks Pty LTD
+212.33.202.0/24  # IR  AS43754   Asiatech Data Transmission company
+212.80.7.0/24    # DE  AS215439  PLAY2GO INTERNATIONAL LIMITED
+212.102.33.0/24  # US  AS60068   Datacamp Limited
+212.102.40.0/24  # US  AS60068   Datacamp Limited
+212.102.57.0/24  # DE  AS212238  Datacamp Limited
+213.109.202.0/24 # RU  AS35278   SPRINTHOST.RU LLC
+213.209.150.0/24 # TR  AS214943  Railnet LLC
+216.218.206.0/24 # US  AS6939    Hurricane Electric LLC
+216.244.66.0/24  # US  AS23033   Wowrack.com
+217.113.194.0/24 # FR  AS210743  Babbar SAS
+218.16.164.0/24  # CN  AS4134    CHINANET-BACKBONE
+218.66.32.0/24   # CN  AS4134    CHINANET-BACKBONE
+218.92.0.0/24    # CN  AS4134    CHINANET-BACKBONE
+218.104.149.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+218.149.228.0/24 # KR  AS4766    Korea Telecom
+219.76.152.0/24  # HK  AS4760    HKT Limited
+219.247.111.0/24 # CN  AS4538    China Education and Research Network Center
+220.167.232.0/24 # CN  AS140061  Qinghai Telecom
+220.167.233.0/24 # CN  AS140061  Qinghai Telecom
+220.197.51.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+220.200.35.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+220.246.55.0/24  # HK  AS4760    HKT Limited
+220.246.57.0/24  # HK  AS4760    HKT Limited
+220.250.10.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+220.250.11.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+221.207.5.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+221.207.6.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+221.207.34.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+221.207.35.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+222.90.12.0/24   # CN  AS4134    CHINANET-BACKBONE
+222.90.90.0/24   # CN  AS4134    CHINANET-BACKBONE
+222.94.32.0/24   # CN  AS4134    CHINANET-BACKBONE
+222.125.54.0/24  # CN  AS17962   ShenZhen Topway Video Communication Co. Ltd
+222.220.145.0/24 # CN  AS4134    CHINANET-BACKBONE
+222.221.227.0/24 # CN  AS4134    CHINANET-BACKBONE
+222.221.230.0/24 # CN  AS4134    CHINANET-BACKBONE
+222.241.133.0/24 # CN  AS4134    CHINANET-BACKBONE
+222.241.134.0/24 # CN  AS4134    CHINANET-BACKBONE
+222.241.135.0/24 # CN  AS4134    CHINANET-BACKBONE
+222.245.2.0/24   # CN  AS4134    CHINANET-BACKBONE
+222.246.40.0/24  # CN  AS4134    CHINANET-BACKBONE
+222.246.41.0/24  # CN  AS4134    CHINANET-BACKBONE
+222.246.42.0/24  # CN  AS4134    CHINANET-BACKBONE
+222.246.43.0/24  # CN  AS4134    CHINANET-BACKBONE
+222.246.108.0/24 # CN  AS4134    CHINANET-BACKBONE
+222.246.109.0/24 # CN  AS4134    CHINANET-BACKBONE
+222.246.110.0/24 # CN  AS4134    CHINANET-BACKBONE
+222.246.111.0/24 # CN  AS4134    CHINANET-BACKBONE
+223.8.184.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.185.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.186.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.187.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.191.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.196.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.197.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.208.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.209.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.210.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.211.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.212.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.213.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.214.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.215.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.216.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.217.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.218.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.219.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.220.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.221.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.222.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.223.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.8.238.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.25.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.28.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.62.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.70.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.80.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.81.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.84.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.85.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.86.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.91.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.94.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.13.95.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.15.8.0/24    # CN  AS4134    CHINANET-BACKBONE
+223.15.9.0/24    # CN  AS4134    CHINANET-BACKBONE
+223.15.10.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.15.11.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.15.24.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.15.25.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.15.52.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.15.53.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.15.54.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.15.55.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.73.138.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+223.109.64.0/24  # CN  AS56046   China Mobile communications corporation
+223.113.128.0/24 # CN  AS56046   China Mobile communications corporation
+223.151.72.0/24  # CN  AS4134    CHINANET-BACKBONE
+223.151.73.0/24  # CN  AS4134    CHINANET-BACKBONE
+223.151.74.0/24  # CN  AS4134    CHINANET-BACKBONE
+223.151.75.0/24  # CN  AS4134    CHINANET-BACKBONE
+223.151.76.0/24  # CN  AS4134    CHINANET-BACKBONE
+223.151.248.0/24 # CN  AS4134    CHINANET-BACKBONE
+223.151.249.0/24 # CN  AS4134    CHINANET-BACKBONE
+223.151.250.0/24 # CN  AS4134    CHINANET-BACKBONE
+223.151.251.0/24 # CN  AS4134    CHINANET-BACKBONE
+223.151.252.0/24 # CN  AS4134    CHINANET-BACKBONE
+223.151.253.0/24 # CN  AS4134    CHINANET-BACKBONE
+223.151.254.0/24 # CN  AS4134    CHINANET-BACKBONE
+223.151.255.0/24 # CN  AS4134    CHINANET-BACKBONE
+223.167.169.0/24 # CN  AS17621   China Unicom Shanghai network
+223.171.91.0/24  # KR  AS17853   LGTELECOM
