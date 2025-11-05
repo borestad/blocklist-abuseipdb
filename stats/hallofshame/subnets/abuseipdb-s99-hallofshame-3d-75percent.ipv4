@@ -1,0 +1,41 @@
+#
+# Hall of Shame: 3d
+# An aggregated list of ip ranges, where more than 75% the traffic from a /24 range is malicious from the last 3days
+#
+#
+# Last updated:        2025-11-05 13:43:14 UTC
+# Days:                3d
+# Malicious level:     > 75%
+# Filename:            abuseipdb-s99-hallofshame-3d-75percent.ipv4
+# Number of ips:       6656
+#
+# Source:              https://github.com/borestad/blocklist-abuseipdb
+# Credits:             https://www.abuseipdb.com - please support them!
+# Example:             https://www.abuseipdb.com/check-block/64.62.156.0/24
+#
+20.171.207.0/24  # US  AS8075    Microsoft Corporation
+35.203.210.0/24  # GB  AS396982  Google LLC
+35.203.211.0/24  # GB  AS396982  Google LLC
+64.62.156.0/24   # US  AS6939    Hurricane Electric LLC
+64.62.197.0/24   # US  AS6939    Hurricane Electric LLC
+65.49.1.0/24     # US  AS6939    Hurricane Electric LLC
+87.236.176.0/24  # GB  AS211298  Driftnet Ltd
+91.196.152.0/24  # FR  AS213412  ONYPHE SAS
+144.86.173.0/24  # US  AS396982  Google LLC
+147.185.132.0/24 # US  AS396982  Google LLC
+147.185.133.0/24 # FI  AS396982  Google LLC
+162.216.149.0/24 # US  AS396982  Google LLC
+162.216.150.0/24 # US  AS396982  Google LLC
+172.105.147.0/24 # US  AS63949   Akamai Connected Cloud
+185.223.152.0/24 # US  AS396356  Latitude.sh
+185.238.231.0/24 # US  AS206092  Internet Utilities Europe and Asia Limited
+185.247.137.0/24 # GB  AS211298  Driftnet Ltd
+193.163.125.0/24 # GB  AS211298  Driftnet Ltd
+194.187.176.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.178.0/24 # DE  AS215778  Alpha Strike Labs GmbH
+194.187.179.0/24 # US  AS42969   Alpha Strike Labs GmbH
+195.184.76.0/24  # US  AS213412  ONYPHE SAS
+198.235.24.0/24  # US  AS396982  Google LLC
+205.210.31.0/24  # US  AS396982  Google LLC
+216.180.246.0/24 # US  AS834     IPXO LLC
+217.113.194.0/24 # FR  AS210743  Babbar SAS

@@ -1,0 +1,15 @@
+root := `git rev-parse --show-toplevel`
+
+default: cron aggregate stats hallofshame
+
+cron:
+    pstats {{root}}/.cron/jobs/abuseipdb/cron
+
+aggregate:
+    pstats {{root}}/.cron/jobs/abuseipdb/aggregate
+
+stats:
+    pstats {{root}}/.cron/jobs/abuseipdb/stats
+
+hallofshame: stats
+    pstats {{root}}/.cron/jobs/abuseipdb/hallofshame

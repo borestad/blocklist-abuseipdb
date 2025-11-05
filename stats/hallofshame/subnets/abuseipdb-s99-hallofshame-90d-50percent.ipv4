@@ -1,0 +1,225 @@
+#
+# Hall of Shame: 90d
+# An aggregated list of ip ranges, where more than 50% the traffic from a /24 range is malicious from the last 90days
+#
+#
+# Last updated:        2025-11-05 13:43:14 UTC
+# Days:                90d
+# Malicious level:     > 50%
+# Filename:            abuseipdb-s99-hallofshame-90d-50percent.ipv4
+# Number of ips:       53760
+#
+# Source:              https://github.com/borestad/blocklist-abuseipdb
+# Credits:             https://www.abuseipdb.com - please support them!
+# Example:             https://www.abuseipdb.com/check-block/64.62.156.0/24
+#
+1.24.16.0/24     # CN  AS4837    CHINA UNICOM China169 Backbone
+1.83.125.0/24    # CN  AS4134    CHINANET-BACKBONE
+2.182.16.0/24    # IR  AS58224   Iran Telecommunication Company PJS
+2.182.18.0/24    # IR  AS58224   Iran Telecommunication Company PJS
+2.182.22.0/24    # IR  AS58224   Iran Telecommunication Company PJS
+2.182.23.0/24    # IR  AS58224   Iran Telecommunication Company PJS
+20.171.207.0/24  # US  AS8075    Microsoft Corporation
+27.0.216.0/24    # IN  AS24186   RailTel Corporation of India Ltd
+27.0.217.0/24    # IN  AS24186   RailTel Corporation of India Ltd
+31.171.130.0/24  # GB  AS206092  Internet Utilities Europe and Asia Limited
+35.203.210.0/24  # GB  AS396982  Google LLC
+35.203.211.0/24  # GB  AS396982  Google LLC
+36.32.3.0/24     # CN  AS140726  UNICOM AnHui province network
+36.35.166.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+36.106.166.0/24  # CN  AS17638   ASN for TIANJIN Provincial Net of CT
+36.106.167.0/24  # CN  AS17638   ASN for TIANJIN Provincial Net of CT
+38.188.160.0/24  # DO  AS273113  ONERED JWG532 SRL
+42.63.51.0/24    # CN  AS4837    CHINA UNICOM China169 Backbone
+42.92.120.0/24   # CN  AS4134    CHINANET-BACKBONE
+42.92.121.0/24   # CN  AS4134    CHINANET-BACKBONE
+43.248.108.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+44.220.185.0/24  # US  AS14618   Amazon.com, Inc.
+44.220.188.0/24  # US  AS14618   Amazon.com, Inc.
+45.86.202.0/24   # DE  AS206092  Internet Utilities Europe and Asia Limited
+45.115.176.0/24  # IN  AS137120  Nas Internet Services Private Limited
+45.128.199.0/24  # NL  AS62240   Clouvider
+45.131.194.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+45.131.195.0/24  # US  AS62240   Clouvider
+45.146.54.0/24   # US  AS206092  Internet Utilities Europe and Asia Limited
+45.156.128.0/24  # NL  AS211680  NSEC - Sistemas Informaticos, S.A.
+47.82.11.0/24    # SG  AS45102   Alibaba (US) Technology Co., Ltd.
+49.113.92.0/24   # CN  AS4134    CHINANET-BACKBONE
+49.113.93.0/24   # CN  AS4134    CHINANET-BACKBONE
+49.113.94.0/24   # CN  AS4134    CHINANET-BACKBONE
+49.113.95.0/24   # CN  AS4134    CHINANET-BACKBONE
+49.216.120.0/24  # TW  AS24158   Taiwan Mobile Co., Ltd.
+49.216.125.0/24  # TW  AS24158   Taiwan Mobile Co., Ltd.
+58.212.237.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.61.184.0/24   # CN  AS4134    CHINANET-BACKBONE
+59.173.132.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.173.133.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.173.134.0/24  # CN  AS4134    CHINANET-BACKBONE
+59.173.135.0/24  # CN  AS4134    CHINANET-BACKBONE
+60.13.6.0/24     # CN  AS4837    CHINA UNICOM China169 Backbone
+60.13.7.0/24     # CN  AS4837    CHINA UNICOM China169 Backbone
+60.13.138.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+61.166.210.0/24  # CN  AS4134    CHINANET-BACKBONE
+61.167.255.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+64.62.156.0/24   # US  AS6939    Hurricane Electric LLC
+64.62.197.0/24   # US  AS6939    Hurricane Electric LLC
+65.49.1.0/24     # US  AS6939    Hurricane Electric LLC
+74.7.227.0/24    # US  AS8075    Microsoft Corporation
+85.203.15.0/24   # DE  AS62240   Clouvider
+87.236.176.0/24  # GB  AS211298  Driftnet Ltd
+89.248.163.0/24  # NL  AS202425  IP Volume inc
+89.251.0.0/24    # CA  AS41564   Orion Network Limited
+91.196.152.0/24  # FR  AS213412  ONYPHE SAS
+91.217.249.0/24  # DE  AS206092  Internet Utilities Europe and Asia Limited
+91.231.89.0/24   # FR  AS213412  ONYPHE SAS
+92.119.36.0/24   # US  AS62240   Clouvider
+98.159.37.0/24   # US  AS62240   Clouvider
+103.80.23.0/24   # IN  AS134858  iForce Networks
+103.83.145.0/24  # IN  AS150596  Mynext Broadband Services Pvt Ltd
+103.98.37.0/24   # IN  AS138759  NETMAX COMPUTERS
+103.110.16.0/24  # IN  AS150596  Mynext Broadband Services Pvt Ltd
+103.110.19.0/24  # IN  AS150596  Mynext Broadband Services Pvt Ltd
+103.127.227.0/24 # IN  AS134858  iForce Networks
+103.157.52.0/24  # IN  AS134858  iForce Networks
+103.158.239.0/24 # IN  AS134858  iForce Networks
+103.160.197.0/24 # IN  AS135761  Userlinks Netcom Pvt. Ltd.
+103.163.220.0/24 # JP  AS206092  Internet Utilities Europe and Asia Limited
+103.167.204.0/24 # IN  AS132771  Fibre Air Services Private Limited
+103.168.2.0/24   # IN  AS135761  Userlinks Netcom Pvt. Ltd.
+103.173.211.0/24 # IN  AS132771  Fibre Air Services Private Limited
+104.152.52.0/24  # US  AS14987   Rethem Hosting LLC
+104.234.115.0/24 # US  AS396982  Google LLC
+109.205.211.0/24 # NL  AS49981   WorldStream
+110.24.36.0/24   # TW  AS9674    Far EastTone Telecommunication Co., Ltd.
+110.177.176.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.177.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.178.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.179.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.180.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.181.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.182.0/24 # CN  AS4134    CHINANET-BACKBONE
+110.177.183.0/24 # CN  AS4134    CHINANET-BACKBONE
+111.113.88.0/24  # CN  AS4134    CHINANET-BACKBONE
+111.113.89.0/24  # CN  AS4134    CHINANET-BACKBONE
+111.224.218.0/24 # CN  AS4134    CHINANET-BACKBONE
+111.224.219.0/24 # CN  AS4134    CHINANET-BACKBONE
+111.224.220.0/24 # CN  AS4134    CHINANET-BACKBONE
+111.224.221.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.46.212.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+112.46.213.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+112.46.215.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+112.46.217.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+112.94.252.0/24  # CN  AS17622   China Unicom Guangzhou network
+112.94.253.0/24  # CN  AS17622   China Unicom Guangzhou network
+112.112.182.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.112.212.0/24 # CN  AS4134    CHINANET-BACKBONE
+112.115.155.0/24 # CN  AS4134    CHINANET-BACKBONE
+113.128.64.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.128.65.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.128.66.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.128.67.0/24  # CN  AS4134    CHINANET-BACKBONE
+113.128.236.0/24 # CN  AS4134    CHINANET-BACKBONE
+113.128.237.0/24 # CN  AS4134    CHINANET-BACKBONE
+116.52.141.0/24  # CN  AS4134    CHINANET-BACKBONE
+116.172.200.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+116.172.201.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+116.172.248.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+116.172.249.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+117.29.44.0/24   # CN  AS4134    CHINANET-BACKBONE
+118.212.120.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+118.212.121.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+118.212.122.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+118.212.123.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+120.0.52.0/24    # CN  AS4837    CHINA UNICOM China169 Backbone
+120.36.16.0/24   # CN  AS4134    CHINANET-BACKBONE
+120.39.36.0/24   # CN  AS4134    CHINANET-BACKBONE
+121.29.178.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+122.96.28.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+122.96.29.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+123.178.210.0/24 # CN  AS4134    CHINANET-BACKBONE
+123.245.84.0/24  # CN  AS4134    CHINANET-BACKBONE
+123.245.85.0/24  # CN  AS4134    CHINANET-BACKBONE
+124.31.104.0/24  # CN  AS4134    CHINANET-BACKBONE
+124.31.105.0/24  # CN  AS4134    CHINANET-BACKBONE
+124.31.106.0/24  # CN  AS4134    CHINANET-BACKBONE
+124.31.107.0/24  # CN  AS4134    CHINANET-BACKBONE
+125.82.242.0/24  # CN  AS4134    CHINANET-BACKBONE
+125.82.243.0/24  # CN  AS4134    CHINANET-BACKBONE
+136.144.33.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+136.144.35.0/24  # US  AS396356  Latitude.sh
+139.227.161.0/24 # CN  AS17621   China Unicom Shanghai network
+140.206.195.0/24 # CN  AS17621   China Unicom Shanghai network
+144.86.173.0/24  # US  AS396982  Google LLC
+146.88.241.0/24  # US  AS20052   Arbor Networks, Inc.
+147.185.132.0/24 # US  AS396982  Google LLC
+147.185.133.0/24 # FI  AS396982  Google LLC
+156.0.130.0/24   # GH  AS328224  University of Energy and Natural Resources
+159.242.234.0/24 # DE  AS198605  Gen Digital dba as Avast
+162.142.125.0/24 # US  AS398324  Censys, Inc.
+162.216.149.0/24 # US  AS396982  Google LLC
+162.216.150.0/24 # US  AS396982  Google LLC
+167.94.138.0/24  # US  AS398324  Censys, Inc.
+171.36.6.0/24    # CN  AS4837    CHINA UNICOM China169 Backbone
+171.36.7.0/24    # CN  AS4837    CHINA UNICOM China169 Backbone
+171.37.47.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+172.105.147.0/24 # US  AS63949   Akamai Connected Cloud
+173.239.214.0/24 # US  AS62240   Clouvider
+173.239.218.0/24 # US  AS62240   Clouvider
+173.239.240.0/24 # US  AS396356  Latitude.sh
+173.239.254.0/24 # US  AS206092  Internet Utilities Europe and Asia Limited
+175.30.48.0/24   # CN  AS4134    CHINANET-BACKBONE
+175.107.0.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.1.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.2.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.3.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.36.0/24  # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.37.0/24  # PK  AS23888   National Telecommunication Corporation HQ,
+176.65.148.0/24  # DE  AS51396   Pfcloud UG
+176.65.149.0/24  # DE  AS51396   Pfcloud UG
+180.95.231.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+180.95.238.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+182.32.50.0/24   # CN  AS4134    CHINANET-BACKBONE
+182.138.158.0/24 # CN  AS4134    CHINANET-BACKBONE
+183.160.194.0/24 # CN  AS4134    CHINANET-BACKBONE
+183.160.195.0/24 # CN  AS4134    CHINANET-BACKBONE
+185.198.240.0/24 # US  AS62240   Clouvider
+185.220.101.0/24 # DE  AS60729   Stiftung Erneuerbare Freiheit
+185.223.152.0/24 # US  AS396356  Latitude.sh
+185.238.231.0/24 # US  AS206092  Internet Utilities Europe and Asia Limited
+185.247.137.0/24 # GB  AS211298  Driftnet Ltd
+193.19.109.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+193.37.33.0/24   # US  AS206092  Internet Utilities Europe and Asia Limited
+193.163.125.0/24 # GB  AS211298  Driftnet Ltd
+194.5.82.0/24    # SG  AS137409  GSL Networks Pty LTD
+194.187.176.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.178.0/24 # DE  AS215778  Alpha Strike Labs GmbH
+194.187.179.0/24 # US  AS42969   Alpha Strike Labs GmbH
+195.184.76.0/24  # US  AS213412  ONYPHE SAS
+198.55.98.0/24   # NL  AS214940  KPROHOST LLC
+198.235.24.0/24  # US  AS396982  Google LLC
+205.169.39.0/24  # US  AS3356    Level 3 Parent, LLC
+205.210.31.0/24  # US  AS396982  Google LLC
+206.168.34.0/24  # US  AS398324  Censys, Inc.
+212.30.33.0/24   # ES  AS212238  Datacamp Limited
+212.30.36.0/24   # DE  AS137409  GSL Networks Pty LTD
+213.209.157.0/24 # DE  AS208485  Nese Mala trading as Moon Dc
+216.24.210.0/24  # US  AS62240   Clouvider
+216.24.212.0/24  # US  AS62240   Clouvider
+216.73.163.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+216.73.216.0/24  # US  AS16509   Amazon.com, Inc.
+216.180.246.0/24 # US  AS834     IPXO LLC
+217.113.194.0/24 # FR  AS210743  Babbar SAS
+217.113.196.0/24 # FR  AS210743  Babbar SAS
+218.66.32.0/24   # CN  AS4134    CHINANET-BACKBONE
+218.104.149.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+220.167.232.0/24 # CN  AS140061  Qinghai Telecom
+220.167.233.0/24 # CN  AS140061  Qinghai Telecom
+220.197.51.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+220.250.10.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+220.250.11.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+221.13.92.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+221.13.93.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+221.207.34.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+221.207.35.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+222.94.32.0/24   # CN  AS4134    CHINANET-BACKBONE
+223.167.169.0/24 # CN  AS17621   China Unicom Shanghai network

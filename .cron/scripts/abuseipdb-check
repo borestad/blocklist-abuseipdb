@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+
+if [ -z "$ABUSEIPDB_TOKEN" ]; then
+  echo "Error: ABUSEIPDB_TOKEN is not set."
+  exit 1
+fi
+
+if [ -z "$1" ]; then
+  if [ -t 0 ]; then
+    echo "Error: No IP or subnet provided."
+    exit 1
+  else
+    IP=$(cat)
+  fi
+else
+  IP="$1"
+fi
+
+# Strip whitespace and unwanted characters
+IP=$(echo "$IP" | sed 's/[^0-9./]//g')
+
+function check-block() {
+  local SUBNET="$1"
+  # Optimization - Normalize API requests for /24 subnets
+  # Convert IP subnet to base address, i.e 1.1.1.8/24 => 1.1.1.0/24
+  if [[ "$SUBNET" == */24 ]]; then
+    SUBNET=$(echo "$SUBNET" | sed -E 's|([0-9]+\.[0-9]+\.[0-9]+)\.[0-9]+(/24)|\1.0\2|')
+  fi
+
+  bkt --ttl=1d -- \
+    curl -sG https://api.abuseipdb.com/api/v2/check-block \
+    --data-urlencode "network=$SUBNET" \
+    -d maxAgeInDays=30 \
+    -H "Key: $ABUSEIPDB_TOKEN" \
+    -H "Accept: application/json" | \
+    jq '.data.reportedAddress' | \
+    jq 'select(length > 0)' | \
+    jq -c '.[]'
+}
+
+function check() {
+  local IP="$1"
+  bkt --ttl=1d -- curl -sG https://api.abuseipdb.com/api/v2/check \
+    --data-urlencode "ipAddress=$IP" \
+    -d maxAgeInDays=30 \
+    -d verbose \
+    -H "Key: $ABUSEIPDB_TOKEN" \
+    -H "Accept: application/json" | \
+    jq 'del(.data.reports) .data' | \
+    jq 'select(length > 0)'
+}
+
+if [[ "$IP" == *"/"* ]]; then
+  check-block "$IP"
+else
+  check "$IP"
+fi

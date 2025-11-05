@@ -1,0 +1,431 @@
+#
+# Hall of Shame: 1d
+# An aggregated list of ip ranges, where more than 5% the traffic from a /24 range is malicious from the last 1days
+#
+#
+# Last updated:        2025-11-05 13:43:13 UTC
+# Days:                1d
+# Malicious level:     > 5%
+# Filename:            abuseipdb-s99-hallofshame-1d-5percent.ipv4
+# Number of ips:       106496
+#
+# Source:              https://github.com/borestad/blocklist-abuseipdb
+# Credits:             https://www.abuseipdb.com - please support them!
+# Example:             https://www.abuseipdb.com/check-block/64.62.156.0/24
+#
+1.24.16.0/24     # CN  AS4837    CHINA UNICOM China169 Backbone
+2.57.122.0/24    # RO  AS47890   UNMANAGED LTD
+4.227.36.0/24    # US  AS8075    Microsoft Corporation
+5.63.151.0/24    # GB  AS13213   UK-2 Limited
+8.221.141.0/24   # JP  AS45102   Alibaba (US) Technology Co., Ltd.
+13.89.124.0/24   # US  AS8075    Microsoft Corporation
+13.89.125.0/24   # US  AS8075    Microsoft Corporation
+14.1.104.0/24    # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+14.1.105.0/24    # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+14.1.106.0/24    # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+14.1.107.0/24    # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+14.103.112.0/24  # CN  AS4811    China Telecom (Group)
+14.103.114.0/24  # CN  AS4811    China Telecom (Group)
+14.103.115.0/24  # CN  AS4811    China Telecom (Group)
+14.103.117.0/24  # CN  AS4811    China Telecom (Group)
+14.103.118.0/24  # CN  AS4811    China Telecom (Group)
+14.103.123.0/24  # CN  AS4811    China Telecom (Group)
+14.103.127.0/24  # CN  AS4811    China Telecom (Group)
+15.235.189.0/24  # SG  AS16276   OVH SAS
+18.97.5.0/24     # US  AS14618   Amazon.com, Inc.
+18.97.19.0/24    # US  AS14618   Amazon.com, Inc.
+18.97.26.0/24    # US  AS14618   Amazon.com, Inc.
+20.64.104.0/24   # US  AS8075    Microsoft Corporation
+20.64.105.0/24   # US  AS8075    Microsoft Corporation
+20.64.106.0/24   # US  AS8075    Microsoft Corporation
+20.65.192.0/24   # US  AS8075    Microsoft Corporation
+20.65.193.0/24   # US  AS8075    Microsoft Corporation
+20.65.194.0/24   # US  AS8075    Microsoft Corporation
+20.65.195.0/24   # US  AS8075    Microsoft Corporation
+20.163.14.0/24   # US  AS8075    Microsoft Corporation
+20.163.15.0/24   # US  AS8075    Microsoft Corporation
+20.168.0.0/24    # US  AS8075    Microsoft Corporation
+20.168.6.0/24    # US  AS8075    Microsoft Corporation
+20.168.7.0/24    # US  AS8075    Microsoft Corporation
+20.168.120.0/24  # US  AS8075    Microsoft Corporation
+20.168.121.0/24  # US  AS8075    Microsoft Corporation
+20.168.122.0/24  # US  AS8075    Microsoft Corporation
+20.169.104.0/24  # US  AS8075    Microsoft Corporation
+20.169.105.0/24  # US  AS8075    Microsoft Corporation
+20.169.106.0/24  # US  AS8075    Microsoft Corporation
+20.169.107.0/24  # US  AS8075    Microsoft Corporation
+20.171.8.0/24    # US  AS8075    Microsoft Corporation
+20.171.207.0/24  # US  AS8075    Microsoft Corporation
+23.92.30.0/24    # US  AS63949   Akamai Connected Cloud
+23.129.64.0/24   # US  AS396507  Emerald Onion
+27.115.124.0/24  # CN  AS17621   China Unicom Shanghai network
+34.68.34.0/24    # US  AS396982  Google LLC
+35.203.210.0/24  # GB  AS396982  Google LLC
+35.203.211.0/24  # GB  AS396982  Google LLC
+36.32.3.0/24     # CN  AS140726  UNICOM AnHui province network
+37.49.148.0/24   # NL  -         -
+38.188.160.0/24  # DO  AS273113  ONERED JWG532 SRL
+40.124.173.0/24  # US  AS8075    Microsoft Corporation
+40.124.174.0/24  # US  AS8075    Microsoft Corporation
+40.124.175.0/24  # US  AS8075    Microsoft Corporation
+41.60.141.0/24   # KE  AS30844   Liquid Telecommunications Ltd
+43.173.173.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+43.173.176.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+43.173.177.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+43.173.180.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+43.173.181.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+43.173.182.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+43.240.193.0/24  # CN  AS4812    China Telecom (Group)
+43.248.108.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+44.220.185.0/24  # US  AS14618   Amazon.com, Inc.
+44.220.188.0/24  # US  AS14618   Amazon.com, Inc.
+45.33.68.0/24    # US  AS63949   Akamai Connected Cloud
+45.56.66.0/24    # US  AS63949   Akamai Connected Cloud
+45.78.194.0/24   # SG  AS150436  Byteplus Pte. Ltd.
+45.78.217.0/24   # SG  AS150436  Byteplus Pte. Ltd.
+45.79.67.0/24    # US  AS63949   Akamai Connected Cloud
+45.79.150.0/24   # US  AS63949   Akamai Connected Cloud
+45.82.76.0/24    # GB  AS212512  Detai Prosperous Technologies Limited
+45.84.107.0/24   # SE  AS214503  QuxLabs AB
+45.86.202.0/24   # DE  AS206092  Internet Utilities Europe and Asia Limited
+45.130.203.0/24  # DE  AS137409  GSL Networks Pty LTD
+45.131.194.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+45.131.195.0/24  # US  AS62240   Clouvider
+45.134.26.0/24   # RU  AS198953  Proton66 OOO
+45.135.194.0/24  # DE  AS51396   Pfcloud UG
+45.135.232.0/24  # RU  AS198953  Proton66 OOO
+45.138.16.0/24   # PL  AS210558  1337 Services GmbH
+45.140.17.0/24   # RU  AS198953  Proton66 OOO
+45.141.215.0/24  # PL  AS210558  1337 Services GmbH
+45.142.154.0/24  # HK  AS9465    AGOTOZ PTE. LTD.
+45.144.212.0/24  # NL  AS214940  KPROHOST LLC
+45.146.54.0/24   # US  AS206092  Internet Utilities Europe and Asia Limited
+45.148.10.0/24   # NL  AS48090   TECHOFF SRV LIMITED
+45.149.173.0/24  # US  AS62240   Clouvider
+45.153.34.0/24   # DE  AS51396   Pfcloud UG
+45.156.87.0/24   # DE  AS51396   Pfcloud UG
+45.156.128.0/24  # NL  AS211680  NSEC - Sistemas Informaticos, S.A.
+45.156.129.0/24  # US  AS211680  NSEC - Sistemas Informaticos, S.A.
+45.156.130.0/24  # US  AS211680  NSEC - Sistemas Informaticos, S.A.
+45.227.254.0/24  # LT  AS267784  Flyservers S.A.
+45.230.66.0/24   # AR  AS266702  MEGALINK S.R.L.
+47.250.81.0/24   # MY  AS45102   Alibaba (US) Technology Co., Ltd.
+47.251.92.0/24   # US  AS45102   Alibaba (US) Technology Co., Ltd.
+49.124.148.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.124.149.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.124.151.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.124.152.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.124.153.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.124.154.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.124.159.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.125.201.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+50.6.155.0/24    # US  AS19871   Network Solutions, LLC
+58.59.246.0/24   # CN  AS4134    CHINANET-BACKBONE
+60.13.138.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+62.60.131.0/24   # IR  AS213456  TAWSIE TECHNOLOGY
+63.250.38.0/24   # US  AS22612   Namecheap, Inc.
+64.62.156.0/24   # US  AS6939    Hurricane Electric LLC
+64.62.197.0/24   # US  AS6939    Hurricane Electric LLC
+65.49.1.0/24     # US  AS6939    Hurricane Electric LLC
+65.49.20.0/24    # US  AS6939    Hurricane Electric LLC
+66.29.132.0/24   # US  AS22612   Namecheap, Inc.
+66.29.141.0/24   # US  AS22612   Namecheap, Inc.
+66.29.146.0/24   # US  AS22612   Namecheap, Inc.
+66.29.153.0/24   # US  AS22612   Namecheap, Inc.
+66.132.153.0/24  # US  AS398324  Censys, Inc.
+66.167.166.0/24  # US  AS3257    GTT Communications Inc.
+66.167.169.0/24  # US  AS3257    GTT Communications Inc.
+67.223.118.0/24  # US  AS22612   Namecheap, Inc.
+68.65.120.0/24   # US  AS22612   Namecheap, Inc.
+68.65.122.0/24   # US  AS22612   Namecheap, Inc.
+71.6.233.0/24    # US  AS10439   CariNet, Inc.
+72.255.26.0/24   # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+74.7.227.0/24    # US  AS8075    Microsoft Corporation
+74.82.47.0/24    # US  AS6939    Hurricane Electric LLC
+77.90.185.0/24   # BY  AS215476  Inside Network LTD
+78.128.114.0/24  # BG  AS50360   Tamatiya EOOD
+78.153.140.0/24  # GB  AS202306  HOSTGLOBAL.PLUS LTD
+79.124.40.0/24   # BG  AS50360   Tamatiya EOOD
+79.124.49.0/24   # BG  AS50360   Tamatiya EOOD
+80.94.92.0/24    # RO  AS47890   UNMANAGED LTD
+80.94.95.0/24    # RO  AS204428  SS-Net
+81.30.107.0/24   # LT  AS215930  CIPHER OPERATIONS DOO BEOGRAD - NOVI BEOGRAD
+85.8.130.0/24    # US  AS206092  Internet Utilities Europe and Asia Limited
+85.203.15.0/24   # DE  AS62240   Clouvider
+85.204.70.0/24   # FR  AS25369   Hydra Communications Ltd
+85.208.84.0/24   # RU  AS211659  Stimul LLC
+85.208.96.0/24   # US  AS209366  SEMrush CY LTD
+87.120.191.0/24  # BG  AS215925  VPSVAULT.HOST LTD
+87.236.176.0/24  # GB  AS211298  Driftnet Ltd
+88.202.190.0/24  # GB  AS13213   UK-2 Limited
+88.210.63.0/24   # NL  AS211736  FOP Dmytro Nedilskyi
+88.218.193.0/24  # US  AS212512  Detai Prosperous Technologies Limited
+89.248.163.0/24  # NL  AS202425  IP Volume inc
+89.248.165.0/24  # NL  AS202425  IP Volume inc
+89.248.167.0/24  # NL  AS202425  IP Volume inc
+89.251.0.0/24    # CA  AS41564   Orion Network Limited
+91.92.240.0/24   # NL  -         -
+91.196.152.0/24  # FR  AS213412  ONYPHE SAS
+91.212.166.0/24  # RU  AS198953  Proton66 OOO
+91.217.249.0/24  # DE  AS206092  Internet Utilities Europe and Asia Limited
+91.224.92.0/24   # LT  AS209605  UAB Host Baltic
+91.230.168.0/24  # US  AS213412  ONYPHE SAS
+91.231.89.0/24   # FR  AS213412  ONYPHE SAS
+92.63.197.0/24   # NL  AS211736  FOP Dmytro Nedilskyi
+92.118.39.0/24   # RO  AS47890   UNMANAGED LTD
+92.119.36.0/24   # US  AS62240   Clouvider
+93.123.109.0/24  # NL  AS48090   TECHOFF SRV LIMITED
+93.152.230.0/24  # FI  AS210006  Shereverov Marat Ahmedovich
+94.26.88.0/24    # NL  AS214943  Railnet LLC
+94.74.182.0/24   # US  -         -
+94.74.191.0/24   # US  -         -
+94.102.49.0/24   # NL  AS202425  IP Volume inc
+95.214.53.0/24   # PL  AS201814  MEVSPACE sp. z o.o.
+98.80.4.0/24     # US  AS14618   Amazon.com, Inc.
+98.159.37.0/24   # US  AS62240   Clouvider
+100.29.192.0/24  # US  AS14618   Amazon.com, Inc.
+103.26.82.0/24   # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+103.136.106.0/24 # BD  AS139282  Novus Network
+103.203.57.0/24  # US  AS136180  Beijing Tiantexin Tech. Co., Ltd.
+103.203.59.0/24  # JP  AS136180  Beijing Tiantexin Tech. Co., Ltd.
+104.152.52.0/24  # US  AS14987   Rethem Hosting LLC
+104.234.19.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+105.73.203.0/24  # MA  AS36884   Wana Corporate
+109.70.100.0/24  # AT  AS208323  Foundation for Applied Privacy
+109.105.209.0/24 # US  -         -
+109.105.210.0/24 # US  -         -
+109.123.117.0/24 # GB  AS13213   UK-2 Limited
+109.205.211.0/24 # NL  AS49981   WorldStream
+110.24.32.0/24   # TW  AS9674    Far EastTone Telecommunication Co., Ltd.
+110.24.36.0/24   # TW  AS9674    Far EastTone Telecommunication Co., Ltd.
+111.70.23.0/24   # TW  AS17421   Mobile Business Group
+111.70.32.0/24   # TW  AS17421   Mobile Business Group
+112.46.214.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+118.194.250.0/24 # TH  AS135377  UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+121.131.220.0/24 # KR  AS4766    Korea Telecom
+122.96.28.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+123.178.210.0/24 # CN  AS4134    CHINANET-BACKBONE
+124.29.194.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+124.29.214.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+129.212.176.0/24 # US  AS14061   DigitalOcean, LLC
+129.212.177.0/24 # US  AS14061   DigitalOcean, LLC
+129.212.179.0/24 # US  AS14061   DigitalOcean, LLC
+129.212.180.0/24 # US  AS14061   DigitalOcean, LLC
+129.212.183.0/24 # US  AS14061   DigitalOcean, LLC
+129.212.185.0/24 # US  AS14061   DigitalOcean, LLC
+129.212.186.0/24 # US  AS14061   DigitalOcean, LLC
+129.212.187.0/24 # US  AS14061   DigitalOcean, LLC
+129.212.188.0/24 # US  AS14061   DigitalOcean, LLC
+129.212.190.0/24 # US  AS14061   DigitalOcean, LLC
+129.212.191.0/24 # US  AS14061   DigitalOcean, LLC
+134.199.194.0/24 # US  AS14061   DigitalOcean, LLC
+134.199.195.0/24 # US  AS14061   DigitalOcean, LLC
+134.199.196.0/24 # US  AS14061   DigitalOcean, LLC
+134.199.198.0/24 # US  AS14061   DigitalOcean, LLC
+134.199.201.0/24 # US  AS14061   DigitalOcean, LLC
+134.199.204.0/24 # US  AS14061   DigitalOcean, LLC
+134.199.205.0/24 # US  AS14061   DigitalOcean, LLC
+134.199.206.0/24 # US  AS14061   DigitalOcean, LLC
+134.199.207.0/24 # US  AS14061   DigitalOcean, LLC
+135.237.124.0/24 # US  AS8075    Microsoft Corporation
+135.237.125.0/24 # US  AS8075    Microsoft Corporation
+135.237.126.0/24 # US  AS8075    Microsoft Corporation
+135.237.127.0/24 # US  AS8075    Microsoft Corporation
+136.144.19.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+136.144.33.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+138.199.19.0/24  # DE  AS212238  Datacamp Limited
+139.99.35.0/24   # SG  AS16276   OVH SAS
+139.135.40.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+139.135.41.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+139.135.42.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+139.135.43.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+139.135.44.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+139.135.45.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+139.135.46.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+139.135.59.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+139.177.206.0/24 # US  AS63949   Akamai Connected Cloud
+141.98.10.0/24   # LT  AS209605  UAB Host Baltic
+141.98.11.0/24   # LT  AS209605  UAB Host Baltic
+144.48.130.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+144.76.32.0/24   # DE  AS24940   Hetzner Online GmbH
+144.86.173.0/24  # US  AS396982  Google LLC
+146.70.52.0/24   # SE  AS9009    M247 Europe SRL
+146.70.186.0/24  # US  AS9009    M247 Europe SRL
+146.88.240.0/24  # US  AS20052   Arbor Networks, Inc.
+146.88.241.0/24  # US  AS20052   Arbor Networks, Inc.
+146.185.25.0/24  # GB  AS29302   Hosting Services Inc
+147.185.132.0/24 # US  AS396982  Google LLC
+147.185.133.0/24 # FI  AS396982  Google LLC
+147.185.135.0/24 # US  AS396982  Google LLC
+149.36.48.0/24   # US  AS212238  Datacamp Limited
+149.88.106.0/24  # SG  AS212238  Datacamp Limited
+152.32.206.0/24  # US  AS135377  UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+154.54.249.0/24  # FR  AS210743  Babbar SAS
+156.0.130.0/24   # GH  AS328224  University of Energy and Natural Resources
+156.146.54.0/24  # US  AS212238  Datacamp Limited
+156.225.0.0/24   # HK  -         -
+158.94.208.0/24  # GB  -         -
+162.0.209.0/24   # US  AS22612   Namecheap, Inc.
+162.0.229.0/24   # US  AS22612   Namecheap, Inc.
+162.0.232.0/24   # US  AS22612   Namecheap, Inc.
+162.0.235.0/24   # US  AS22612   Namecheap, Inc.
+162.142.125.0/24 # US  AS398324  Censys, Inc.
+162.216.149.0/24 # US  AS396982  Google LLC
+162.216.150.0/24 # US  AS396982  Google LLC
+162.241.216.0/24 # US  AS46606   Unified Layer
+162.241.217.0/24 # US  AS46606   Unified Layer
+162.241.218.0/24 # US  AS46606   Unified Layer
+162.241.224.0/24 # US  AS46606   Unified Layer
+162.241.225.0/24 # US  AS46606   Unified Layer
+165.154.11.0/24  # NG  AS135377  UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+165.154.41.0/24  # HK  AS62610   Zenlayer Inc
+165.154.110.0/24 # HK  AS62610   Zenlayer Inc
+165.154.112.0/24 # HK  AS62610   Zenlayer Inc
+165.154.125.0/24 # HK  AS62610   Zenlayer Inc
+165.154.152.0/24 # HK  AS62610   Zenlayer Inc
+165.154.182.0/24 # US  AS135377  UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+165.154.227.0/24 # TW  AS142002  Scloud Pte Ltd
+166.186.196.0/24 # US  AS20057   AT&T Enterprises, LLC
+167.94.138.0/24  # US  AS398324  Censys, Inc.
+167.94.145.0/24  # DE  AS398705  Censys, Inc.
+167.94.146.0/24  # DE  AS398705  Censys, Inc.
+167.248.133.0/24 # US  AS398324  Censys, Inc.
+169.150.203.0/24 # US  AS212238  Datacamp Limited
+170.155.12.0/24  # AR  AS27967   Gobernacion de la Provincia de Buenos Aires
+171.25.193.0/24  # SE  AS198093  Foreningen for digitala fri- och rattigheter
+171.114.225.0/24 # CN  AS4134    CHINANET-BACKBONE
+171.114.228.0/24 # CN  AS4134    CHINANET-BACKBONE
+171.114.229.0/24 # CN  AS4134    CHINANET-BACKBONE
+171.114.230.0/24 # CN  AS4134    CHINANET-BACKBONE
+171.114.231.0/24 # CN  AS4134    CHINANET-BACKBONE
+172.105.147.0/24 # US  AS63949   Akamai Connected Cloud
+172.202.117.0/24 # US  AS8075    Microsoft Corporation
+172.202.118.0/24 # US  AS8075    Microsoft Corporation
+172.236.228.0/24 # US  AS63949   Akamai Connected Cloud
+172.245.102.0/24 # US  AS212238  Datacamp Limited
+173.239.214.0/24 # US  AS62240   Clouvider
+173.239.218.0/24 # US  AS62240   Clouvider
+173.239.254.0/24 # US  AS206092  Internet Utilities Europe and Asia Limited
+173.255.204.0/24 # US  AS63949   Akamai Connected Cloud
+173.255.221.0/24 # US  AS63949   Akamai Connected Cloud
+173.255.229.0/24 # US  AS63949   Akamai Connected Cloud
+175.30.48.0/24   # CN  AS4134    CHINANET-BACKBONE
+175.107.3.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.205.0/24 # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+176.65.132.0/24  # NL  AS150179  KAAL TECH CO., LIMITED
+176.65.148.0/24  # DE  AS51396   Pfcloud UG
+176.65.149.0/24  # DE  AS51396   Pfcloud UG
+178.16.52.0/24   # DE  AS40999   dus.net GmbH
+178.16.54.0/24   # DE  AS40999   dus.net GmbH
+178.22.24.0/24   # RU  AS209290  Galeon LLC
+178.178.222.0/24 # RU  AS25159   PJSC MegaFon
+180.149.125.0/24 # MN  AS45204   GEMNET LLC
+182.138.158.0/24 # CN  AS4134    CHINANET-BACKBONE
+184.105.139.0/24 # US  AS6939    Hurricane Electric LLC
+184.105.247.0/24 # US  AS6939    Hurricane Electric LLC
+185.15.171.0/24  # IT  AS57558   METIS S.R.L.
+185.40.4.0/24    # NO  AS200195  Verasel, Inc.
+185.50.25.0/24   # RU  AS198610  Beget LLC
+185.153.151.0/24 # PT  AS203020  HostRoyale Technologies Pvt Ltd
+185.156.73.0/24  # NL  AS211736  FOP Dmytro Nedilskyi
+185.169.4.0/24   # LT  AS209605  UAB Host Baltic
+185.174.159.0/24 # EE  AS203020  HostRoyale Technologies Pvt Ltd
+185.177.72.0/24  # FR  AS211590  Bucklog SARL
+185.180.140.0/24 # US  AS211680  NSEC - Sistemas Informaticos, S.A.
+185.180.141.0/24 # US  AS21859   Zenlayer Inc
+185.191.171.0/24 # US  AS209366  SEMrush CY LTD
+185.198.240.0/24 # US  AS62240   Clouvider
+185.200.116.0/24 # SG  AS9009    M247 Europe SRL
+185.220.100.0/24 # DE  AS205100  F3 Netze e.V.
+185.220.101.0/24 # DE  AS60729   Stiftung Erneuerbare Freiheit
+185.223.152.0/24 # US  AS396356  Latitude.sh
+185.226.196.0/24 # US  AS21859   Zenlayer Inc
+185.226.197.0/24 # NL  AS21859   Zenlayer Inc
+185.238.231.0/24 # US  AS206092  Internet Utilities Europe and Asia Limited
+185.242.226.0/24 # NL  AS202425  IP Volume inc
+185.243.5.0/24   # US  AS23470   ReliableSite.Net LLC
+185.247.137.0/24 # GB  AS211298  Driftnet Ltd
+188.59.178.0/24  # TR  AS16135   Turkcell A.S.
+192.42.116.0/24  # NL  AS1101    IP-EEND BV
+193.19.109.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+193.32.162.0/24  # RO  AS47890   UNMANAGED LTD
+193.36.224.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+193.37.33.0/24   # US  AS206092  Internet Utilities Europe and Asia Limited
+193.46.255.0/24  # RO  AS47890   UNMANAGED LTD
+193.163.125.0/24 # GB  AS211298  Driftnet Ltd
+193.189.100.0/24 # SE  AS41281   KeFF Networks Ltd
+194.5.82.0/24    # SG  AS137409  GSL Networks Pty LTD
+194.180.48.0/24  # PL  AS201814  MEVSPACE sp. z o.o.
+194.180.49.0/24  # PL  AS201814  MEVSPACE sp. z o.o.
+194.187.176.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.178.0/24 # DE  AS215778  Alpha Strike Labs GmbH
+194.187.179.0/24 # US  AS42969   Alpha Strike Labs GmbH
+195.24.237.0/24  # -   -         -
+195.178.110.0/24 # NL  AS48090   TECHOFF SRV LIMITED
+195.184.76.0/24  # US  AS213412  ONYPHE SAS
+196.203.106.0/24 # TN  AS31245   ATI - Agence Tunisienne Internet
+196.251.66.0/24  # NL  AS401116  Nybula LLC
+196.251.69.0/24  # NL  AS401120  cheapy.host LLC
+196.251.70.0/24  # NL  AS401120  cheapy.host LLC
+196.251.71.0/24  # NL  AS401120  cheapy.host LLC
+196.251.72.0/24  # NL  AS401120  cheapy.host LLC
+196.251.73.0/24  # NL  AS401120  cheapy.host LLC
+196.251.80.0/24  # NL  AS401120  cheapy.host LLC
+196.251.81.0/24  # NL  AS401120  cheapy.host LLC
+196.251.83.0/24  # NL  AS401120  cheapy.host LLC
+196.251.84.0/24  # NL  AS401120  cheapy.host LLC
+196.251.85.0/24  # NL  AS401120  cheapy.host LLC
+196.251.86.0/24  # NL  AS401120  cheapy.host LLC
+196.251.87.0/24  # NL  AS401120  cheapy.host LLC
+196.251.88.0/24  # NL  AS401120  cheapy.host LLC
+196.251.92.0/24  # NL  AS401109  Zhongguancun LLC
+196.251.114.0/24 # NL  AS401116  Nybula LLC
+196.251.115.0/24 # NL  AS401116  Nybula LLC
+196.251.116.0/24 # NL  AS401116  Nybula LLC
+196.251.117.0/24 # NL  AS401116  Nybula LLC
+196.251.118.0/24 # NL  AS401116  Nybula LLC
+198.54.114.0/24  # US  AS22612   Namecheap, Inc.
+198.54.120.0/24  # US  AS22612   Namecheap, Inc.
+198.54.126.0/24  # US  AS22612   Namecheap, Inc.
+198.55.98.0/24   # NL  AS214940  KPROHOST LLC
+198.187.29.0/24  # US  AS22612   Namecheap, Inc.
+198.235.24.0/24  # US  AS396982  Google LLC
+199.45.154.0/24  # HK  AS398722  Censys, Inc.
+199.45.155.0/24  # HK  AS398722  Censys, Inc.
+199.188.200.0/24 # US  AS22612   Namecheap, Inc.
+200.59.88.0/24   # AR  AS10617   SION S.A
+202.169.234.0/24 # ID  AS23671   PT. Sarana InsanMuda Selaras
+203.83.11.0/24   # HK  AS132883  TOPWAY GLOBAL LIMITED
+203.101.186.0/24 # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+204.76.203.0/24  # NL  AS51396   Pfcloud UG
+205.169.39.0/24  # US  AS3356    Level 3 Parent, LLC
+205.210.31.0/24  # US  AS396982  Google LLC
+206.168.34.0/24  # US  AS398324  Censys, Inc.
+207.90.244.0/24  # US  AS174     Cogent Communications
+208.84.101.0/24  # US  -         -
+209.85.160.0/24  # US  AS15169   Google LLC
+209.85.166.0/24  # US  AS15169   Google LLC
+209.85.210.0/24  # US  AS15169   Google LLC
+209.85.222.0/24  # US  AS15169   Google LLC
+209.87.169.0/24  # US  AS62240   Clouvider
+212.11.64.0/24   # CH  AS42624   Global-Data System IT Corporation
+213.209.143.0/24 # NL  AS214943  Railnet LLC
+213.209.157.0/24 # DE  AS208485  Nese Mala trading as Moon Dc
+216.24.210.0/24  # US  AS62240   Clouvider
+216.24.212.0/24  # US  AS62240   Clouvider
+216.24.219.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+216.73.163.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+216.73.216.0/24  # US  AS16509   Amazon.com, Inc.
+216.126.227.0/24 # US  AS14956   RouterHosting LLC
+216.180.246.0/24 # US  AS834     IPXO LLC
+216.218.206.0/24 # US  AS6939    Hurricane Electric LLC
+216.244.66.0/24  # US  AS23033   Wowrack.com
+217.113.194.0/24 # FR  AS210743  Babbar SAS
+217.113.196.0/24 # FR  AS210743  Babbar SAS
+217.119.134.0/24 # TR  AS209956  Telkoturk Iletisim Hizmetleri A.S.
+217.154.8.0/24   # DE  AS8560    IONOS SE
+217.217.248.0/24 # IN  AS141995  Contabo Asia Private Limited
+218.104.149.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+219.128.55.0/24  # CN  AS4134    CHINANET-BACKBONE
+220.158.233.0/24 # KH  AS38623   ISP/IXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.
+221.120.4.0/24   # TW  AS17421   Mobile Business Group
