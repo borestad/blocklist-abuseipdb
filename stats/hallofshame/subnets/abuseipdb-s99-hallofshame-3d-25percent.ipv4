@@ -1,0 +1,89 @@
+#
+# Hall of Shame: 3d
+# An aggregated list of ip ranges, where more than 25% the traffic from a /24 range is malicious from the last 3days
+#
+#
+# Last updated:        2025-12-28 00:24:57 UTC
+# Days:                3d
+# Malicious level:     > 25%
+# Filename:            abuseipdb-s99-hallofshame-3d-25percent.ipv4
+# Number of ips:       18944
+#
+# Source:              https://github.com/borestad/blocklist-abuseipdb
+# Credits:             https://www.abuseipdb.com - please support them!
+# Example:             https://www.abuseipdb.com/check-block/64.62.156.0/24
+#
+20.65.193.0/24   # US  AS8075    Microsoft Corporation
+20.65.194.0/24   # US  AS8075    Microsoft Corporation
+23.129.64.0/24   # US  AS396507  Emerald Onion
+35.203.210.0/24  # GB  AS396982  Google LLC
+35.203.211.0/24  # GB  AS396982  Google LLC
+38.188.160.0/24  # DO  AS273113  ONERED JWG532 SRL
+44.220.185.0/24  # US  AS14618   Amazon.com, Inc.
+44.220.188.0/24  # US  AS14618   Amazon.com, Inc.
+45.78.217.0/24   # SG  AS150436  Byteplus Pte. Ltd.
+45.78.219.0/24   # SG  AS150436  Byteplus Pte. Ltd.
+45.78.222.0/24   # SG  AS150436  Byteplus Pte. Ltd.
+45.86.202.0/24   # DE  AS206092  Internet Utilities Europe and Asia Limited
+45.142.154.0/24  # HK  AS9465    AGOTOZ PTE. LTD.
+45.148.10.0/24   # NL  AS48090   TECHOFF SRV LIMITED
+45.154.138.0/24  # FR  AS206092  Internet Utilities Europe and Asia Limited
+45.156.128.0/24  # NL  AS211680  NSEC - Sistemas Informaticos, S.A.
+45.156.129.0/24  # US  AS211680  NSEC - Sistemas Informaticos, S.A.
+47.82.11.0/24    # SG  AS45102   Alibaba (US) Technology Co., Ltd.
+64.62.156.0/24   # US  AS6939    Hurricane Electric LLC
+64.62.197.0/24   # US  AS6939    Hurricane Electric LLC
+65.49.1.0/24     # US  AS6939    Hurricane Electric LLC
+66.132.153.0/24  # US  AS398324  Censys, Inc.
+71.6.233.0/24    # US  AS10439   CariNet, Inc.
+74.7.227.0/24    # US  AS8075    Microsoft Corporation
+85.203.21.0/24   # SG  AS206092  Internet Utilities Europe and Asia Limited
+85.203.23.0/24   # SG  AS137409  GSL Networks Pty LTD
+87.236.176.0/24  # GB  AS211298  Driftnet Ltd
+91.196.152.0/24  # FR  AS213412  ONYPHE SAS
+91.230.168.0/24  # US  AS213412  ONYPHE SAS
+91.231.89.0/24   # FR  AS213412  ONYPHE SAS
+94.231.206.0/24  # FR  AS207463  Vincent PAGES
+98.159.37.0/24   # US  AS62240   Clouvider
+100.29.192.0/24  # US  AS14618   Amazon.com, Inc.
+104.152.52.0/24  # US  AS14987   Rethem Hosting LLC
+122.96.28.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+135.237.126.0/24 # US  AS8075    Microsoft Corporation
+144.86.173.0/24  # US  AS396982  Google LLC
+147.185.132.0/24 # US  AS396982  Google LLC
+147.185.133.0/24 # FI  AS396982  Google LLC
+162.142.125.0/24 # US  AS398324  Censys, Inc.
+162.216.149.0/24 # US  AS396982  Google LLC
+162.216.150.0/24 # US  AS396982  Google LLC
+167.94.138.0/24  # US  AS398324  Censys, Inc.
+167.94.146.0/24  # DE  AS398705  Censys, Inc.
+172.105.147.0/24 # US  AS63949   Akamai Connected Cloud
+173.239.218.0/24 # US  AS62240   Clouvider
+176.65.148.0/24  # DE  AS51396   Pfcloud UG
+176.65.149.0/24  # DE  AS51396   Pfcloud UG
+185.15.171.0/24  # IT  AS57558   METIS S.R.L.
+185.220.101.0/24 # DE  AS60729   Stiftung Erneuerbare Freiheit
+185.223.152.0/24 # US  AS396356  Latitude.sh
+185.238.231.0/24 # US  AS206092  Internet Utilities Europe and Asia Limited
+185.242.226.0/24 # NL  AS202425  IP Volume inc
+185.247.137.0/24 # GB  AS211298  Driftnet Ltd
+188.212.135.0/24 # PL  AS206092  Internet Utilities Europe and Asia Limited
+193.36.225.0/24  # US  AS206092  Internet Utilities Europe and Asia Limited
+193.37.32.0/24   # SG  AS206092  Internet Utilities Europe and Asia Limited
+193.163.125.0/24 # GB  AS211298  Driftnet Ltd
+194.5.82.0/24    # SG  AS137409  GSL Networks Pty LTD
+194.187.176.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.177.0/24 # DE  AS215778  Alpha Strike Labs GmbH
+194.187.178.0/24 # DE  AS215778  Alpha Strike Labs GmbH
+194.187.179.0/24 # US  AS42969   Alpha Strike Labs GmbH
+195.184.76.0/24  # US  AS213412  ONYPHE SAS
+198.235.24.0/24  # US  AS396982  Google LLC
+199.45.154.0/24  # HK  AS398722  Censys, Inc.
+205.169.39.0/24  # US  AS3356    Level 3 Parent, LLC
+205.210.31.0/24  # US  AS396982  Google LLC
+206.168.34.0/24  # US  AS398324  Censys, Inc.
+212.30.36.0/24   # DE  AS137409  GSL Networks Pty LTD
+216.24.210.0/24  # US  AS62240   Clouvider
+216.180.246.0/24 # US  AS834     IPXO LLC
+217.113.194.0/24 # FR  AS210743  Babbar SAS
+217.113.196.0/24 # FR  AS210743  Babbar SAS
