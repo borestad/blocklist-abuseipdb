@@ -1,0 +1,167 @@
+#
+# Hall of Shame: 14d
+# An aggregated list of ip ranges, where more than 25% the traffic from a /24 range is malicious from the last 14days
+#
+#
+# Last updated:        2026-01-29 09:17:20 UTC
+# Days:                14d
+# Malicious level:     > 25%
+# Filename:            abuseipdb-s99-hallofshame-14d-25percent.ipv4
+# Number of ips:       38912
+#
+# Source:              https://github.com/borestad/blocklist-abuseipdb
+# Credits:             https://www.abuseipdb.com - please support them!
+# Example:             https://www.abuseipdb.com/check-block/64.62.156.0/24
+#
+1.24.16.0/24     # CN  AS4837    CHINA UNICOM China169 Backbone
+1.83.125.0/24    # CN  AS4134    CHINANET-BACKBONE
+18.97.5.0/24     # US  AS14618   Amazon.com, Inc.
+18.97.19.0/24    # US  AS14618   Amazon.com, Inc.
+18.97.26.0/24    # US  AS14618   Amazon.com, Inc.
+20.65.193.0/24   # US  AS8075    Microsoft Corporation
+20.65.194.0/24   # US  AS8075    Microsoft Corporation
+23.129.64.0/24   # US  AS396507  Emerald Onion
+35.203.210.0/24  # GB  AS396982  Google LLC
+35.203.211.0/24  # GB  AS396982  Google LLC
+36.106.166.0/24  # CN  AS17638   ASN for TIANJIN Provincial Net of CT
+36.106.167.0/24  # CN  AS17638   ASN for TIANJIN Provincial Net of CT
+37.120.205.0/24  # CA  AS9009    M247 Europe SRL
+37.140.223.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+38.134.226.0/24  # VE  AS273043  TV CABLE COM CA
+38.188.160.0/24  # DO  AS273113  ONERED JWG532 SRL
+43.173.173.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+43.173.176.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+43.173.177.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+43.173.180.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+43.173.181.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+43.173.182.0/24  # SG  AS132203  Tencent Building, Kejizhongyi Avenue
+44.220.185.0/24  # US  AS14618   Amazon.com, Inc.
+44.220.188.0/24  # US  AS14618   Amazon.com, Inc.
+45.8.19.0/24     # US  AS206092  F.N.S. HOLDINGS LIMITED
+45.78.216.0/24   # SG  AS150436  Byteplus Pte. Ltd.
+45.78.217.0/24   # SG  AS150436  Byteplus Pte. Ltd.
+45.78.218.0/24   # SG  AS150436  Byteplus Pte. Ltd.
+45.78.219.0/24   # SG  AS150436  Byteplus Pte. Ltd.
+45.78.222.0/24   # SG  AS150436  Byteplus Pte. Ltd.
+45.78.230.0/24   # SG  AS150436  Byteplus Pte. Ltd.
+45.86.202.0/24   # DE  AS206092  F.N.S. HOLDINGS LIMITED
+45.128.199.0/24  # NL  AS62240   Clouvider
+45.130.203.0/24  # DE  AS137409  GSL Networks Pty LTD
+45.132.227.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+45.141.233.0/24  # PL  AS201814  MEVSPACE sp. z o.o.
+45.142.154.0/24  # HK  AS9465    AGOTOZ PTE. LTD.
+45.142.193.0/24  # NL  AS214295  SKYNET NETWORK LTD
+45.148.10.0/24   # NL  AS48090   TECHOFF SRV LIMITED
+45.154.138.0/24  # FR  AS206092  F.N.S. HOLDINGS LIMITED
+45.156.128.0/24  # NL  AS211680  NSEC - Sistemas Informaticos, S.A.
+45.156.129.0/24  # US  AS211680  NSEC - Sistemas Informaticos, S.A.
+47.82.11.0/24    # SG  AS45102   Alibaba (US) Technology Co., Ltd.
+58.212.237.0/24  # CN  AS4134    CHINANET-BACKBONE
+64.62.156.0/24   # US  AS6939    Hurricane Electric LLC
+64.62.197.0/24   # US  AS6939    Hurricane Electric LLC
+65.49.1.0/24     # US  AS6939    Hurricane Electric LLC
+66.132.153.0/24  # US  AS398324  Censys, Inc.
+71.6.233.0/24    # US  AS10439   CariNet, Inc.
+74.7.227.0/24    # US  AS8075    Microsoft Corporation
+74.7.228.0/24    # US  AS8075    Microsoft Corporation
+74.7.230.0/24    # US  AS8075    Microsoft Corporation
+74.7.241.0/24    # US  AS8075    Microsoft Corporation
+74.7.242.0/24    # US  AS8075    Microsoft Corporation
+74.7.243.0/24    # US  AS8075    Microsoft Corporation
+77.83.39.0/24    # NL  AS214940  KPROHOST LLC
+77.90.185.0/24   # GB  AS215476  Inside Network LTD
+80.94.92.0/24    # RO  AS47890   UNMANAGED LTD
+84.247.105.0/24  # CA  AS3257    GTT Communications Inc.
+85.203.15.0/24   # DE  AS62240   Clouvider
+85.203.21.0/24   # SG  AS206092  F.N.S. HOLDINGS LIMITED
+85.203.23.0/24   # SG  AS137409  GSL Networks Pty LTD
+87.121.84.0/24   # NL  AS215925  VPSVAULT.HOST LTD
+87.236.176.0/24  # GB  AS211298  Driftnet Ltd
+91.196.152.0/24  # FR  AS213412  ONYPHE SAS
+91.230.168.0/24  # US  AS213412  ONYPHE SAS
+91.231.89.0/24   # FR  AS213412  ONYPHE SAS
+93.123.109.0/24  # NL  AS48090   TECHOFF SRV LIMITED
+94.231.206.0/24  # SG  AS213412  ONYPHE SAS
+98.80.4.0/24     # US  AS14618   Amazon.com, Inc.
+98.159.37.0/24   # US  AS62240   Clouvider
+100.29.192.0/24  # US  AS14618   Amazon.com, Inc.
+101.47.163.0/24  # SG  AS150436  Byteplus Pte. Ltd.
+102.212.42.0/24  # NG  AS329244  Connect, Surf and Smile Limited
+104.28.163.0/24  # SG  AS13335   Cloudflare, Inc.
+104.152.52.0/24  # US  AS14987   Rethem Hosting LLC
+104.234.19.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+104.234.53.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+109.105.209.0/24 # US  AS21859   Zenlayer Inc
+109.105.210.0/24 # US  AS21859   Zenlayer Inc
+112.46.214.0/24  # CN  AS9808    China Mobile Communications Group Co., Ltd.
+116.179.32.0/24  # CN  AS4837    CHINA UNICOM China169 Backbone
+119.249.100.0/24 # CN  AS4837    CHINA UNICOM China169 Backbone
+122.96.28.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+123.178.210.0/24 # CN  AS4134    CHINANET-BACKBONE
+135.237.126.0/24 # US  AS8075    Microsoft Corporation
+136.144.19.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+136.144.33.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+136.144.42.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+140.228.24.0/24  # CA  AS174     Cogent Communications, LLC
+144.86.173.0/24  # US  AS396982  Google LLC
+144.123.77.0/24  # CN  AS4134    CHINANET-BACKBONE
+146.88.240.0/24  # US  AS20052   Arbor Networks, Inc.
+146.88.241.0/24  # US  AS20052   Arbor Networks, Inc.
+147.185.132.0/24 # US  AS396982  Google LLC
+147.185.133.0/24 # FI  AS396982  Google LLC
+151.240.205.0/24 # US  AS174     Cogent Communications, LLC
+162.142.125.0/24 # US  AS398324  Censys, Inc.
+162.216.149.0/24 # US  AS396982  Google LLC
+162.216.150.0/24 # US  AS396982  Google LLC
+165.245.143.0/24 # US  AS14061   DigitalOcean, LLC
+167.94.138.0/24  # US  AS398324  Censys, Inc.
+167.94.146.0/24  # DE  AS398705  Censys, Inc.
+171.105.76.0/24  # CN  AS4134    CHINANET-BACKBONE
+172.98.32.0/24   # US  AS206092  F.N.S. HOLDINGS LIMITED
+172.105.147.0/24 # US  AS63949   Akamai Connected Cloud
+172.172.30.0/24  # US  AS8075    Microsoft Corporation
+172.245.102.0/24 # US  AS212238  Datacamp Limited
+173.239.196.0/24 # SG  AS206092  F.N.S. HOLDINGS LIMITED
+173.239.218.0/24 # US  AS62240   Clouvider
+173.239.240.0/24 # US  AS396356  Latitude.sh
+175.30.48.0/24   # CN  AS4134    CHINANET-BACKBONE
+175.107.2.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+175.107.3.0/24   # PK  AS23888   National Telecommunication Corporation HQ,
+176.65.148.0/24  # NL  AS51396   Pfcloud UG
+176.65.149.0/24  # NL  AS51396   Pfcloud UG
+182.138.158.0/24 # CN  AS4134    CHINANET-BACKBONE
+185.15.171.0/24  # IT  AS57558   METIS S.R.L.
+185.197.8.0/24   # IT  AS57558   METIS S.R.L.
+185.220.101.0/24 # DE  AS60729   Stiftung Erneuerbare Freiheit
+185.223.152.0/24 # US  AS396356  Latitude.sh
+185.226.197.0/24 # NL  AS21859   Zenlayer Inc
+185.238.231.0/24 # US  AS206092  F.N.S. HOLDINGS LIMITED
+185.242.226.0/24 # NL  AS202425  IP Volume inc
+185.247.137.0/24 # GB  AS211298  Driftnet Ltd
+188.212.135.0/24 # PL  AS206092  F.N.S. HOLDINGS LIMITED
+193.36.224.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+193.36.225.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+193.37.32.0/24   # SG  AS206092  F.N.S. HOLDINGS LIMITED
+193.163.125.0/24 # PK  AS211298  Driftnet Ltd
+194.5.82.0/24    # SG  AS137409  GSL Networks Pty LTD
+194.180.49.0/24  # PL  AS201814  MEVSPACE sp. z o.o.
+194.187.176.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.177.0/24 # HK  AS215778  Alpha Strike Labs GmbH
+194.187.178.0/24 # HK  AS215778  Alpha Strike Labs GmbH
+194.187.179.0/24 # US  AS42969   Alpha Strike Labs GmbH
+195.178.110.0/24 # NL  AS48090   TECHOFF SRV LIMITED
+195.184.76.0/24  # US  AS213412  ONYPHE SAS
+198.235.24.0/24  # US  AS396982  Google LLC
+199.45.154.0/24  # HK  AS398722  Censys, Inc.
+204.76.203.0/24  # NL  AS51396   Pfcloud UG
+205.169.39.0/24  # US  AS3356    Level 3 Parent, LLC
+205.210.31.0/24  # US  AS396982  Google LLC
+206.168.34.0/24  # US  AS398324  Censys, Inc.
+212.30.36.0/24   # DE  AS137409  GSL Networks Pty LTD
+212.56.49.0/24   # CA  AS3257    GTT Communications Inc.
+216.24.210.0/24  # US  AS62240   Clouvider
+216.24.219.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+216.73.216.0/24  # US  AS16509   Amazon.com, Inc.
+216.180.246.0/24 # US  AS396982  Google LLC
+217.113.194.0/24 # FR  AS210743  Babbar SAS
+217.113.196.0/24 # FR  AS210743  Babbar SAS
