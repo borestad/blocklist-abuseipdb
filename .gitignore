@@ -1,0 +1,60 @@
+### Node ###
+logs
+*.log
+*.log.*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# temporary
+*~
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+.cache
+.cache-*
+.tmp
+.tmp*
+.tmp-*
+paused.conf
+
+# Only dev environment - no need to clutter the repo
+pnpm-lock.yaml
+package-lock.json
