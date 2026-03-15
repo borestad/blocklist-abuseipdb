@@ -1,0 +1,84 @@
+#!/usr/bin/env bash
+
+set -e
+export LC_ALL=C
+
+# Setup
+cd "$(dirname $0)"
+GIT_ROOT=$(git rev-parse --show-toplevel)
+mkdir -p $GIT_ROOT/stats/hallofshame/subnets
+
+cd $GIT_ROOT
+
+update-hall-of-shame() {
+  local days=$1
+  local percent=$2
+  local nr=$(($percent * 256 / 100))
+
+  OUTPUT="$GIT_ROOT/stats/hallofshame/subnets/abuseipdb-s99-hallofshame-${days}-${percent}percent.ipv4"
+  echo $OUTPUT
+  TS=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+  TEMPFILE=$(mktemp)
+
+
+  # Hall of shame, where > x % of the ips in a cidr-block is malicious traffic
+  cat "./abuseipdb-s100-${days}.ipv4" | \
+    iprange -1 | \
+    sed 's/\./ /g' | \
+    awk '{print $1, $2, $3}' | \
+    sed 's/[[:space:]]/./g' | \
+    sort | uniq -c | sort | \
+    sed 's/$/.0\/24/' | \
+    awk "\$1 >= $nr {print \$2}" | \
+    iprange --min-prefix 24 \
+    >> $TEMPFILE
+
+
+  echo "#" >| $OUTPUT
+  echo "# Hall of Shame: $days" >> $OUTPUT
+  echo "# An aggregated list of ip ranges, where more than ${percent}% the traffic from a /24 range is malicious from the last ${days}ays" >> $OUTPUT
+  echo "#" >> $OUTPUT
+  echo "#" >> $OUTPUT
+  echo "# Last updated:        $TS" >> $OUTPUT
+  echo "# Days:                $days" >> $OUTPUT
+  echo "# Malicious level:     > ${percent}%" >> $OUTPUT
+  echo "# Filename:            $(basename $OUTPUT)" >> $OUTPUT
+  echo "# Number of ips:       $(iprange -1 $TEMPFILE | wc -l)" >> $OUTPUT
+  echo "#" >> $OUTPUT
+  echo "# Source:              https://github.com/borestad/blocklist-abuseipdb" >> $OUTPUT
+  echo "# Credits:             https://www.abuseipdb.com - please support them!" >> $OUTPUT
+  echo "# Example:             https://www.abuseipdb.com/check-block/64.62.156.0/24" >> $OUTPUT
+
+  echo "#" >> $OUTPUT
+  echo "" >> $OUTPUT
+
+  cat $TEMPFILE >> $OUTPUT
+
+}
+
+decorate-with-asn-info() {
+  cd $GIT_ROOT && \
+  fd -tf '.ipv4$' $GIT_ROOT/stats/hallofshame/subnets --max-depth=1 --min-depth=1 -x \
+    bash -c "cat {} | .cron/scripts/ip2ipinfo.ts >| {}.tmp && mv {}.tmp {}" || true
+}
+
+
+
+for i in 1 5 10 15 20 25 50 75; do
+  update-hall-of-shame 1d $i &
+  update-hall-of-shame 3d $i &
+  update-hall-of-shame 7d $i &
+  update-hall-of-shame 14d $i &
+  update-hall-of-shame 30d $i &
+  update-hall-of-shame 60d $i &
+  update-hall-of-shame 90d $i &
+  update-hall-of-shame 120d $i &
+  update-hall-of-shame 180d $i &
+  update-hall-of-shame 365d $i &
+  update-hall-of-shame all $i &
+done
+
+wait
+
+decorate-with-asn-info
+
