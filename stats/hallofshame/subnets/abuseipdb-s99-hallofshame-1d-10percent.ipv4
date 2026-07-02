@@ -1,0 +1,203 @@
+#
+# Hall of Shame: 1d
+# An aggregated list of ip ranges, where more than 10% the traffic from a /24 range is malicious from the last 1days
+#
+#
+# Last updated:        2026-07-02 03:47:40 UTC
+# Days:                1d
+# Malicious level:     > 10%
+# Filename:            abuseipdb-s99-hallofshame-1d-10percent.ipv4
+# Number of ips:       48128
+#
+# Source:              https://github.com/borestad/blocklist-abuseipdb
+# Credits:             https://www.abuseipdb.com - please support them!
+# Example:             https://www.abuseipdb.com/check-block/64.62.156.0/24
+#
+2.57.17.0/24     # DE  -         -
+5.226.140.0/24   # GB  AS25369   Hydra Communications Ltd
+5.252.83.0/24    # SG  -         -
+8.216.3.0/24     # JP  AS45102   Alibaba (US) Technology Co., Ltd.
+8.216.4.0/24     # JP  AS45102   Alibaba (US) Technology Co., Ltd.
+8.216.5.0/24     # JP  AS45102   Alibaba (US) Technology Co., Ltd.
+8.216.7.0/24     # JP  AS45102   Alibaba (US) Technology Co., Ltd.
+8.216.8.0/24     # JP  AS45102   Alibaba (US) Technology Co., Ltd.
+8.216.9.0/24     # JP  AS45102   Alibaba (US) Technology Co., Ltd.
+8.216.16.0/24    # JP  AS45102   Alibaba (US) Technology Co., Ltd.
+8.216.17.0/24    # JP  AS45102   Alibaba (US) Technology Co., Ltd.
+14.103.115.0/24  # CN  AS4811    China Telecom (Group)
+20.64.104.0/24   # US  AS8075    Microsoft Corporation
+20.64.105.0/24   # US  AS8075    Microsoft Corporation
+20.65.193.0/24   # US  AS8075    Microsoft Corporation
+20.65.194.0/24   # US  AS8075    Microsoft Corporation
+20.65.195.0/24   # US  AS8075    Microsoft Corporation
+20.163.15.0/24   # US  AS8075    Microsoft Corporation
+20.168.7.0/24    # US  AS8075    Microsoft Corporation
+20.169.107.0/24  # US  AS8075    Microsoft Corporation
+23.94.155.0/24   # US  AS262287  Latitude.sh LTDA
+31.14.254.0/24   # GB  AS25369   Hydra Communications Ltd
+35.203.210.0/24  # GB  AS396982  Google LLC
+35.203.211.0/24  # GB  AS396982  Google LLC
+40.124.175.0/24  # US  AS8075    Microsoft Corporation
+45.8.19.0/24     # US  AS206092  F.N.S. HOLDINGS LIMITED
+45.82.76.0/24    # GB  AS212512  Detai Prosperous Technologies Limited
+45.85.180.0/24   # ES  -         -
+45.133.173.0/24  # GB  AS174     Cogent Communications, LLC
+45.140.222.0/24  # NL  AS49870   Alsycon B.V.
+45.141.233.0/24  # PL  AS201814  MEVSPACE sp. z o.o.
+45.142.154.0/24  # HK  AS9465    AGOTOZ PTE. LTD.
+45.142.193.0/24  # NL  AS214295  SKYNET NETWORK LTD
+45.144.212.0/24  # NL  AS214940  KPROHOST LLC
+45.148.10.0/24   # NL  AS48090   TECHOFF SRV LIMITED
+45.153.34.0/24   # NL  AS51396   Pfcloud UG
+45.156.87.0/24   # NL  AS51396   Pfcloud UG
+45.156.128.0/24  # NL  AS211680  NSEC - Sistemas Informaticos, S.A.
+45.156.129.0/24  # US  AS211680  NSEC - Sistemas Informaticos, S.A.
+45.157.112.0/24  # FR  AS206092  F.N.S. HOLDINGS LIMITED
+45.198.224.0/24  # SE  -         -
+45.205.1.0/24    # ZA  AS328608  Africa on Cloud
+45.227.254.0/24  # LT  AS267784  Flyservers S.A.
+46.247.61.0/24   # DE  -         -
+47.84.143.0/24   # SG  AS45102   Alibaba (US) Technology Co., Ltd.
+49.124.151.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.124.152.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+49.124.153.0/24  # MY  AS4818    DiGi Telecommunications Sdn. Bhd.
+62.210.101.0/24  # FR  AS12876   SCALEWAY S.A.S.
+62.210.142.0/24  # FR  AS12876   SCALEWAY S.A.S.
+64.62.156.0/24   # US  AS6939    Hurricane Electric LLC
+64.62.197.0/24   # US  AS6939    Hurricane Electric LLC
+64.89.160.0/24   # AU  -         -
+64.89.163.0/24   # AU  -         -
+65.49.1.0/24     # US  AS6939    Hurricane Electric LLC
+65.49.20.0/24    # US  AS6939    Hurricane Electric LLC
+65.110.40.0/24   # FR  AS397630  Blazing SEO, LLC
+66.132.148.0/24  # US  AS398324  Censys, Inc.
+66.132.153.0/24  # US  AS398324  Censys, Inc.
+66.132.172.0/24  # US  -         -
+66.132.186.0/24  # US  -         -
+66.132.195.0/24  # US  -         -
+66.132.224.0/24  # US  -         -
+69.5.169.0/24    # GB  AS25369   Hydra Communications Ltd
+71.6.233.0/24    # US  AS10439   CariNet, Inc.
+72.255.18.0/24   # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+72.255.33.0/24   # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+74.7.175.0/24    # US  AS8075    Microsoft Corporation
+74.7.227.0/24    # US  AS8075    Microsoft Corporation
+74.7.228.0/24    # US  AS8075    Microsoft Corporation
+74.7.230.0/24    # US  AS8075    Microsoft Corporation
+74.7.241.0/24    # US  AS8075    Microsoft Corporation
+74.7.242.0/24    # US  AS8075    Microsoft Corporation
+74.7.243.0/24    # US  AS8075    Microsoft Corporation
+74.7.244.0/24    # US  AS8075    Microsoft Corporation
+74.82.47.0/24    # US  AS6939    Hurricane Electric LLC
+77.83.39.0/24    # NL  AS214940  KPROHOST LLC
+77.90.185.0/24   # GB  AS215476  Inside Network LTD
+80.94.92.0/24    # RO  AS47890   UNMANAGED LTD
+81.19.216.0/24   # NL  AS25369   Hydra Communications Ltd
+81.19.219.0/24   # GB  AS25369   Hydra Communications Ltd
+85.217.140.0/24  # FR  AS209334  Modat B.V.
+85.217.149.0/24  # CA  AS209334  Modat B.V.
+87.236.176.0/24  # GB  AS211298  Driftnet Ltd
+87.251.64.0/24   # KZ  -         -
+89.21.67.0/24    # NL  AS25369   Hydra Communications Ltd
+89.37.172.0/24   # GB  AS25369   Hydra Communications Ltd
+91.92.40.0/24    # SE  -         -
+91.196.152.0/24  # FR  AS213412  ONYPHE SAS
+91.230.168.0/24  # US  AS213412  ONYPHE SAS
+91.231.89.0/24   # FR  AS213412  ONYPHE SAS
+94.26.68.0/24    # BG  -         -
+94.26.88.0/24    # PL  AS201814  MEVSPACE sp. z o.o.
+94.154.43.0/24   # TR  AS48678   PENTECH BILISIM TEKNOLOJILERI SANAYI VE TICARET LIMITED SIRKETi
+94.231.206.0/24  # SG  AS213412  ONYPHE SAS
+98.159.37.0/24   # US  AS62240   Clouvider
+100.29.192.0/24  # US  AS14618   Amazon.com, Inc.
+103.26.86.0/24   # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+103.151.46.0/24  # PK  AS152605  Z COM NETWORKS
+103.206.97.0/24  # IN  AS137085  ANO Broadband Service Pvt Ltd
+104.152.52.0/24  # US  AS14987   Rethem Hosting LLC
+104.234.53.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+109.105.209.0/24 # US  AS21859   Zenlayer Inc
+109.105.210.0/24 # US  AS21859   Zenlayer Inc
+109.205.211.0/24 # PL  AS201814  MEVSPACE sp. z o.o.
+122.96.28.0/24   # CN  AS4837    CHINA UNICOM China169 Backbone
+124.29.194.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+135.237.125.0/24 # US  AS8075    Microsoft Corporation
+135.237.126.0/24 # US  AS8075    Microsoft Corporation
+139.135.45.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+139.135.46.0/24  # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+141.11.88.0/24   # US  AS212477  RoyaleHosting BV
+141.98.10.0/24   # LT  AS209605  UAB Host Baltic
+144.86.173.0/24  # US  AS396982  Google LLC
+146.88.240.0/24  # US  AS20052   Arbor Networks, Inc.
+147.185.132.0/24 # US  AS396982  Google LLC
+147.185.133.0/24 # FI  AS396982  Google LLC
+147.185.135.0/24 # US  AS396982  Google LLC
+153.117.33.0/24  # US  -         -
+154.16.44.0/24   # ZA  -         -
+158.94.187.0/24  # US  -         -
+158.173.77.0/24  # NL  -         -
+160.119.71.0/24  # ZA  AS7489    HostUS
+160.119.76.0/24  # SC  AS7489    HostUS
+162.142.125.0/24 # US  AS398324  Censys, Inc.
+162.216.149.0/24 # US  AS396982  Google LLC
+162.216.150.0/24 # US  AS396982  Google LLC
+167.94.138.0/24  # US  AS398324  Censys, Inc.
+167.94.145.0/24  # DE  AS398705  Censys, Inc.
+167.94.146.0/24  # DE  AS398705  Censys, Inc.
+172.94.9.0/24    # US  AS397373  H4Y Technologies LLC
+172.105.147.0/24 # US  AS63949   Akamai Connected Cloud
+175.30.48.0/24   # CN  AS4134    CHINANET-BACKBONE
+175.107.228.0/24 # PK  AS9541    Cyber Internet Services (Pvt) Ltd.
+176.65.139.0/24  # DE  -         -
+176.65.148.0/24  # NL  AS51396   Pfcloud UG
+176.65.149.0/24  # NL  AS51396   Pfcloud UG
+176.120.22.0/24  # RU  -         -
+181.215.65.0/24  # US  AS212238  Datacamp Limited
+182.242.169.0/24 # CN  AS4134    CHINANET-BACKBONE
+184.105.139.0/24 # US  AS6939    Hurricane Electric LLC
+184.105.247.0/24 # US  AS6939    Hurricane Electric LLC
+185.169.4.0/24   # LT  AS209605  UAB Host Baltic
+185.180.141.0/24 # US  AS21859   Zenlayer Inc
+185.197.8.0/24   # IT  AS57558   METIS S.R.L.
+185.216.145.0/24 # GB  AS25369   Hydra Communications Ltd
+185.220.101.0/24 # DE  AS60729   Stiftung Erneuerbare Freiheit
+185.223.235.0/24 # NL  AS25369   Hydra Communications Ltd
+185.226.197.0/24 # NL  AS21859   Zenlayer Inc
+185.242.3.0/24   # NL  -         -
+185.242.226.0/24 # NL  AS202425  IP Volume inc
+185.247.137.0/24 # GB  AS211298  Driftnet Ltd
+188.213.202.0/24 # US  AS137409  GSL Networks Pty LTD
+188.240.59.0/24  # GB  AS25369   Hydra Communications Ltd
+192.42.116.0/24  # NL  AS215125  Church of Cyberology
+193.32.209.0/24  # GB  AS25369   Hydra Communications Ltd
+193.124.20.0/24  # DE  AS25369   Hydra Communications Ltd
+193.163.125.0/24 # PK  AS211298  Driftnet Ltd
+193.176.31.0/24  # NL  AS25369   Hydra Communications Ltd
+194.5.82.0/24    # SG  AS137409  GSL Networks Pty LTD
+194.50.235.0/24  # GB  AS25369   Hydra Communications Ltd
+194.88.98.0/24   # DE  AS25369   Hydra Communications Ltd
+194.180.48.0/24  # PL  AS201814  MEVSPACE sp. z o.o.
+194.187.176.0/24 # DE  AS208843  Alpha Strike Labs GmbH
+194.187.178.0/24 # HK  AS215778  Alpha Strike Labs GmbH
+194.187.179.0/24 # US  AS42969   Alpha Strike Labs GmbH
+195.96.139.0/24  # CH  -         -
+195.178.110.0/24 # NL  AS48090   TECHOFF SRV LIMITED
+195.184.76.0/24  # US  AS213412  ONYPHE SAS
+195.206.182.0/24 # GB  AS25369   Hydra Communications Ltd
+198.235.24.0/24  # US  AS396982  Google LLC
+199.45.154.0/24  # HK  AS398722  Censys, Inc.
+199.45.155.0/24  # HK  AS398722  Censys, Inc.
+203.25.124.0/24  # JP  AS137409  GSL Networks Pty LTD
+204.76.203.0/24  # NL  AS51396   Pfcloud UG
+205.169.39.0/24  # US  AS3356    Level 3 Parent, LLC
+205.210.31.0/24  # US  AS396982  Google LLC
+206.168.34.0/24  # US  AS398324  Censys, Inc.
+212.73.148.0/24  # SG  AS209334  Modat B.V.
+213.166.84.0/24  # GB  AS25369   Hydra Communications Ltd
+216.25.89.0/24   # US  AS396982  Google LLC
+216.73.160.0/24  # US  AS206092  F.N.S. HOLDINGS LIMITED
+216.73.216.0/24  # US  AS16509   Amazon.com, Inc.
+216.73.217.0/24  # US  AS16509   Amazon.com, Inc.
+216.218.206.0/24 # US  AS6939    Hurricane Electric LLC
+217.113.194.0/24 # FR  AS210743  Babbar SAS
+217.113.196.0/24 # FR  AS210743  Babbar SAS
+217.146.80.0/24  # GB  AS25369   Hydra Communications Ltd

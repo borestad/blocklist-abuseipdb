@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+set -e
+export LC_ALL=C
+
+# Setup
+cd "$(dirname $0)"
+GIT_ROOT=$(git rev-parse --show-toplevel)
+
+cat $GIT_ROOT/.cron/jobs/abuseipdb/asn.cfg | shfmt -mn | \
+  xargs -P2 -I% bkt --ttl=1d -- curl -sL https://raw.githubusercontent.com/ipverse/asn-ip/master/as/%/ipv4-aggregated.txt | \
+  iprange --min-prefix 24
