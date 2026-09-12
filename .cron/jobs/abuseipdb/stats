@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+
+set -e
+export LC_ALL=C
+
+# Setup
+cd "$(dirname $0)"
+GIT_ROOT=$(git rev-parse --show-toplevel)
+mkdir -p $GIT_ROOT/stats/ips
+mkdir -p $GIT_ROOT/stats/blocks
+cd $GIT_ROOT
+
+update-stats-cidr() {
+  local days=$1
+  OUTPUT="$GIT_ROOT/stats/blocks/stats-blocks-${days}.cidr.ipv4"
+
+  # Generate statistics
+  echo "✓ $OUTPUT"
+  cat "./abuseipdb-s100-${days}.ipv4" | \
+    iprange -1 | \
+    sed 's/\./ /g' | \
+    awk '{print $1, $2, $3}' | \
+    sed 's/[[:space:]]/./g' | \
+    sort | uniq -c | sort | \
+    sed 's/$/.0\/24/' | \
+    awk '$1 >= 1 {print $1, $2}' | \
+    sort -t ' ' -k1,1nr -k2,2g | \
+    sponge "$OUTPUT"
+}
+
+update-stats-ips() {
+  local DAYS=$1
+  local lDAYS=$(expr $1 - 1)
+  OUTPUT="$GIT_ROOT/stats/ips/stats-ips-${DAYS}d.ipv4"
+
+  echo "✓ $OUTPUT"
+  for i in $(seq 0 $lDAYS); do
+    date +%Y-%m-%d -d "$(date) - $i days";
+  done | xargs -I% bash -c "test -f $GIT_ROOT/db/%/%.ipv4 && iprange -1 $GIT_ROOT/db/%/%.ipv4" | \
+    sort-uniq | \
+    sed -e 's/^[[:space:]]*//' | \
+    sort -t ' ' -k1,1nr -k2,2g \
+    >| $OUTPUT
+}
+
+
+update-stats-cidr 1d &
+update-stats-cidr 3d &
+update-stats-cidr 7d &
+update-stats-cidr 14d &
+update-stats-cidr 30d &
+update-stats-cidr 60d &
+update-stats-cidr 90d &
+update-stats-cidr 120d &
+update-stats-cidr all &
+
+update-stats-ips 7 &
+update-stats-ips 14 &
+update-stats-ips 30 &
+update-stats-ips 60 &
+update-stats-ips 90 &
+update-stats-ips 120 &
+update-stats-ips 180 &
+update-stats-ips 365 &
+
+
+wait
+

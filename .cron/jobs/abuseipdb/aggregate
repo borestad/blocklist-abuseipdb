@@ -1,0 +1,118 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Setup
+cd "$(dirname $0)"
+GIT_ROOT=$(git rev-parse --show-toplevel)
+
+. $GIT_ROOT/.cron/scripts/ciutil
+
+DB_PATH=$GIT_ROOT/db
+README_PATH=$GIT_ROOT/README.md
+
+DATE=$(date +%F)
+DATE_DIR=$DB_PATH/$DATE
+LATEST="$DATE_DIR/$DATE.ipv4"
+
+# Download Whitelists
+(
+  mkdir -p /tmp/whitelists && cd $_ && \
+  cat $GIT_ROOT/.cron/jobs/abuseipdb/whitelist.cfg | shfmt -mn | xargs -P4 -I% dl -ci %
+)
+
+aggregate() {
+  local DAYS=$1
+  local OUTPUT=$2
+  cd $DB_PATH
+  ___
+  echo "ℹ $OUTPUT"; echo
+
+  PATTERN=$(daterange $DAYS --separator '|')
+  fd -tf "(${PATTERN}).ipv4$" -x bash -c "printf '%s - ' '{/}'; wc -l < {}" | sort -V | column -t
+
+  # Whitelist bogons
+  fd -tf "(${PATTERN}.ipv4)" -x cat | grepip | \
+    iprange - -1 --except $GIT_ROOT/.cron/jobs/abuseipdb/bogons.ipv4 >| $GIT_ROOT/$OUTPUT.tmp
+
+  # Whitelist from whitelist.cfg
+  cat $GIT_ROOT/$OUTPUT.tmp | iprange - -1 --except /tmp/whitelists/*.ipv4 | sponge $GIT_ROOT/$OUTPUT.tmp
+
+
+  TS=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+  cat <<EOF >| $GIT_ROOT/$OUTPUT
+#
+# Aggregated Blocklist for AbuseIPDB: A list of the most reported IP addresses.
+#
+# Last updated:           $TS
+# Confidence level:       ~100%
+# Filename:               $OUTPUT
+# Number of ips:          $(wc -l < $GIT_ROOT/$OUTPUT.tmp)
+#
+# Source:                 https://github.com/borestad/blocklist-abuseipdb
+# Stats:                  https://github.com/borestad/blocklist-abuseipdb/tree/main/stats
+# Credits 1:              https://www.abuseipdb.com - please support them!
+# Credits 2:              https://ipinfo.io - The Trusted Source For IP Address Data
+#
+EOF
+
+  cat $GIT_ROOT/$OUTPUT.tmp >> $GIT_ROOT/$OUTPUT
+  echo
+  echo "Total: (`wc -l < $GIT_ROOT/$OUTPUT.tmp` ip)"
+
+  rm -f $GIT_ROOT/$OUTPUT.tmp
+}
+
+
+decorate-with-asn-info() {
+  ___
+  echo "✨ Decorate ips with ASN info"
+  cd $GIT_ROOT && \
+  fd -tf '.ipv4$' --max-depth=1 --min-depth=1 -x \
+    bash -c "cat {} | .cron/scripts/ip2ipinfo.ts >| {}.tmp && mv {}.tmp {}" || true
+}
+
+update-footer() {
+  ___
+  echo "✨ Update footer"
+
+  # Delete everything below placeholder
+  sed -i '/ABUSEIPDB-STATS-PLACEHOLDER/q' $README_PATH
+
+  update=$(date -u '+%Y-%m-%d - %H:%M:%S')
+  echo "Last check: \`$update\` (UTC)" >> $README_PATH
+  echo '```' >> $README_PATH
+
+  cd $GIT_ROOT
+
+  fd 'abuseipdb-s100.*.ipv4$' . --min-depth 1 --max-depth 1 -x bash -c 'printf "❯ %s" "{.}"; echo " ($(wc -l < {}) ips)"' | \
+    sort -V  \
+    >> $README_PATH
+
+
+  echo '```' >> $README_PATH
+}
+
+fd '\.ipv4$' $DB_PATH -x cat | \
+  grepip | \
+  iprange - -1 --except $GIT_ROOT/.cron/jobs/abuseipdb/bogons.ipv4 | \
+  sponge $GIT_ROOT/abuseipdb-s100-all.ipv4 &
+
+# c = confidence
+aggregate 2    "abuseipdb-s100-1d.ipv4" # Compensate +24h to ensure we have a full day of data
+aggregate 3    "abuseipdb-s100-3d.ipv4"
+aggregate 7    "abuseipdb-s100-7d.ipv4"
+aggregate 14   "abuseipdb-s100-14d.ipv4"
+aggregate 30   "abuseipdb-s100-30d.ipv4"
+aggregate 60   "abuseipdb-s100-60d.ipv4"
+aggregate 90   "abuseipdb-s100-90d.ipv4"
+aggregate 120  "abuseipdb-s100-120d.ipv4"
+aggregate 180  "abuseipdb-s100-180d.ipv4"
+aggregate 365  "abuseipdb-s100-365d.ipv4"
+
+wait
+
+echo
+update-footer
+
+decorate-with-asn-info

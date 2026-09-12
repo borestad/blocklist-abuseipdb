@@ -1,0 +1,55 @@
+{
+  "deno.cacheOnSave": true,
+  "deno.codeLens.implementations": true,
+  "deno.codeLens.references": true,
+  "deno.config": "./.cron/deno.json",
+  "deno.enable": true,
+  "deno.importMap": "./.cron/deno.json",
+  "deno.internalDebug": false,
+  "deno.lint": false,
+  "deno.suggest.autoImports": true,
+  "deno.suggest.completeFunctionCalls": true,
+  "deno.suggest.imports.autoDiscover": true,
+  // "deno.inlayHints.enumMemberValues.enabled": true,
+  // "deno.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "deno.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  // "deno.inlayHints.parameterNames.enabled": "none",
+  // "deno.inlayHints.variableTypes.enabled": true,
+  // "deno.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "deno.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+  // "deno.inlayHints.parameterTypes.enabled": true,
+  "deno.suggest.imports.hosts": {
+    "https://deno.land": true
+  },
+  "deno.suggest.names": true,
+  "deno.suggest.paths": true,
+  "deno.unstable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "editor.formatOnSave": false,
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnType": false,
+  "eslint.enable": true,
+  "eslint.useESLintClass": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json",
+    "json5",
+    "jsonc",
+    "markdown",
+    "typescript",
+    "typescriptreact",
+    "yaml"
+  ],
+  "files.associations": {
+    "deno.json": "jsonc",
+    "dprint.json": "jsonc"
+  },
+  "files.exclude": {},
+  "json.schemaDownload.enable": true,
+  "prettier.enable": true,
+  "editor.codeLens": false
+}
