@@ -1,0 +1,21 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:maxmind@*": "4.3.22"
+  },
+  "npm": {
+    "maxmind@4.3.22": {
+      "integrity": "sha512-dfLO11mE77ELTEIXNezfW0eslodsFLsZ1lQkLauP+5Zsg1m7kCGtljqRyVOd9E5Ne2RJgvY6UU09qvnVocOZvA==",
+      "dependencies": [
+        "mmdb-lib",
+        "tiny-lru"
+      ]
+    },
+    "mmdb-lib@2.1.1": {
+      "integrity": "sha512-yx8H/1H5AfnufiLnzzPqPf4yr/dKU9IFT1rPVwSkrKWHsQEeVVd6+X+L0nUbXhlEFTu3y/7hu38CFmEVgzvyeg=="
+    },
+    "tiny-lru@11.2.11": {
+      "integrity": "sha512-27BIW0dIWTYYoWNnqSmoNMKe5WIbkXsc0xaCQHd3/3xT2XMuMJrzHdrO9QBFR14emBz1Bu0dOAs2sCBBrvgPQA=="
+    }
+  }
+}
